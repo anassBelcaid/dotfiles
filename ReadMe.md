@@ -13,5 +13,10 @@ Contain the config for the famous editor `vim`.
 
 Configuration file the the excellent lightweight terminal `urxvt`. urxvt read it's properites from the general **X** file `.Xressources`.
 
+## i3 W ##
+
+I'm starting to like the concept of a **tiling window mangager**. `i3` is an excellent example of such an WM. It offers all the features and it's lightwieght. So it goes with overall philosophy.
+
+The config file is in `i3/config` should go to `~/.config/i3/config`
 
 

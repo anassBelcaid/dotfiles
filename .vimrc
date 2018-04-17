@@ -74,6 +74,9 @@ nnoremap <C-H> <C-W><C-H>
 
 "}}}
 
+"{{{ Keymapping
+map <F2> :NERDTreeToggle<CR>
+"}}}
 
 "{{{ Theming
 
