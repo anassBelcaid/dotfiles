@@ -203,11 +203,44 @@ set statusline+=%*
 "}}}
 
 
-"{{{ Experimental
+"{{{ TagBar 
+
+" Specification for makefile target
 let g:tagbar_type_make = {
             \ 'kinds':[
                 \ 'm:macros',
                 \ 't:targets'
             \ ]
 \}
+" Configure for Markdown (still not working)
+let g:tagbar_type_markdown = {
+    \ 'ctagstype' : 'markdown',
+    \ 'kinds' : [
+        \ 'h:Heading_L1',
+        \ 'i:Heading_L2',
+        \ 'k:Heading_L3'
+    \ ]
+\ }     
+
+let g:tagbar_type_bib = {
+    \ 'ctagstype' : 'bib',
+    \ 'kinds'     : [
+        \ 'a:Articles',
+        \ 'b:Books',
+        \ 'L:Booklets',
+        \ 'c:Conferences',
+        \ 'B:Inbook',
+        \ 'C:Incollection',
+        \ 'P:Inproceedings',
+        \ 'm:Manuals',
+        \ 'T:Masterstheses',
+        \ 'M:Misc',
+        \ 't:Phdtheses',
+        \ 'p:Proceedings',
+        \ 'r:Techreports',
+        \ 'u:Unpublished',
+    \ ]
+\ }
+
+map <F9> :TagbarToggle<CR>
 "}}}
