@@ -20,3 +20,10 @@ I'm starting to like the concept of a **tiling window mangager**. `i3` is an exc
 The config file is in `i3/config` should go to `~/.config/i3/config`
 
 
+### Polybar ###
+The bar on `i3` could be enhanced with the more modern `polybar`.
+
+The starting example is taken from the default configuration file.
+
+* the config is on `polybar/config` and as usual should go to `~/.config/polybar/config`
+* Along this config comes a script `polybar/launch.sh` to stop all the runing polybar and lanch a new one.
