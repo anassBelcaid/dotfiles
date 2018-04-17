@@ -51,6 +51,11 @@ Plugin 'morhetz/gruvbox'
 Plugin 'honza/vim-snippets'
 call vundle#end()
 
+" tagbar 
+Plugin 'majutsushi/tagbar'
+
+" nerd commenter
+Plugin 'scrooloose/nerdcommenter'
 "}}}
 
 "{{{ Genral settings
@@ -195,4 +200,14 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+"}}}
+
+
+"{{{ Experimental
+let g:tagbar_type_make = {
+            \ 'kinds':[
+                \ 'm:macros',
+                \ 't:targets'
+            \ ]
+\}
 "}}}
