@@ -85,7 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 #}}}
-
 #{{{ Personal Alias 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -108,8 +107,6 @@ tsm-list(){transmission-remote -l }
 tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon }
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
 #}}}
-
-
 #{{{ pandoc functions
 
 # convert from markdow to html
