@@ -103,7 +103,18 @@ export VISUAL="vim"
 #}}}
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
-tsm-add(){transmission-remote -a "{#1}"}
+tsm-add(){transmission-remote -a "#1"}
 tsm-list(){transmission-remote -l }
 tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon }
+tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
+#}}}
+
+
+#{{{ pandoc functions
+
+# convert from markdow to html
+pdc-mark-html(){ pandoc $1 -f markdown -t html -s -o $2}
+pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
+pdc-mark-pdf(){ pandoc $1 -s -o $2}
+
 #}}}
