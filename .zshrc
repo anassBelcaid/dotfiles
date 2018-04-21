@@ -8,7 +8,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="mh"
+ZSH_THEME="candy-kngdom"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -60,7 +60,7 @@ ZSH_THEME="mh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git battery
+  git osx colorize git-prompt pyenv tmux battery zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -89,11 +89,21 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+# latex compilation command
+alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
+#}}}
+#{{{ Personal variables
 # Exporting the new path
 export PATH=~/.gem/ruby/2.5.0/bin:$PATH
 
+#python path
+export PYTHONPATH=~/python/
+
+#disseration
 export disseration=~/github/anass/dissertation
+
+# export orcid id
+export orcid=0000-0002-9796-5102
 
 
 #for aur edition
@@ -113,5 +123,12 @@ tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $
 pdc-mark-html(){ pandoc $1 -f markdown -t html -s -o $2}
 pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
 pdc-mark-pdf(){ pandoc $1 -s -o $2}
+
+#}}}
+#{{{ Cloud Computing
+
+#ensam server
+export ensamClient=modec.ensam-umi.ac.ma
+export ensamLocal=172.20.0.6
 
 #}}}
