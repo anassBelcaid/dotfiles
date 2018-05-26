@@ -70,6 +70,10 @@ set shortmess+=A
 " security
 set secure
 
+" path for searching in subfolder (link :
+" https://www.youtube.com/watch?v=XA2WjJbmmoM&t=408s)
+set path+=**
+
 " moving between splits
 "split navigation
 nnoremap <C-J> <C-W><C-J>
