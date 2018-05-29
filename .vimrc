@@ -21,8 +21,6 @@ Plugin 'vim-scripts/L9'
 " === File Tree
 Plugin 'scrooloose/nerdtree'
 
-" ==== Completion
-"Plugin 'Valloric/YouCompleteMe'
 
 " ==== Git
 Plugin 'airblade/vim-gitgutter'
@@ -49,7 +47,9 @@ Plugin 'SirVer/ultisnips'
 Plugin 'bling/vim-airline'
 
 " ==== PLUGIN THEMES
+Plugin 'sjl/badwolf'
 Plugin 'morhetz/gruvbox'
+
 " Snippets are separated from the engine. 
 Plugin 'honza/vim-snippets'
 call vundle#end()
@@ -73,23 +73,53 @@ set shortmess+=A
 " security
 set secure
 
+" showcmd
+set showcmd
+
+" cursor line
+set cursorline
+
+" wildmenu
+set wildmenu  
+
+" lazy redraw
+set lazyredraw
+
+" show match 
+set showmatch
+
+" synatx on
+syntax enable   
+
 " moving between splits
 "split navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
 "}}}
-
 "{{{ Keymapping
 map <F2> :NERDTreeToggle<CR>
 "}}}
+"{{{ Mouvement
+nnoremap  j gj
+nnoremap k gk
+" Move to beginning/end of line
+nnoremap B ^
+nnoremap E $
 
+" releaving ^and $
+nnoremap $ <nop>
+nnoremap $ <nop>
+
+" highlight last inserted text
+nnoremap gV `[v`]
+"}}}
 "{{{ Theming
 
 " ==== Colors and other basic settings
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme badwolf
 
 set guifont=Monospace\ 10
 
@@ -109,7 +139,9 @@ set laststatus=2
 set smartindent
 set st=4 sw=4 et
 set shiftwidth=4
-set tabstop=4
+set tabstop=2
+set softtabstop=2      " number of spaces in tabs
+set expandtab          " tabs now are only spaces
 let mapleader=","
 vmap Q gq
 nmap Q gqap
@@ -121,7 +153,6 @@ let &colorcolumn="80"
 :set guioptions-=L  "remove left-hand scroll bar
 :set lines=999 columns=999
 "}}}
-
 "{{{ Nerd Tree
 " ==== NERDTREE
 let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
@@ -131,7 +162,6 @@ let g:NERDTreeWinPos="left"
 let g:NERDTreeDirArrows=0
 map <C-t> :NERDTreeToggle<CR>
 "}}}
-
 "{{{ Syntastic
 
 " ==== Syntastic
@@ -151,7 +181,6 @@ let g:syntastic_html_tidy_exec = 'tidy5'
 " === flake8
 let g:flake8_show_in_file=1
 "}}}
-
 "{{{ Snippets
 " ==== snippets
 let g:UltiSnipsExpandTrigger="<A-ENTER>"
@@ -172,7 +201,6 @@ let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
 
 "}}}
-
 "{{{ Easy Motion
 " ==== Easymotion
 let g:EasyMotion_do_mapping = 0
@@ -186,7 +214,6 @@ nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
 "}}}
-
 "{{{ Latex Configuration
 "tex_flavor
 let g:tex_flavor = 'latex'
@@ -204,8 +231,6 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 "}}}
-
-
 "{{{ TagBar 
 
 " Specification for makefile target
@@ -247,8 +272,6 @@ let g:tagbar_type_bib = {
 
 map <F9> :TagbarToggle<CR>
 "}}}
-
-
 "{{{ YouCompleteMe
 let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
 "}}}
