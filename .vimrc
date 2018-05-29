@@ -60,7 +60,6 @@ Plugin 'majutsushi/tagbar'
 " nerd commenter
 Plugin 'scrooloose/nerdcommenter'
 "}}}
-
 "{{{ Genral settings
 filetype plugin indent on
 
@@ -91,6 +90,9 @@ set showmatch
 " synatx on
 syntax enable   
 
+" save session
+nnoremap <leader>s : mksession<CR>
+
 " moving between splits
 "split navigation
 nnoremap <C-J> <C-W><C-J>
@@ -100,6 +102,7 @@ nnoremap <C-H> <C-W><C-H>
 "}}}
 "{{{ Keymapping
 map <F2> :NERDTreeToggle<CR>
+nnoremap <leader>a : Ag
 "}}}
 "{{{ Mouvement
 nnoremap  j gj
@@ -143,6 +146,7 @@ set tabstop=2
 set softtabstop=2      " number of spaces in tabs
 set expandtab          " tabs now are only spaces
 let mapleader=","
+
 vmap Q gq
 nmap Q gqap
 highlight ColorColumn ctermbg=233
@@ -275,3 +279,9 @@ map <F9> :TagbarToggle<CR>
 "{{{ YouCompleteMe
 let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
 "}}}
+
+"{{{ CtlrP
+let g:ctrlp_match_window = 'botom,order:ttb'
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
