@@ -12,6 +12,9 @@ Plugin 'VundleVim/Vundle.vim'
 "===== Pluging Goyo for zen mode
 Plugin 'junegunn/goyo.vim'
 
+"===== YouCompleteMe
+Plugin 'valloric/youcompleteme'
+
 "=== helpers
 Plugin 'vim-scripts/L9'
 
@@ -243,4 +246,9 @@ let g:tagbar_type_bib = {
 \ }
 
 map <F9> :TagbarToggle<CR>
+"}}}
+
+
+"{{{ YouCompleteMe
+let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
 "}}}
