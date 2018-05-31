@@ -45,6 +45,8 @@ Plugin 'SirVer/ultisnips'
 
 " Status bar on bottom
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 
 " ==== PLUGIN THEMES
 Plugin 'sjl/badwolf'
@@ -103,6 +105,7 @@ nnoremap <C-H> <C-W><C-H>
 "{{{ Keymapping
 map <F2> :NERDTreeToggle<CR>
 nnoremap <leader>a : Ag
+nnoremap <space> za
 "}}}
 "{{{ Mouvement
 nnoremap  j gj
@@ -121,8 +124,8 @@ nnoremap gV `[v`]
 "{{{ Theming
 
 " ==== Colors and other basic settings
-"colorscheme gruvbox
-colorscheme badwolf
+colorscheme gruvbox
+"colorscheme badwolf
 
 set guifont=Monospace\ 10
 
@@ -176,14 +179,14 @@ let g:syntastic_check_on_wq = 0
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
-let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
-let g:syntastic_yaml_checkers = ['jsyaml']
-let g:syntastic_html_tidy_exec = 'tidy5'
+"let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
+"let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
+"let g:syntastic_yaml_checkers = ['jsyaml']
+"let g:syntastic_html_tidy_exec = 'tidy5'
 
 " === flake8
-let g:flake8_show_in_file=1
+"let g:flake8_show_in_file=1
 "}}}
 "{{{ Snippets
 " ==== snippets
@@ -279,9 +282,12 @@ map <F9> :TagbarToggle<CR>
 "{{{ YouCompleteMe
 let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
 "}}}
-
 "{{{ CtlrP
 let g:ctrlp_match_window = 'botom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
+"}}}
+"{{{ Airline
+:let g:airline_theme='badwolf'
+"}}}
