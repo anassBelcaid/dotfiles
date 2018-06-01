@@ -21,6 +21,8 @@ Plugin 'vim-scripts/L9'
 " === File Tree
 Plugin 'scrooloose/nerdtree'
 
+" ==== Base16 color
+Plugin 'chriskempson/base16-vim'
 
 " ==== Git
 Plugin 'airblade/vim-gitgutter'
@@ -67,6 +69,7 @@ filetype plugin indent on
 
 " folding method
 set foldmethod=marker
+set foldlevelstart=1           " starting level
 
 " ==== disable swap file warning
 set shortmess+=A
@@ -289,5 +292,5 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
 "}}}
 "{{{ Airline
-:let g:airline_theme='badwolf'
+:let g:airline_theme='gruvbox'
 "}}}
