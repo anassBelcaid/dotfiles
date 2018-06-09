@@ -10,34 +10,39 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 "===== Pluging Goyo for zen mode
-Plugin 'junegunn/goyo.vim'
+"Plugin 'junegunn/goyo.vim'
 
 "===== YouCompleteMe
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 
 "=== helpers
-Plugin 'vim-scripts/L9'
+"Plugin 'vim-scripts/L9'
 
 " === File Tree
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 
 " ==== Base16 color
-Plugin 'chriskempson/base16-vim'
+"Plugin 'chriskempson/base16-vim'
+
+"Plugin 'ludovicchabant/vim-gutentags'
+
+" === autotag
+"Plugin 'craigemery/vim-autotag'
 
 " ==== Git
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 
 " ==== syntax helpers
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'othree/yajs.vim'
-Plugin 'mitsuhiko/vim-jinja'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'ap/vim-css-color'
-Plugin 'Vimjas/vim-python-pep8-indent'
-Plugin 'lervag/vimtex'
+"Plugin 'cakebaker/scss-syntax.vim'
+"Plugin 'othree/yajs.vim'
+"Plugin 'mitsuhiko/vim-jinja'
+"Plugin 'octol/vim-cpp-enhanced-highlight'
+"Plugin 'ap/vim-css-color'
+"Plugin 'Vimjas/vim-python-pep8-indent'
+"Plugin 'lervag/vimtex'
 " ==== moving / searching
 Plugin 'easymotion/vim-easymotion'
 Plugin 'kien/ctrlp.vim'
@@ -46,8 +51,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips'
 
 " Status bar on bottom
-Plugin 'bling/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'bling/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
 
 
 " ==== PLUGIN THEMES
@@ -59,10 +64,10 @@ Plugin 'honza/vim-snippets'
 call vundle#end()
 
 " tagbar 
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
 
 " nerd commenter
-Plugin 'scrooloose/nerdcommenter'
+"Plugin 'scrooloose/nerdcommenter'
 "}}}
 "{{{ Genral settings
 filetype plugin indent on
@@ -81,7 +86,7 @@ set secure
 set showcmd
 
 " cursor line
-set cursorline
+"set cursorline
 
 " wildmenu
 set wildmenu  
@@ -107,8 +112,8 @@ nnoremap <C-H> <C-W><C-H>
 "}}}
 "{{{ Keymapping
 map <F2> :NERDTreeToggle<CR>
-nnoremap <leader>a : Ag
-nnoremap <space> za
+"nnoremap <leader>a : Ag
+"nnoremap <space> za
 "}}}
 "{{{ Mouvement
 nnoremap  j gj
@@ -122,7 +127,7 @@ nnoremap $ <nop>
 nnoremap $ <nop>
 
 " highlight last inserted text
-nnoremap gV `[v`]
+"nnoremap gV `[v`]
 "}}}
 "{{{ Theming
 
@@ -130,9 +135,9 @@ nnoremap gV `[v`]
 colorscheme gruvbox
 "colorscheme badwolf
 
-set guifont=Monospace\ 10
+"set guifont=Monospace\ 10
 
-set fillchars+=vert:\$
+"set fillchars+=vert:\$
 syntax enable
 
 "automatic reload fo vim rc
@@ -145,9 +150,9 @@ set mouse=c
 set bs=2            "make backspace behave like normal again
 set number
 set laststatus=2
-set smartindent
-set st=4 sw=4 et
-set shiftwidth=4
+"set smartindent
+"set st=4 sw=4 et
+"set shiftwidth=4
 set tabstop=2
 set softtabstop=2      " number of spaces in tabs
 set expandtab          " tabs now are only spaces
@@ -165,49 +170,30 @@ let &colorcolumn="80"
 "}}}
 "{{{ Nerd Tree
 " ==== NERDTREE
-let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
+"let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
 
-let NERDTreeShowHidden=1
-let g:NERDTreeWinPos="left"
-let g:NERDTreeDirArrows=0
-map <C-t> :NERDTreeToggle<CR>
-"}}}
-"{{{ Syntastic
-
-" ==== Syntastic
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-"let g:syntastic_javascript_checkers = ['eslint']
-"let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
-"let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
-"let g:syntastic_yaml_checkers = ['jsyaml']
-"let g:syntastic_html_tidy_exec = 'tidy5'
-
-" === flake8
-"let g:flake8_show_in_file=1
+"let NERDTreeShowHidden=1
+"let g:NERDTreeWinPos="left"
+"let g:NERDTreeDirArrows=0
+"map <C-t> :NERDTreeToggle<CR>
 "}}}
 "{{{ Snippets
 " ==== snippets
-let g:UltiSnipsExpandTrigger="<A-ENTER>"
-let g:UltiSnipsJumpForwardTrigger="<A-ENTER>"
-let g:UltiSnipsJumpBackwardTrigger="<A-BACKSPACE>"
+"let g:UltiSnipsExpandTrigger="<A-ENTER>"
+"let g:UltiSnipsJumpForwardTrigger="<A-ENTER>"
+"let g:UltiSnipsJumpBackwardTrigger="<A-BACKSPACE>"
 " If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+"let g:UltiSnipsEditSplit="vertical"
 
 "snippets changes
-let g:vimtex_compiler_latexmk={'callback' : 0}
-let g:SuperTabDefaultCompletionType    = '<C-n>'
-let g:SuperTabCrMapping                = 0
-let g:UltiSnipsExpandTrigger           = '<tab>'
-let g:UltiSnipsJumpForwardTrigger      = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
-let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+"let g:vimtex_compiler_latexmk={'callback' : 0}
+"let g:SuperTabDefaultCompletionType    = '<C-n>'
+"let g:SuperTabCrMapping                = 0
+"let g:UltiSnipsExpandTrigger           = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+"let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
 
 "}}}
@@ -218,79 +204,33 @@ let g:EasyMotion_smartcase = 1
 nmap f <Plug>(easymotion-s)
 
 " ==== moving around
-nmap <silent> <A-Up> :wincmd k<CR>
-nmap <silent> <A-Down> :wincmd j<CR>
-nmap <silent> <A-Left> :wincmd h<CR>
-nmap <silent> <A-Right> :wincmd l<CR>
+"nmap <silent> <A-Up> :wincmd k<CR>
+"nmap <silent> <A-Down> :wincmd j<CR>
+"nmap <silent> <A-Left> :wincmd h<CR>
+"nmap <silent> <A-Right> :wincmd l<CR>
 
 "}}}
 "{{{ Latex Configuration
 "tex_flavor
-let g:tex_flavor = 'latex'
-let g:vimtex_complete_enabled = 1
-let g:vimtex_fold_enabled = 1
-
-if !exists('g:ycm_semantic_triggers')
-	let g:ycm_semantic_triggers = {}
-endif
-
-
+"let g:tex_flavor = 'latex'
+"let g:vimtex_complete_enabled = 1
+"let g:vimtex_fold_enabled = 1
+"let g:vimtex_view_method = 'zathura'
 " Recommanded setting for syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
-"}}}
-"{{{ TagBar 
-
-" Specification for makefile target
-let g:tagbar_type_make = {
-            \ 'kinds':[
-                \ 'm:macros',
-                \ 't:targets'
-            \ ]
-\}
-" Configure for Markdown (still not working)
-let g:tagbar_type_markdown = {
-    \ 'ctagstype' : 'markdown',
-    \ 'kinds' : [
-        \ 'h:Heading_L1',
-        \ 'i:Heading_L2',
-        \ 'k:Heading_L3'
-    \ ]
-\ }     
-
-let g:tagbar_type_bib = {
-    \ 'ctagstype' : 'bib',
-    \ 'kinds'     : [
-        \ 'a:Articles',
-        \ 'b:Books',
-        \ 'L:Booklets',
-        \ 'c:Conferences',
-        \ 'B:Inbook',
-        \ 'C:Incollection',
-        \ 'P:Inproceedings',
-        \ 'm:Manuals',
-        \ 'T:Masterstheses',
-        \ 'M:Misc',
-        \ 't:Phdtheses',
-        \ 'p:Proceedings',
-        \ 'r:Techreports',
-        \ 'u:Unpublished',
-    \ ]
-\ }
-
-map <F9> :TagbarToggle<CR>
 "}}}
 "{{{ YouCompleteMe
-let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
+"let g:ycm_global_ycm_extra_conf ='~/.vim/.ycm_global_ycm_extra_conf'
 "}}}
 "{{{ CtlrP
-let g:ctrlp_match_window = 'botom,order:ttb'
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_working_path_mode = 0
-let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
+"let g:ctrlp_match_window = 'botom,order:ttb'
+"let g:ctrlp_switch_buffer = 0
+"let g:ctrlp_working_path_mode = 0
+"let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
 "}}}
 "{{{ Airline
-:let g:airline_theme='gruvbox'
+":let g:airline_theme='gruvbox'
 "}}}
