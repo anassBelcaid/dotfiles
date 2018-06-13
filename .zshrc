@@ -8,14 +8,14 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="random"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom")
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -91,6 +91,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # latex compilation command
 alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
+alias vim ='nvim'
 #}}}
 #{{{ Personal variables
 # Exporting the new path
@@ -110,9 +111,11 @@ export orcid=0000-0002-9796-5102
 
 
 #for aur edition
-export VISUAL="vim"
+#export VISUAL="vim"
+alias vim='nvim'
 
-#}}}
+# export vim as vim server
+#}}
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
 tsm-add(){transmission-remote -a "#1"}
@@ -126,6 +129,7 @@ tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $
 pdc-mark-html(){ pandoc $1 -f markdown -t html -s -o $2}
 pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
 pdc-mark-pdf(){ pandoc $1 -s -o $2}
+pdc-mark-docx(){pandoc $1 -s -o $2}
 
 #}}}
 #{{{ Cloud Computing
