@@ -11,12 +11,16 @@ Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
 Plug 'sjl/badwolf'
 Plug 'morhetz/gruvbox'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/goyo.vim'
 Plug 'honza/vim-snippets'
 Plug 'kien/ctrlp.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'suan/vim-instant-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'andymass/vim-matchup'
@@ -31,6 +35,7 @@ Plug 'itspriddle/vim-marked'
 Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-speeddating'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 "}}}
 "{{{ Pluging configurations
@@ -66,7 +71,7 @@ set incsearch
 "setting tags
 
 "setting the path
-set path=.,**
+" set path=.,**
 
 "ignoring files
 set wildignore=*.o
@@ -140,7 +145,7 @@ set ignorecase
 set smartcase
 set infercase
 set showmatch
-
+set clipboard+=unnamedplus
 set display=lastline
 set virtualedit=block
 
@@ -149,7 +154,6 @@ if executable('ag')
 elseif executable('ack-grep')
   set grepprg=ack-grep\ --nocolor
 endif
-
 "}}}
 "{{{ Genral settings
 filetype plugin indent on
@@ -252,9 +256,6 @@ let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
 
 " make vimtex ignore warning
 let g:vimtex_log_ignore=['warning']
-
-" shortcut for toc
-"nnoremap VimtexTocToggle : <leader>
 "}}}
 "{{{ Pluging configration
 "{{{ Internal
@@ -336,9 +337,20 @@ let g:rbpt_loadcmd_toggle = 0
 "{{{ match up
 "}}}
 "{{{ UltiSnippet
+" Default directory for snippet 
+" default new edit mode (prefer vertical)
+"
+" edition of new snippet
+let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+"}}}
+"{{{ VimWiki
+let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
+"}}}
+"{{{ airline theme:
+let g:airline_theme= "wombat"
 "}}}
 "}}}
 
