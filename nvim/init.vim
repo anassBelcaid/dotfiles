@@ -36,6 +36,8 @@ Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-speeddating'
 Plug 'vimwiki/vimwiki'
+Plug 'davidhalter/jedi-vim'
+Plug 'zchee/deoplete-jedi', {'do': ':UpdateRemotePlugins'}
 call plug#end()
 "}}}
 "{{{ Pluging configurations
@@ -202,8 +204,8 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-colorscheme gruvbox
-"colorscheme badwolf
+" colorscheme gruvbox
+colorscheme badwolf
 
 "}}}
 "{{{ Mouvement
@@ -256,6 +258,9 @@ let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
 
 " make vimtex ignore warning
 let g:vimtex_log_ignore=['warning']
+let g:tex_flavor = 'latex'
+let g:vimtex_complete_enabled=1
+let g:vimtex_view_method = 'mupdf'
 "}}}
 "{{{ Pluging configration
 "{{{ Internal
