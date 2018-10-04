@@ -15,7 +15,8 @@ ZSH_THEME="random"
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
+ZSH_THEME_RANDOM_CANDIDATES=( "kennethreitz")
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -97,23 +98,33 @@ alias vim ='nvim'
 # Exporting the new path
 export PATH=~/.gem/ruby/2.5.0/bin:$PATH
 
+#path for matlatb
+export PATH=~/matlab2017/bin:$PATH
 #python path
 export PYTHONPATH=~/python/
 
 #disseration
 export disseration=~/github/anass/dissertation
-
+export blog=~/github/anass/anassBelcaid.github.io
 
 # dev folder
 export software=~/github/anass/software/
 # export orcid id
 export orcid=0000-0002-9796-5102
 
-
 #for aur edition
 #export VISUAL="vim"
 alias vim='nvim'
 
+# shortcut for editing key filees
+cfg_vim(){ vim ~/.config/nvim/init.vim}
+cfg_shell(){vim ~/.zshrc}
+
+
+#{{{ pip:
+#upgrading all the packages by pip
+pip_upgrade(){pip list --outdated --format=freeze| grep -v '^\-e'|cut -d = -f 1| xargs -n1 sudo pip install -U --upgrade}
+#}}}
 # export vim as vim server
 #}}
 #{{{ transmission function
@@ -122,6 +133,7 @@ tsm-add(){transmission-remote -a "#1"}
 tsm-list(){transmission-remote -l }
 tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon }
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
+alias tsm='transmission-remote'
 #}}}
 #{{{ pandoc functions
 
@@ -138,4 +150,7 @@ pdc-mark-docx(){pandoc $1 -s -o $2}
 export ensamClient=modec.ensam-umi.ac.ma
 export ensamLocal=172.20.0.6
 
+#}}}
+#{{{ Jekyll: 
+blog-serve(){ bundle exec jekyll serve}
 #}}}

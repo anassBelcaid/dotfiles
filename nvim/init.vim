@@ -11,16 +11,16 @@ Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
 Plug 'sjl/badwolf'
 Plug 'morhetz/gruvbox'
+Plug 'zacanger/angr.vim'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/goyo.vim'
 Plug 'honza/vim-snippets'
 Plug 'kien/ctrlp.vim'
-Plug 'ludovicchabant/vim-gutentags'
+Plug 'majutsushi/tagbar'
 Plug 'w0rp/ale'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-Plug 'suan/vim-instant-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'andymass/vim-matchup'
@@ -33,7 +33,6 @@ Plug 'wellle/targets.vim'
 Plug 'tpope/vim-commentary'
 Plug 'itspriddle/vim-marked'
 Plug 'FelikZ/ctrlp-py-matcher'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-speeddating'
 Plug 'vimwiki/vimwiki'
 Plug 'davidhalter/jedi-vim'
@@ -204,8 +203,8 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-" colorscheme gruvbox
-colorscheme badwolf
+colorscheme gruvbox
+" colorscheme angr
 
 "}}}
 "{{{ Mouvement
@@ -253,6 +252,19 @@ let g:ctrlp_match_window = 'botom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_commad ='ag %s -l --nocolor --hidden -g ""'
+
+"mapping for buffers
+nnoremap <C-b> :CtrlPBuffer <CR>
+" ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
+
 "}}}
 "{{{ vimTex
 
@@ -356,6 +368,9 @@ let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
 "}}}
 "{{{ airline theme:
 let g:airline_theme= "wombat"
+"}}}
+"{{{ TagBar
+nmap <F8> :TagbarToggle<CR>
 "}}}
 "}}}
 
