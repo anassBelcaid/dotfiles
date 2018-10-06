@@ -99,6 +99,7 @@ export PATH=~/.gem/ruby/2.5.0/bin:$PATH
 
 #python path
 export PYTHONPATH=~/python/
+export PATH=~/anaconda3/bin:$PATH
 
 #disseration
 export disseration=~/github/anass/dissertation
