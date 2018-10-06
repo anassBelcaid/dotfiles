@@ -1,3 +1,4 @@
+#{{{ Templates:
 snippet ieeTran "ieee transaction template"
 \documentclass[10pt,journal,twocolumn,final]{IEEEtran}
 
@@ -23,22 +24,103 @@ e.zemmouri@ensam-umi.ac.ma}}
 \hspace{\columnsep}\makebox[\columnwidth]{ }}
 \maketitle
 
-%------------------- Abstract ------------------------%
+#{{{------------------- Abstract ------------------------%
 \begin{abstract}
 ${6: here goes your abstract}
 \end{abstract}
 
 
-%----------------- content ----------------------------%
+#}}}----------------- content ----------------------------%
 $0
 \end{document}
 endsnippet
-	
-
 snippet cite "citation with separation"
 ~\cite{${1:}} $0
 endsnippet
-	
 snippet ref " same reference with space and parenthese"
 ~(\ref{$1:}) $0
 endsnippet
+snippet simpleDoc "Create a simple article document"
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{fourier}
+
+\author{${1:author}}
+\date{${2:date}}
+
+\begin{document}
+% Delete if you do not want a title page
+{${3:\maketitle}}
+
+$0
+\end{document}
+endsnippet
+#{{{ Beamer theme ensam
+snippet beamEnsam " Simple beamer with ENSAM theme"
+\documentclass{beamer}
+\usetheme{ensam}
+\usepackage{pgfplots}
+\usepackage{subcaption}
+\usepackage{acronym}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{amsmath}
+\usepackage {algorithmic}
+\usepackage{algorithm}
+\usepackage{eqparbox}
+\usepackage[font=scriptsize]{caption}
+\usetikzlibrary{bayesnet,positioning,calc}
+\tikzstyle{obs} = [latent,fill=lightBlue]
+\tikzstyle{default}=[draw=sexyRed,thick,rounded corners,text width=0.5in,font=\scriptsize,align=center]
+\usepgfplotslibrary{colorbrewer}
+\definecolor{ForestGreen}{RGB}{34,139,34}
+\newcommand{\comment}[1]{\textcolor{ForestGreen}{#1}}
+%algorithmic comment
+\renewcommand\algorithmiccomment[1]{%
+  \hfill\comment{\#\scriptsize\eqparbox{COMMENT}{#1}}%
+}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\title{${1:title}}
+\author{\underline{${2:author}}}
+\institute{\small ${3:event}} 
+
+%tikz bayesian theme
+\usetikzlibrary{bayesnet,positioning,calc}
+\tikzstyle{obs} = [latent,fill=lightBlue]
+\tikzstyle{default}=[draw=sexyRed,thick,rounded corners,text width=0.5in,font=\scriptsize,align=center]
+\DeclareMathOperator{\argmin}{argmin}
+
+\pgfplotsset{every tick label/.append style={font=\tiny}}
+
+
+
+%acronyms
+\acrodef{MRF}{Markov Random Fields}
+\acrodef{GNC}{Graduation nonconvexity}
+
+
+% add bibliography
+\usepackage[style=authoryear]{biblatex}
+\renewcommand*{\nameyeardelim}{\addcomma\addspace}
+\addbibresource{${4:bibliography}}
+
+\begin{document}
+\maketitle
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+\end{document}
+endsnippet
+#}}}
+
+#}}}
+#{{{ ------------- yaaa cv entry ----------------------
+snippet cvarEntry "yaaat anohter cv article entry"
+
+\item \textbf{${1:title}}\\ \emph{${2:Journal}},
+    ${3:year}, 
+    DOI=\href{${4:link}}{$4}
+endsnippet
+#}}}

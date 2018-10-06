@@ -119,7 +119,7 @@ font-2 = NotoMono-Regular: size=10;0
 
 modules-left =  i3  xwindow 
 modules-center = networkspeedup networkspeeddown
-modules-right =  mpd battery  memory2 cpu2 date 
+modules-right =   battery  memory2 cpu2 date 
 
 separator = |
 
@@ -766,9 +766,10 @@ format-prefix-foreground = #c1941a
 format-underline = #c1941a
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-label = %date% %time%
+;label = %date% %time%
+label = %time%
 
-#################################################################
+################################################################
 
 [module/ewmh]
 type = internal/xworkspaces

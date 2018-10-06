@@ -1,0 +1,49 @@
+#{{{ Google Test
+snippet Test "Simple Unit Test"
+TEST (${1:testSuit}, ${2:testCase}) { 
+    EXPECT_EQ(${3:value1},${4:value2})
+}
+$0
+endsnippet
+
+
+snippet GTest_m "Google Test main"
+int main(int argc, char **argv) {
+  ::testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}
+endsnippet
+#}}}
+
+
+
+#{{{ new file speed up
+snippet simeFile " create a new simple file whit header file included"
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::cerr;
+
+#include <string>
+using std::string;
+
+#include <algorithm>
+using std::for_each;
+
+#include <utility>
+
+int main(int argc, char *argv[])
+{
+	$0;  
+  return 0;
+}
+endsnippet
+#}}}
+
+
+snippet vCout "vector cout should be implemented as template"
+for(auto v: ${1:vector})
+	cout<<v<<" ";
+cout<<endl;
+$0
+endsnippet
