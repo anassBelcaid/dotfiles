@@ -15,8 +15,8 @@ ZSH_THEME="random"
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
-ZSH_THEME_RANDOM_CANDIDATES=( "kennethreitz" "angnoster")
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
+# ZSH_THEME_RANDOM_CANDIDATES=( "kennethreitz" )
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -92,7 +92,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # latex compilation command
 alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
-alias vim ='nvim'
+alias vim='nvim'
+export edgeProject='~/projects/edgeDetection/'
 #}}}
 #{{{ Personal variables
 # Exporting the new path
@@ -102,7 +103,9 @@ export PATH=~/.gem/ruby/2.5.0/bin:$PATH
 export PATH=~/matlab2017/bin:$PATH
 #python path
 export PYTHONPATH=~/python/
-# export PATH=~/anaconda3/bin:$PATH
+
+#conda path
+export PATH=~/anaconda3/bin/:$PATH
 
 #disseration
 export disseration=~/github/anass/dissertation
@@ -113,13 +116,22 @@ export software=~/github/anass/software/
 # export orcid id
 export orcid=0000-0002-9796-5102
 
+#cs31n folder 
+export cs231n=~/FinishedCourses/CS231ConvolutionNeuralNetworks/
+
 #for aur edition
 #export VISUAL="vim"
 alias vim='nvim'
+export snippets=~/.config/nvim/UltiSnips/
 
 #{{{ Jupyter: Jupyter Customization
 alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
-alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
+# alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
+alias jtNight="jt -t onedork -f roboto -fs 12 -cellw 90%"
+
+#{{{ Brightness
+alias setBrightness "xrandr --output DP-0 --brightness"
+#}}}
 #}}}
 # shortcut for editing key filees
 cfg_vim(){ vim ~/.config/nvim/init.vim}

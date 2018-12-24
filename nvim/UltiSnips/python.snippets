@@ -1,0 +1,14 @@
+snippet setup "setup  a package"
+setup(name = ${1:"package name},
+version = ${2:"0.1"},
+description =${3:" describe your project"},
+url = ${4: " url github"},
+author = ${5: "A.Belcaid"},
+licence ='MTI',
+packages  = [${6:"packages}],
+install_requires = [${7:"packages"}]
+zip_safe = False
+)
+$0
+endsnippet
+	

@@ -2,10 +2,12 @@
 call plug#begin('~/.config/nvim/bundle')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ternjs/tern_for_vim', {'do': 'nmp install'}
-Plug 'scrooloose/nerdtree'
+	Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+
+Plug 'ryanoasis/vim-devicons'
 Plug 'lervag/vimtex'
 Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
@@ -23,7 +25,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
-Plug 'andymass/vim-matchup'
+" Plug 'andymass/vim-matchup'
 Plug 'junegunn/vim-slash'
 Plug 'roxma/vim-hug-neovim-rpc', has('nvim') ? { 'on' : [] } : {}
 Plug 'roxma/nvim-yarp', has('nvim') ? { 'on' : [] } : {}
@@ -273,6 +275,8 @@ let g:vimtex_log_ignore=['warning']
 let g:tex_flavor = 'latex'
 let g:vimtex_complete_enabled=1
 let g:vimtex_view_method = 'mupdf'
+let g:vimtex_complete_enabled = 1
+let g:vimtex_compiler_progname = 'nvr'
 "}}}
 "{{{ Pluging configration
 "{{{ Internal
@@ -309,6 +313,15 @@ augroup end
 "inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 "}}}
+"{{{ Nerd tree
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen = 1 " automatically close when open a file
+let NERDTreeAutoDeleteBuffer = 1 "automatically delete the buffer
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeIgnore = ['\.pyc$','\.log$', '\.aux$','\.fls$','\.out$','\.bbl$','\.blg$','\.fdb_latexmk$']
+let g:NERDTreeWinSize = 20  " Controle the  size of the window
+"}}}
 "{{{ ale 
 "
 let g:ale_fix_on_save = 1
@@ -316,8 +329,10 @@ let g:ale_fix_on_save = 1
 "{{{ markdown
 "
 let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_style_pythonic= 1
+let g:vim_markdown_toc_autofit=1
 let g:vim_markdown_emphasis_multiline = 0 
-let g:vim_markdown_conceal = 2
+set conceallevel=2
 let g:vim_markdown_math = 1
 "}}}
 "{{{ fast folding
@@ -367,10 +382,12 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
 "}}}
 "{{{ airline theme:
-let g:airline_theme= "wombat"
+let g:airline_theme= "tomorrow"
 "}}}
 "{{{ TagBar
 nmap <F8> :TagbarToggle<CR>
+let g:Tlist_WinWidth=40
 "}}}
 "}}}
+
 
