@@ -16,7 +16,6 @@ ZSH_THEME="random"
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
 ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
-# ZSH_THEME_RANDOM_CANDIDATES=( "kennethreitz" )
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
