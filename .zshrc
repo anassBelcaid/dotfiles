@@ -94,6 +94,8 @@ source $ZSH/oh-my-zsh.sh
 alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias vim='nvim'
 export edgeProject='~/projects/edgeDetection/'
+export repo='~/github/anass/'
+export attijari=Yt000193342
 #}}}
 #{{{ Personal variables
 # Exporting the new path

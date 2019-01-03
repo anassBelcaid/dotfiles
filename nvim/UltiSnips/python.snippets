@@ -1,3 +1,4 @@
+#{{{ setup tools
 snippet setup "setup  a package"
 setup(name = ${1:"package name},
 version = ${2:"0.1"},
@@ -11,4 +12,25 @@ zip_safe = False
 )
 $0
 endsnippet
+#}}}
+
+
+#{{{:Argparg
+snippet defaultParser "Code for a default parser"
+#default parser
+parser = argparse.ArgumentParser()
+${1:add argument}
+
+#parse arguments
+args = parser.parse_args()
+$0
+endsnippet
+
+snippet addArg "add an argument to the parser"
+
+parser.add_argument("-${1:short}","--${2:long}",type=${3:type},choices={${4:[]},\
+help=${5:help message})
+$0
+endsnippet
 	
+#}}}

@@ -320,7 +320,7 @@ let NERDTreeAutoDeleteBuffer = 1 "automatically delete the buffer
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeIgnore = ['\.pyc$','\.log$', '\.aux$','\.fls$','\.out$','\.bbl$','\.blg$','\.fdb_latexmk$']
-let g:NERDTreeWinSize = 20  " Controle the  size of the window
+let g:NERDTreeWinSize = 30  " Controle the  size of the window
 "}}}
 "{{{ ale 
 "
