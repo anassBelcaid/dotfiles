@@ -1,8 +1,6 @@
-#{{{ Templates:
+#{{{Templates:
 snippet ieeTran "ieee transaction template"
 \documentclass[10pt,journal,twocolumn,final]{IEEEtran}
-
-
 %cite package
 \usepackage{cite}
 \usepackage{amsmath}
@@ -115,7 +113,96 @@ snippet beamEnsam " Simple beamer with ENSAM theme"
 endsnippet
 #}}}
 
-#}}}
+
+#{{{ elsevier class
+snippet elsevier "template for an elsevier article"
+\documentclass{elsarticle}
+%##############
+%#  packages  #
+%##############
+\usepackage{amsmath}
+\usepackage[cmintegrals]{newtxmath}
+\usepackage{acronym}
+\usepackage{amsmath}
+\usepackage{lineno,hyperref}
+\usepackage{tikz}
+\usepackage{multirow,booktabs}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{lineno,hyperref}
+\usepackage[ruled]{algorithm2e}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage[caption=false, font=footnotesize]{subfig}
+
+
+
+%#######################
+%#  Bibliograpy style  #
+%#######################
+\modulolinenumbers[5]
+\bibliographystyle{elsarticle-num}
+
+
+##############
+#  Document  #
+##############
+\begin{document}
+
+\begin{frontmatter}
+%%%%%%%%%%%
+%  title  %
+%%%%%%%%%%%
+\title{${1:Your awesome title}}
+\journal{${2:Journal}}
+#############
+#  Authors  #
+#############
+\author[ensam,1]{${3:A.~Belcaid}}
+\author[ensam,2]{${4:co author}}
+\author[ensam,3]{${5: co Author}}
+\address[ensam]{Mathematics Department, Ecole Nationale Supérieure d'Arts et
+Métiers}
+\address[1]{a.belcaid@edu.umi.ac.ma}
+\address[2]{m.douimi@umi.ac.ma}
+\address[3]{e.zemmouri@ensam-umi.ac.ma} %TODO changes emails
+
+
+
+%%%%%%%%%%%%%%
+%  Abstract  %
+%%%%%%%%%%%%%%
+\begin{abstract}
+${6:Put Your abstract}
+\end{abstract}
+
+%%%%%%%%%%%%%
+%  Keyword  %
+%%%%%%%%%%%%%
+\begin{keyword}
+${7:keywors separatedby \sep}
+\end{keyword}
+
+\end{frontmatter}
+
+$0
+
+\section{Conclusion}
+
+%%%%%%%%%%%%%%%%%%
+%  Bibliography  %
+%%%%%%%%%%%%%%%%%%
+% \bibliographystyle{elsarticle-num}
+\bibliography{${8:bibliography_name}}
+\end{document}
+endsnippet	
+#R}}
+
+
 #{{{ ------------- yaaa cv entry ----------------------
 snippet cvarEntry "yaaat anohter cv article entry"
 
@@ -123,4 +210,16 @@ snippet cvarEntry "yaaat anohter cv article entry"
     ${3:year}, 
     DOI=\href{${4:link}}{$4}
 endsnippet
+#}}}
+
+
+
+
+#{{{ pgfplots
+
+snippet addplot "adding a pgf plot"
+\addplot[${1:stylethick,color,dotted}] table[x=${2:xlabel},y=${3:ylabel}, col
+sep =comma] {${4:filename}};
+endsnippet	
+
 #}}}

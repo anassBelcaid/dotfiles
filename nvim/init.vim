@@ -14,6 +14,7 @@ Plug 'SirVer/ultisnips'
 Plug 'sjl/badwolf'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
+Plug 'danilo-augusto/vim-afterglow'
 Plug 'zacanger/angr.vim'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -206,9 +207,11 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-colorscheme gruvbox
-" colorscheme angr
-
+" colorscheme gruvbox
+" colorscheme base16-gruvbox-dark-pale
+colorscheme afterglow
+let g:afterglow_italic_comments=1 
+let g:afterglow_blackout = 1
 "}}}
 "{{{ Mouvement
 nnoremap  j gj
@@ -228,7 +231,7 @@ nnoremap $ <nop>
 syntax enable
 
 "automatic reload fo vim rc
-set background=dark
+" set background= light
 set ruler
 set hidden
 "clipboard
@@ -239,7 +242,8 @@ set laststatus=2
 set tabstop=2
 set softtabstop=2      " number of spaces in tabs
 set expandtab          " tabs now are only spaces
-let mapleader=","
+
+map <SPACE> <leader>
 
 highlight ColorColumn ctermbg=233
 let &colorcolumn="80"
@@ -278,6 +282,7 @@ let g:vimtex_complete_enabled=1
 let g:vimtex_view_method = 'mupdf'
 let g:vimtex_complete_enabled = 1
 let g:vimtex_compiler_progname = 'nvr'
+inoremap <C-Space> <C-x><C-o>
 "}}}
 "{{{ Pluging configration
 "{{{ Internal
@@ -383,7 +388,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
 "}}}
 "{{{ airline theme:
-let g:airline_theme= "tomorrow"
+" let g:airline_theme= "tomorrow"
+let g:airline_theme='afterglow'
 "}}}
 "{{{ TagBar
 nmap <F8> :TagbarToggle<CR>
