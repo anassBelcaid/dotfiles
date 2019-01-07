@@ -95,6 +95,7 @@ alias vim='nvim'
 export edgeProject='~/projects/edgeDetection/'
 export repo='~/github/anass/'
 export attijari=Yt000193342
+export cwork='~/github/anass/articles/filter1d/'
 #}}}
 #{{{ Personal variables
 # Exporting the new path

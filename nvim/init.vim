@@ -279,7 +279,7 @@ let g:ctrlp_custom_ignore = {
 let g:vimtex_log_ignore=['warning']
 let g:tex_flavor = 'latex'
 let g:vimtex_complete_enabled=1
-let g:vimtex_view_method = 'mupdf'
+let g:vimtex_view_method = 'zathura'
 let g:vimtex_complete_enabled = 1
 let g:vimtex_compiler_progname = 'nvr'
 inoremap <C-Space> <C-x><C-o>
