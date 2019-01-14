@@ -28,12 +28,14 @@ Plug 'plasticboy/vim-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
 " Plug 'andymass/vim-matchup'
+Plug 'sbdchd/vim-run'
 Plug 'junegunn/vim-slash'
 Plug 'roxma/vim-hug-neovim-rpc', has('nvim') ? { 'on' : [] } : {}
 Plug 'roxma/nvim-yarp', has('nvim') ? { 'on' : [] } : {}
 Plug 'Shougo/neco-vim'
 Plug 'Shougo/neco-syntax'
 Plug 'wellle/targets.vim'
+Plug 'chrisbra/Colorizer'
 Plug 'tpope/vim-commentary'
 Plug 'itspriddle/vim-marked'
 Plug 'FelikZ/ctrlp-py-matcher'
@@ -104,8 +106,8 @@ set lazyredraw
 
 set confirm
 set hidden
-set textwidth=79
-set nowrap
+set textwidth=80
+set wrap
 set linebreak
 
 " make g the default in line substutition
@@ -394,6 +396,10 @@ let g:airline_theme='afterglow'
 "{{{ TagBar
 nmap <F8> :TagbarToggle<CR>
 let g:Tlist_WinWidth=40
+"}}}
+"{{{ Vim_Run:
+let g:run_auto_close = 1
+let g:run_split = 'right'
 "}}}
 "}}}
 

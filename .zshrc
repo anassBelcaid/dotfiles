@@ -150,7 +150,7 @@ pip_upgrade(){pip list --outdated --format=freeze| grep -v '^\-e'|cut -d = -f 1|
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
 tsm-add(){transmission-remote -a "#1"}
 tsm-list(){transmission-remote -l }
-tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon }
+tsm-stop(){ echo "Stoping the daemon"; killall transmission-da}
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
 alias tsm='transmission-remote'
 #}}}
