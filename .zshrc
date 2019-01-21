@@ -60,7 +60,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kenneth
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git osx colorize git-prompt pyenv tmux battery zsh-autosuggestions
+  git osx colorize git-prompt pyenv tmux battery zsh-autosuggestions lighthouse
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias vim='nvim'
 export edgeProject='~/projects/edgeDetection/'
-export repo='~/github/anass/'
+export repo=~/github/anass
 export attijari=Yt000193342
 export cwork='~/github/anass/articles/filter1d/'
 #}}}
@@ -114,7 +114,7 @@ export disseration=~/github/anass/dissertation
 export blog=~/github/anass/anassBelcaid.github.io
 
 # dev folder
-export software=~/github/anass/software/
+export software=~/github/anass/software
 # export orcid id
 export orcid=0000-0002-9796-5102
 
@@ -126,6 +126,13 @@ export cs231n=~/FinishedCourses/CS231ConvolutionNeuralNetworks/
 alias vim='nvim'
 export snippets=~/.config/nvim/UltiSnips/
 
+
+#{{{ Git
+alias g='git'
+#}}}
+#{{{ Tasks
+alias t='task'
+#}}}
 #{{{ Jupyter: Jupyter Customization
 alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
 # alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
@@ -135,17 +142,19 @@ alias jtNight="jt -t onedork -f roboto -fs 12 -cellw 90%"
 alias setBrightness "xrandr --output DP-0 --brightness"
 #}}}
 #}}}
-# shortcut for editing key filees
+#{{{ shortcut for editing key filees
 cfg_vim(){ vim ~/.config/nvim/init.vim}
 cfg_shell(){vim ~/.zshrc}
-
-
+#}}}
+#{{{ python
+alias vision='source activate vision'
+#}}}
 #{{{ pip:
 #upgrading all the packages by pip
 pip_upgrade(){pip list --outdated --format=freeze| grep -v '^\-e'|cut -d = -f 1| xargs -n1 sudo pip install -U --upgrade}
 #}}}
 # export vim as vim server
-#}}
+#}}}
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
 tsm-add(){transmission-remote -a "#1"}
