@@ -6,7 +6,7 @@ Plug 'ternjs/tern_for_vim', {'do': 'nmp install'}
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-
+Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'lervag/vimtex'
 Plug 'easymotion/vim-easymotion'
@@ -388,6 +388,18 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 "}}}
 "{{{ VimWiki
 let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
+"------ First wiki -----------
+let wiki_1 = {}
+let wiki_1.path = '~/vimwiki/'
+let wiki_1.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
+
+"------ Second wiki -----
+let wiki_2 = {}
+let wiki_2.path = '~/github/anass/coursesNotes/'
+let wiki_2.index = 'main'
+
+"------ Combining both wiki's-------
+let g:vimwiki_list = [wiki_1, wiki_2]
 "}}}
 "{{{ airline theme:
 " let g:airline_theme= "tomorrow"
