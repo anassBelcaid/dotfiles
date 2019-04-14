@@ -36,12 +36,17 @@ endsnippet
 #}}}
 
 
-#{{{ Numpy,pandas
+#{{{ Numpy,pandas, warnings
 snippet inp "import numpy as np"
 import numpy as np
 $0
 endsnippet
 
+snippet itf "import tensorflow as tf"
+import tensorflow as tf
+	$0
+endsnippet
+	
 
 snippet ipd "import pandas as pd"
 import pandas as pd
@@ -52,4 +57,10 @@ snippet imatplot "import matplotlib "
 import matplotlib.pyplot as plt
 $0
 endsnippet
+
+snippet noWarn "Supress warnings "
+import warnings
+warnings.filterwarnings('ignore')
+endsnippet
+	
 #}}}

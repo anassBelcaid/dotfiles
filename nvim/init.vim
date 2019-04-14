@@ -27,7 +27,8 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
-" Plug 'andymass/vim-matchup'
+" Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'sbdchd/vim-run'
 Plug 'junegunn/vim-slash'
 Plug 'roxma/vim-hug-neovim-rpc', has('nvim') ? { 'on' : [] } : {}
@@ -410,7 +411,7 @@ nmap <F8> :TagbarToggle<CR>
 let g:Tlist_WinWidth=40
 "}}}
 "{{{ Vim_Run:
-let g:run_auto_close = 1
+let g:run_auto_close = 0
 let g:run_split = 'right'
 "}}}
 "}}}

@@ -15,6 +15,23 @@ snippet aref "description"
 <a href={{site.baseurl}}"${1:permalink}">${2:Link name} </a>
 $0
 endsnippet
+
+snippet linkedSection "create the code for a linked section"
+[${1:Link name}](#${2:linkLabel})
+<a name='$2'></a>
+$0
+endsnippet
+
+
+snippet fig_capt "captionned centered figure"
+<div class="fig figcenter fighighlight">
+  <img src=${1:"/assets/path"}>
+  <div class="figcaption">
+  ${2: caption}
+  </div>
+</div>
+$0
+endsnippet
 #}}}
 
 #{{{ inline codes

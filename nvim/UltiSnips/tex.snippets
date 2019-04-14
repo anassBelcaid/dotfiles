@@ -266,11 +266,42 @@ endsnippet
 
 
 
-#{{{ pgfplots
+#{{{ pgfplots and tikz
 
 snippet addplot "adding a pgf plot"
 \addplot[${1:stylethick,color,dotted}] table[x=${2:xlabel},y=${3:ylabel}, col
 sep =comma] {${4:filename}};
 endsnippet	
 
+
+################
+#  Tikz style  #
+################
+snippet tkzset "define a tikz style"
+\tikzstyle{${1:my style}=[${2:some options,...}] $0
+endsnippet
+
+
+###################
+#  Define a node  #
+###################
+
+snippet tkznode "define a new tikz node"
+\node[${1:style}] (${2:name}) at (${3:position}) {${4:name});
+endsnippet
+
+#}}}
+
+
+#{{{ beamer helper
+snippet albf "alerted bold face text"
+\alert{\textbf{${1:text}}} $0
+endsnippet
+
+
+snippet incfig "simple include figure"
+\includegraphics[width=${1:0.5\textwidth},
+height=${2:0.5\textheight}]{${3:filre}}
+$0
+endsnippet
 #}}}

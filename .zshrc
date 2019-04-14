@@ -15,7 +15,7 @@ ZSH_THEME="random"
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kennethreitz")
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -60,7 +60,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "candy-kingdom" "kenneth
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git osx colorize git-prompt pyenv tmux battery zsh-autosuggestions lighthouse
+  git  colorize git-prompt pyenv tmux battery zsh-autosuggestions lighthouse
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -92,6 +92,7 @@ source $ZSH/oh-my-zsh.sh
 # latex compilation command
 alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias vim='nvim'
+alias pgoogle='ping www.google.com'
 export edgeProject='~/projects/edgeDetection/'
 export repo=~/github/anass
 export attijari=Yt000193342
@@ -171,7 +172,18 @@ pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
 pdc-mark-pdf(){ pandoc $1 -s -o $2}
 pdc-mark-docx(){pandoc $1 -s -o $2}
 
+
 #}}}
+#
+# {{{ Latex tools
+
+doi2bib ()
+{
+  echo >> "bibliography.bib";
+  curl -s "http://api.crossref.org/works/$1/transform/application/x-bibtex" >> "bibliography.bib"
+  echo >> "bibliography.bib"
+}
+# }}}
 #{{{ Cloud Computing
 
 #ensam server
@@ -182,3 +194,23 @@ export ensamLocal=172.20.0.6
 #{{{ Jekyll: 
 blog-serve(){ bundle exec jekyll serve}
 #}}}
+
+#{{{ Custom variables
+export academicmail=a.belcaid@edu.umi.ac.ma 
+#}}}
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/anass/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/anass/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/anass/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/anass/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
