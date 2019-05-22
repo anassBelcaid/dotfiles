@@ -210,9 +210,9 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme base16-gruvbox-dark-pale
-colorscheme afterglow
+" colorscheme afterglow
 let g:afterglow_italic_comments=1 
 let g:afterglow_blackout = 1
 "}}}

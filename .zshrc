@@ -97,6 +97,9 @@ export edgeProject='~/projects/edgeDetection/'
 export repo=~/github/anass
 export attijari=Yt000193342
 export cwork='~/github/anass/articles/filter1d/'
+export sift='~/project/SIFT/'
+export understandImages="~/github/anass/computerVision/UnderstandingImages/"
+
 #}}}
 #{{{ Personal variables
 # Exporting the new path
@@ -108,7 +111,7 @@ export PATH=~/matlab2017/bin:$PATH
 export PYTHONPATH=~/python/
 
 #conda path
-export PATH=~/anaconda3/bin/:$PATH
+# export PATH=~/anaconda3/bin/:$PATH
 
 #disseration
 export disseration=~/github/anass/dissertation
@@ -158,7 +161,8 @@ pip_upgrade(){pip list --outdated --format=freeze| grep -v '^\-e'|cut -d = -f 1|
 #}}}
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
-tsm-add(){transmission-remote -a "#1"}
+tsm-add(){transmission-remote -a "$1"}
+tsm-cli(){transmission-remote-cli}
 tsm-list(){transmission-remote -l }
 tsm-stop(){ echo "Stoping the daemon"; killall transmission-da}
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
