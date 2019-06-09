@@ -1,0 +1,14 @@
+
+= Research Ideas =
+1. [[Machine Learning]]
+2. [[SIFT]]
+
+= Learning notes=
+
+* [[Python]]
+* C++
+* [[Linux]]
+
+
+
+
