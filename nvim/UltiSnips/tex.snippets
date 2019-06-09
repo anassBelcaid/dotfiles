@@ -267,7 +267,6 @@ endsnippet
 
 
 #{{{ pgfplots and tikz
-
 snippet addplot "adding a pgf plot"
 \addplot[${1:stylethick,color,dotted}] table[x=${2:xlabel},y=${3:ylabel}, col
 sep =comma] {${4:filename}};
@@ -303,5 +302,12 @@ snippet incfig "simple include figure"
 \includegraphics[width=${1:0.5\textwidth},
 height=${2:0.5\textheight}]{${3:filre}}
 $0
+endsnippet
+#}}}
+
+
+#{{{ latex
+snippet ac "acronym"
+\ac{${1:acronym}} $0
 endsnippet
 #}}}

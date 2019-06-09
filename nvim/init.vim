@@ -27,6 +27,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'konfekt/fastfold'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'flrnprz/candid.vim'
 " Plug 'vim-pandoc/vim-pandoc'
 " Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'sbdchd/vim-run'
@@ -210,9 +211,17 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme base16-gruvbox-dark-pale
-" colorscheme afterglow
+colorscheme afterglow
+" colorscheme candid
+" Switch color background depending on time
+if strftime('%H') >= 10 && strftime('%H') < 14
+  set background=light
+else
+  set background=dark
+endif
+
 let g:afterglow_italic_comments=1 
 let g:afterglow_blackout = 1
 "}}}

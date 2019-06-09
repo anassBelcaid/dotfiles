@@ -60,7 +60,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git  colorize git-prompt pyenv tmux battery zsh-autosuggestions lighthouse
+  git  colorize git-prompt pyenv tmux battery  lighthouse
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,6 +99,7 @@ export attijari=Yt000193342
 export cwork='~/github/anass/articles/filter1d/'
 export sift='~/project/SIFT/'
 export understandImages="~/github/anass/computerVision/UnderstandingImages/"
+export EDITOR=nvim
 
 #}}}
 #{{{ Personal variables
@@ -130,6 +131,12 @@ export cs231n=~/FinishedCourses/CS231ConvolutionNeuralNetworks/
 alias vim='nvim'
 export snippets=~/.config/nvim/UltiSnips/
 
+##{{{ Keyring with gnome
+#if [ -n "$DESKTOP_SESSION" ];then
+#    eval $(gnome-keyring-daemon --start)
+#    export SSH_AUTH_SOCK
+#fi
+#}}}
 
 #{{{ Git
 alias g='git'
@@ -138,8 +145,8 @@ alias g='git'
 alias t='task'
 #}}}
 #{{{ Jupyter: Jupyter Customization
-alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
-# alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
+# alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
+# alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 80% -T"
 alias jtNight="jt -t onedork -f roboto -fs 12 -cellw 90%"
 
 #{{{ Brightness
@@ -151,7 +158,8 @@ cfg_vim(){ vim ~/.config/nvim/init.vim}
 cfg_shell(){vim ~/.zshrc}
 #}}}
 #{{{ python
-alias vision='source activate vision'
+alias vision='conda activate vision'
+alias fastai='conda activate fastai'
 #}}}
 #{{{ pip:
 #upgrading all the packages by pip
@@ -169,18 +177,13 @@ tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $
 alias tsm='transmission-remote'
 #}}}
 #{{{ pandoc functions
-
 # convert from markdow to html
 pdc-mark-html(){ pandoc $1 -f markdown -t html -s -o $2}
 pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
 pdc-mark-pdf(){ pandoc $1 -s -o $2}
 pdc-mark-docx(){pandoc $1 -s -o $2}
-
-
 #}}}
-#
 # {{{ Latex tools
-
 doi2bib ()
 {
   echo >> "bibliography.bib";
@@ -198,11 +201,10 @@ export ensamLocal=172.20.0.6
 #{{{ Jekyll: 
 blog-serve(){ bundle exec jekyll serve}
 #}}}
-
 #{{{ Custom variables
 export academicmail=a.belcaid@edu.umi.ac.ma 
 #}}}
-
+#{{{ Conda setup 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/anass/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -217,4 +219,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+#}}}
 
