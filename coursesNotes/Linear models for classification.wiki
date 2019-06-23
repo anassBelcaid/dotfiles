@@ -1,0 +1,4 @@
+= Linear Models  for classification=
+
+In chapter 2, we studied _linear models_ for regression where the target
+variable $t$ is a continuous variable

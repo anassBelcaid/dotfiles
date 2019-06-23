@@ -1,0 +1,33 @@
+= BackPropagation and SGD from Scratch=
+
+Practically know all the material. Thanks to the cs231 course. But nevertheless,
+check at least one tutorial on the library.
+
+
+== Collaborative filtering ==
+
+* [X] Finish two notebook in the *fastai* library
+* [ ] Create a custom *pytorch* nn and feed it to the fastai.
+* [X] *Discriminative* learning rate
+* [X] Interpretation *top_movies*
+* [X] Command in pandas to get the most rated movies
+* [X] Get *internals* of a Collaborative learner
+* [X] Check how to sort by *bias* ( cool trick)
+* [X] Get and vizualize the weights
+* [X] Check *itemgetter* for weights visualization
+* [X] Draw movies in a *graph*
+* [X] Check the implementation of the *EmbeddingDotBias* with torch integration
+* [ ] Embedding are amazing
+
+== SGD from Scratch ==
+
+* [X] Review lesson 2 **SGD** 
+* [X] Reconstruct the **Mnist** notebook
+* [X] *gzip* In pure python or fastai
+* [X] *TensorDataset* from a tensor
+* [X] Cool *DataBunch.create* from a dataset
+* [X]  dataBunch.*train_dl* as a generator
+* [X] Creating *nn.Module* for Mnist_Logistic
+* [X] pytorch *nn.Linear*
+* [X] Implementation *Mnist_NN* and *optim.Adam*
+* [X] constructor for *Learner*

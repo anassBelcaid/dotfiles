@@ -1,0 +1,13 @@
+= Notes on courses and books=
+
+== Machine Learning ==
+
+
+== Artificial Intelligence== 
+1. [[Pattern Recognition and Machine Learning]]
+
+== Deep Learning==
+1. [[Practical Deep learning for coders, v3]]
+
+== Mathematics ==
+1. [[Computation Linear algebra]]

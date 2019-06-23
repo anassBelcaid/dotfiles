@@ -1,0 +1,12 @@
+= Practcial Deep Learning for coders=
+
+== Contents==
+1. Lesson 0 : [[jupyter notebook]]
+2. Lesson 1 : [[Image Classification ]]
+3. Lesson 2 : [[Data cleaning and preparation]]
+4. Lesson 4 : [[MultiLabel Classification and Segmenation]]
+5. Lesson 5 : [[NLP, Tabular data, Collaborative filtering]]
+6. **Lesson 6** : [[Back Propagation, Accelerated SGD]]
+7. *Lesson 7* : [[Convolutional Neural Network]]
+
+== Useful links==

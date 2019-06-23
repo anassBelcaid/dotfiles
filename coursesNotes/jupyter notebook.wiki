@@ -1,0 +1,39 @@
+
+== Lesson 0 intallation and Jupyter==
+
+{{{shell
+conda create -n fastai python=3.6
+conda fastai activate
+}}}
+
+
+
+== Jupyter tricks ==
+
+Jupyter follow the *vim* philosophy including modes for editing and
+manipulation. So it offers two modes:
+
+- *Normal* mode: Edit notebook as a whole.
+- *Edit* mode: allow to edit cell with codes or markdown.
+
+> To toggle between those modes we use -Esc- and -Enter-
+
+=== Usefuls commands ===
+
+-  *Shift-Enter* : Execute command and move to the next;
+- *b* : Create a new cell
+- *0+0*: Reset kernel
+- *m* : Convert cell to markdown.
+- *y*: Convert cell to code.
+- *D+D* : delete cell
+- *o* : toggle hide/show output.
+- *Shit Up arrow/Down arrow*: Select multiple cells
+- *Shit + M* : merge cells
+- *Shit+tab* : list the arguement documention (super useful)
+
+=== Useful magics ===
+
+- *%load_ext autoreload*: autoreload changed modules
+- *%matplotlib inline* : ouptut matplotlib in the notebook
+- *%timeit* : Measure time execution of a cell.
+- *%debug*: for debuging 

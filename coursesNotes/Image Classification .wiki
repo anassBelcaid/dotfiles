@@ -1,0 +1,38 @@
+= Image Classification=
+
+Doing data science is different to software engineering. As a simple example the
+dented import all is recommended to explore all the possibilities of a package.
+
+
+{{{python
+from fastai import *
+from fastai.vision import *
+}}}
+
+
+== Looking at the data==
+
+We are going to use the *Oxford-illT Pet Dataset*
+
+1. [X] Look on the *untar_data*.
+2. [X] check the *Path* class.
+  * The Path class if from the `pathlib`. Useful methods
+    - `iterdit()`: generate the list of directories
+    - `is_dir()`: verifie if it a directory 
+    - path/file: unix like manipulation
+    - `parts`: Accessing individual parts
+4. [X] check *get_image_files*(path_img)
+  * Return the list of files in path_img that are images
+6. [X] Invest the *ImageDataBunch* Class
+7. [X] Revisit the *regular expression* to extract the labels.
+8. [X] Test the cool function *show_batch*.
+9. [X] Check the documentation for *Learner* and it's subclasses
+10. [X] Difference with *fit* and *fit_one_cycle* (cool paper).
+11. [X] Check the class *ClassificationInterpretation*. apply the method -doc-
+12. [X] Check the *unfreeze* method  on the Learner class
+13. [X]  Python *slice* function
+14. [X] Get my Own image dataset. Guide on google images
+  * The tool `googleimagedownload` is super cool
+16. [ ] ImageDataBunc. **from_folder**.
+17. [ ] IMageDataBunch.*from_csv*
+18. [ ] Image.DataBunch.*from_name_re*

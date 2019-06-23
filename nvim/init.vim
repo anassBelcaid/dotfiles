@@ -213,14 +213,14 @@ set winwidth=70
 " ==== Colors and other basic settings
 " colorscheme gruvbox
 " colorscheme base16-gruvbox-dark-pale
-colorscheme afterglow
+colorscheme badwolf
 " colorscheme candid
 " Switch color background depending on time
-if strftime('%H') >= 10 && strftime('%H') < 14
-  set background=light
-else
-  set background=dark
-endif
+" if strftime('%H') >= 10 && strftime('%H') < 14
+"   set background=light
+" else
+"   set background=dark
+" endif
 
 let g:afterglow_italic_comments=1 
 let g:afterglow_blackout = 1
@@ -405,7 +405,7 @@ let wiki_1.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
 
 "------ Second wiki -----
 let wiki_2 = {}
-let wiki_2.path = '~/github/anass/coursesNotes/'
+let wiki_2.path = '~/github/anass/dotfiles/coursesNotes'
 let wiki_2.index = 'main'
 
 "------ Combining both wiki's-------

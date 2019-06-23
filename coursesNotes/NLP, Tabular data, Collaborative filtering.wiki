@@ -1,0 +1,46 @@
+= NLP, Tabular Data, Collaborative Filtering =
+
+
+In this lesson we will learn about the following topics:
+
+* Natural Language processing.
+* Tabular Data
+* Collaborative Filtering
+* Word Embedding
+
+
+== Journey==
+
+
+=== Natural Language Processing ===
+* [X] Check the  model for Wikipedia *wiki3*
+      (https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/)
+* [X] Fix the Error for the *isinstance*
+* [X] Check the definition of *language_model_learner*
+* [X] Check the *moms* key argument in fit on cycle
+  * *moms*: is simply the momentum range for the optimizer.
+* [X] Check the *predict* function for a clause with _temperature_ and _min_p_
+* [X] Function *save_encoder* to save only the word encoding
+* [X] Check the *TextFilesList* constructor and the argument *vocab*
+* [X] Check *text_classifier_learner*
+* [X] *feeze_to* to fix the number of layer 
+
+=== Tabular Data ===
+
+* New Era as classical machine learning the standard in this type of
+  applications.
+  
+* [X] Check the preprocessing steps [FillMissing, Categorify, Normalize]
+* [X] Check the two class for Tabular data *TabularList*
+* [X] variable name *layers* in the *tabular_learner*
+
+=== Collaborative Filtering ===
+
+* [X] Check the *movieLens* toplay with
+* [X] Definition of *ColabDataBunch*
+* [ ] Check the *n_factors* arugment
+* [ ] Learn how to jump between symbols
+* [ ] Jump from symbol to its implementation
+* [ ] Check how to communicate between fastai classses and pytorch.
+* [ ] What is  a *embedding_dot_bias*
+

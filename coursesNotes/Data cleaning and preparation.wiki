@@ -1,0 +1,15 @@
+= Data Clearning and preparation=
+
+
+1. [X] Download images with *googleimagedownload*
+2. [ ] Check the tool *FileDeleter*.
+  * The class is the the _fastai.widgets_ and create a cleaned.csv file.
+4. [X] Check the *open_image* function
+  * Simple function to open an image. Its argument is a _path_.
+6. [X] Check **DataBunch.Single_from_class*.
+7. [X] Play the with *learning rate* to test
+8. [X] Check learner *recoder.plot_losses*
+9. [X] Revisit *torch.ones* with modifiers methods
+10. [X] Torch Tensor attributs
+11. [X] Revisit the *with_torch.no_grad* context
+12. [X] Revisit *matplotlib.FuncAnimation*

@@ -1,0 +1,37 @@
+= Computation Linear algebra=
+
+Add a short descritpion with the course link
+
+
+== Lesson 1 : topic Modeling==
+1. [X] Understand the *word / Document* decomposition.
+  * -WordVectorizer- Convert a collection of text documents to a matrix of token counts.
+  * -TfidfVectorizer- Convert a collection of raw documents to a matrix of TF-IDF features.
+    * *TF*: Term frequency : number of occurence/ number of words in document.
+    * *IDF*: Invere Document frequency: Frequency of the word among documents log_e(Num document with word/ num Documents) 
+3. [X] check *Text analysis with humanities* tutorial with link
+4. [X] Check **fetch news group** Function
+5. [X] Understand the nature of the loaded data
+6. [X] sklearn *CountVectorize* and *TfidVectoriser*
+7. [X] *linalg.svd* from scipy with timing
+8. [X] Understand the *show_topics* method
+9. [X] Check the tutorial on *NMF*
+10. [X] Check the sci-kit implementation of the *NMF*
+11. [X] Revisit the *TF-IDF* principle
+12. [X] *NMF* implementation with torch
+
+
+==  Lesson 2: New Perspective on NMF and Randomized PCA ==
+* [X] Check Halko paper *Finding Structure with Randomness*
+* [X] Check sklearn *Randomized SVD*
+* [X] thoroughly  read  the paper *finding randomness*
+* [X] Check the *Randomized SVD* Decomposition
+* [X] Save the excellent link on randomized algorithms https://www.cs.ubc.ca/~nickhar/W12/
+* [X] Revisit the *QR* decomposition
+
+== Lesson 3 : Backward Removal ==
+
+* [ ] Check the real video *003* dataset
+* [ ] Lead and view a video with *moviepy* and *ipythonDisplay*
+* [ ] Check and try the *helper_methods* in the notebook
+

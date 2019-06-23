@@ -1,0 +1,8 @@
+= Pattern Recognition and Machine Learning = 
+
+
+Notes on the excellent book by *C.Bishop*
+
+4. [[Linear models for classification]].
+
+

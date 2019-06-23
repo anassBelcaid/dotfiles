@@ -1,0 +1,29 @@
+=Multi Label Classification and Segmenatation= 
+
+I learnt that applications with  Sattelite data are the trends.
+
+
+== Todo s ==
+
+* [X] Install *kaggle* for the fastai virtual env
+  * Basically the main command is
+    {{{bash
+    kaggle competitions download -c competition_name -f file_name
+    !kaggle competitions files -c planet-understanding-the-amazon-from-space
+    }}}
+* [X] Revisit the *kaggle syntax* for downloading datasets
+* [X] Check the **from_csv* loader in fastai 
+* [X] Check the definition of **ImageMultiDataset*
+* [X] Check the *get_transforms* that always comes after loading a datset
+* [X] Definition of *partial* in defining the learning rate
+* [X] Check *DataLoader* with your porper class on Berkeley
+* [X] How to load the dataset *cambid*
+* [X] Add a header two images for the notebook
+* [ ] *Fine tuning* for bigger images
+* [ ] *Segmenatation* with Cam vid
+* [X] Understand the function *get_y_f*  to get the label from cam vid
+* [X] What is the *open_mask* function
+* [X] Learner *create_unet*
+* [X] check *acc_camvid* for special accuracy in the case of void labels
+* [X] Learn *show_results*
+* [ ] NLP intro with the *IMDB* notebook

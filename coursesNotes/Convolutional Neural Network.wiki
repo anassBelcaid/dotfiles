@@ -1,0 +1,27 @@
+= Convolutional Neural Network = 
+
+* [X] check the https://platform.ai/
+* [X] Check kaggle *Rossmann Store Sales* 
+* [X] Data processing is in *rossman_data_clean*
+* [X] check transform *Categorify*, *FillMissing* 
+* [X] *How does batchnorm helps Optimization*?
+* [X] *Pets* Revisited
+* [X] Check the *brigthness* transform
+* [X] Useful function *plot_multi* with a custom plot
+  > Recieve a plot function with _plot(i,j,axis)
+* [ ] Data Augmentation In other domains
+* [ ] What is a *show_heatmap*
+* [X] http://setosa.io/ev/image-kernels/
+* [ ] Check the post *CNN from different viewpoints*
+* [ ] Learner *summary*
+* [ ] Applly a personal *Kernel*
+* [ ] *expand* (virtually copied in memory efficiency)
+* [ ] What are the *fastai.callbacks.hooks*
+  * https://www.kaggle.com/sironghuang/understanding-pytorch-hooks/notebook
+  * https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c
+* [ ] torch.functional *conv2d*
+* [ ] array[*None*]  very cool
+* [ ] Check on pytorch *hook*
+* [ ] *data.one_item*
+* [ ] Check the visualisation lecture on *cs321*
+* [ ] Check *Rachel* Ted talk

@@ -107,7 +107,7 @@ export EDITOR=nvim
 export PATH=~/.gem/ruby/2.5.0/bin:$PATH
 
 #path for matlatb
-export PATH=~/matlab2017/bin:$PATH
+export PATH=~/scripts/:$PATH
 #python path
 export PYTHONPATH=~/python/
 
@@ -145,7 +145,7 @@ alias g='git'
 alias t='task'
 #}}}
 #{{{ Jupyter: Jupyter Customization
-# alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
+alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
 # alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 80% -T"
 alias jtNight="jt -t onedork -f roboto -fs 12 -cellw 90%"
 
@@ -203,6 +203,9 @@ blog-serve(){ bundle exec jekyll serve}
 #}}}
 #{{{ Custom variables
 export academicmail=a.belcaid@edu.umi.ac.ma 
+
+# variable for task d server
+export TASKDDATA=/var/taskd
 #}}}
 #{{{ Conda setup 
 # >>> conda initialize >>>
