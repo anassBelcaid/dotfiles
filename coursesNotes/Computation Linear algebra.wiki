@@ -34,4 +34,8 @@ Add a short descritpion with the course link
 * [ ] Check the real video *003* dataset
 * [ ] Lead and view a video with *moviepy* and *ipythonDisplay*
 * [ ] Check and try the *helper_methods* in the notebook
+* [ ] How to find the people from the *SVD* difference
+* [ ] Robust Tensor PCA with tensorly: http://jeankossaifi.com/blog/rpca.html
+* [ ] Revisit the explanation why the *L_1* norm induce sparsity.
+* [ ] How to obtain the weak rand and the sparse  
 
