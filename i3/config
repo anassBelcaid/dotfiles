@@ -40,13 +40,15 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show run -modi run -width 50 -font "Droid Sans Mono 36"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -185,13 +187,15 @@ i3bar_command ~/.config/polybar/launch.sh
 }
 
 #{{{ Staring applications
-
 # start nm-applet
 exec --no-startup-id nm-applet
 
+#music plaer daemon
 exec --no-startup-id mpd
-# Change the background
-exec --no-startup-id feh --bg-scale ~/Wallpapers/wall.png
+
+
+# Power manager
+exec --no-startup-id xfce4-power-manager
 #}}}
 
 #{{{ Multimedia buttons
@@ -216,8 +220,6 @@ bindsym XF86AudioPrev exec playerctl previous
 
 
 #{{{ Music player Client (mpc)
-
-#set $pause --no-startup-id mpc toggle
-#byndsym $mod+p --no-startup-id mpc pause
+bindsym $mod+p --no-startup-id mpc toggle
 #}}}
 
