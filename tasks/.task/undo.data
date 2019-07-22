@@ -1,0 +1,46 @@
+time 1563437763
+new [description:"Fetch Python documentation" entry:"1563437763" modified:"1563437763" project:"Professor" status:"pending" tags:"general" uuid:"b87c2c48-f2e4-4098-b6a2-0f8d1cf1a6ed"]
+---
+time 1563524015
+new [description:"General configuration" entry:"1563524015" modified:"1563524015" project:"General" status:"pending" tags:"general" uuid:"2717311b-7292-4235-bb07-9a6b292a37fe"]
+---
+time 1563524023
+old [description:"General configuration" entry:"1563524015" modified:"1563524015" project:"General" status:"pending" tags:"general" uuid:"2717311b-7292-4235-bb07-9a6b292a37fe"]
+new [description:"General configuration" entry:"1563524015" modified:"1563524023" project:"General" start:"1563524023" status:"pending" tags:"general" uuid:"2717311b-7292-4235-bb07-9a6b292a37fe"]
+---
+time 1563527077
+old [description:"General configuration" entry:"1563524015" modified:"1563524023" project:"General" start:"1563524023" status:"pending" tags:"general" uuid:"2717311b-7292-4235-bb07-9a6b292a37fe"]
+new [description:"General configuration" end:"1563527077" entry:"1563524015" modified:"1563527077" project:"General" status:"completed" tags:"general" uuid:"2717311b-7292-4235-bb07-9a6b292a37fe"]
+---
+time 1563527081
+old [description:"Fetch Python documentation" entry:"1563437763" modified:"1563437763" project:"Professor" status:"pending" tags:"general" uuid:"b87c2c48-f2e4-4098-b6a2-0f8d1cf1a6ed"]
+new [description:"Fetch Python documentation" entry:"1563437763" modified:"1563527081" project:"Professor" start:"1563527081" status:"pending" tags:"general" uuid:"b87c2c48-f2e4-4098-b6a2-0f8d1cf1a6ed"]
+---
+time 1563636669
+old [description:"Fetch Python documentation" entry:"1563437763" modified:"1563527081" project:"Professor" start:"1563527081" status:"pending" tags:"general" uuid:"b87c2c48-f2e4-4098-b6a2-0f8d1cf1a6ed"]
+new [description:"Fetch Python documentation" end:"1563636669" entry:"1563437763" modified:"1563636669" project:"Professor" status:"completed" tags:"general" uuid:"b87c2c48-f2e4-4098-b6a2-0f8d1cf1a6ed"]
+---
+time 1563636697
+new [description:"Write your project research" entry:"1563636697" modified:"1563636697" project:"Iprofessor" status:"pending" tags:"writing,general" uuid:"4f5c55bd-a072-4c9d-9921-c65c620a6376"]
+---
+time 1563636699
+old [description:"Write your project research" entry:"1563636697" modified:"1563636697" project:"Iprofessor" status:"pending" tags:"writing,general" uuid:"4f5c55bd-a072-4c9d-9921-c65c620a6376"]
+new [description:"Write your project research" entry:"1563636697" modified:"1563636699" project:"Iprofessor" start:"1563636699" status:"pending" tags:"writing,general" uuid:"4f5c55bd-a072-4c9d-9921-c65c620a6376"]
+---
+time 1563646015
+old [description:"Write your project research" entry:"1563636697" modified:"1563636699" project:"Iprofessor" start:"1563636699" status:"pending" tags:"writing,general" uuid:"4f5c55bd-a072-4c9d-9921-c65c620a6376"]
+new [description:"Write your project research" end:"1563646015" entry:"1563636697" modified:"1563646015" project:"Iprofessor" status:"completed" tags:"writing,general" uuid:"4f5c55bd-a072-4c9d-9921-c65c620a6376"]
+---
+time 1563784371
+new [description:"general setup for my home folder" entry:"1563784371" modified:"1563784371" project:"general" status:"pending" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
+---
+time 1563784377
+old [description:"general setup for my home folder" entry:"1563784371" modified:"1563784371" project:"general" status:"pending" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
+new [description:"general setup for my home folder" entry:"1563784371" modified:"1563784377" project:"general" start:"1563784377" status:"pending" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
+---
+time 1563784418
+new [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563784418" project:"Professor" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+---
+time 1563784438
+new [description:"Synchronize your habit and task data" entry:"1563784438" modified:"1563784438" project:"genral" status:"pending" tags:"general" uuid:"5f8cc6ab-3926-48ce-bdd5-6d1c74a66a34"]
+---
