@@ -196,6 +196,9 @@ exec --no-startup-id mpd
 
 # Power manager
 exec --no-startup-id xfce4-power-manager
+
+# variety
+exec --no-startup-id variety
 #}}}
 
 #{{{ Multimedia buttons
@@ -220,6 +223,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 
 #{{{ Music player Client (mpc)
-bindsym $mod+p --no-startup-id mpc toggle
+bindsym $mod+p exec --no-startup-id mpc toggle
+
 #}}}
 
