@@ -143,6 +143,12 @@ alias g='git'
 #}}}
 #{{{ Tasks
 alias t='task'
+
+#list a project
+tproject()
+{
+  t project:$1 next
+}
 #}}}
 #{{{ Jupyter: Jupyter Customization
 alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"

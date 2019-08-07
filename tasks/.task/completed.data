@@ -1,3 +1,5 @@
+[depends:"0b41dd85-366c-459b-b432-93aa8a303240" description:"notebook for finding best match transformation for images" end:"1565181679" entry:"1564216297" modified:"1565181679" project:"Iprofessor" status:"completed" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+[description:"daily training for chess" due:"1565046000" end:"1565176758" entry:"1565083599" modified:"1565176758" project:"GM" status:"completed" tags:"chess learning" uuid:"ca3c2204-49ff-4107-a304-409755b040d9"]
 [description:"daily chess training" end:"1565017463" entry:"1564909999" modified:"1565017463" project:"GM" status:"completed" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
 [description:"Finish your tactics" due:"1564959600" end:"1565017456" entry:"1565000513" modified:"1565017456" project:"GM" status:"completed" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
 [description:"Fix my dps article bibliography" end:"1564857385" entry:"1564565336" modified:"1564857385" status:"completed" uuid:"d41f1dc2-0e08-4535-87c6-7c906d1bfb12"]
