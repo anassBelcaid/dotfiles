@@ -1,11 +1,11 @@
 1. [ ] Monster trucks
-2. [ ] First fight
+2. [X] First fight
 3. [ ] The berlin syndrome
 4. [X] Hacksaw ridge
 5. [ ] 21 jump street
 7. [ ] Skyscrapter
 8. [X] Breaking in
-9. [ ] An ordinary man
+9. [X] An ordinary man (terrible)
 10. [X] Always be my maybe
 
 

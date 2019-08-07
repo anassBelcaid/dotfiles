@@ -44,3 +44,178 @@ new [description:"Finish the histogram codes for the sift method" entry:"1563784
 time 1563784438
 new [description:"Synchronize your habit and task data" entry:"1563784438" modified:"1563784438" project:"genral" status:"pending" tags:"general" uuid:"5f8cc6ab-3926-48ce-bdd5-6d1c74a66a34"]
 ---
+time 1563791148
+old [description:"general setup for my home folder" entry:"1563784371" modified:"1563784377" project:"general" start:"1563784377" status:"pending" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
+new [description:"general setup for my home folder" end:"1563791148" entry:"1563784371" modified:"1563791148" project:"general" status:"completed" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
+---
+time 1563806107
+old [description:"Synchronize your habit and task data" entry:"1563784438" modified:"1563784438" project:"genral" status:"pending" tags:"general" uuid:"5f8cc6ab-3926-48ce-bdd5-6d1c74a66a34"]
+new [description:"Synchronize your habit and task data" end:"1563806107" entry:"1563784438" modified:"1563806107" project:"genral" status:"completed" tags:"general" uuid:"5f8cc6ab-3926-48ce-bdd5-6d1c74a66a34"]
+---
+time 1563806112
+old [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563784418" project:"Professor" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+new [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563806112" project:"Professor" start:"1563806112" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+---
+time 1563814173
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563814173" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1563814176
+old [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563806112" project:"Professor" start:"1563806112" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+new [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563814176" project:"Professor" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+---
+time 1563814177
+old [description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563814176" project:"Professor" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+new [description:"Finish the histogram codes for the sift method" end:"1563814177" entry:"1563784418" modified:"1563814177" project:"Professor" status:"completed" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
+---
+time 1563831926
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563814173" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831926" project:"Iprofessor" start:"1563831926" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1563831932
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831926" project:"Iprofessor" start:"1563831926" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831932" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1563831933
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831932" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831933" project:"Iprofessor" start:"1563831933" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1563831934
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831933" project:"Iprofessor" start:"1563831933" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831934" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1563872347
+new [description:"Possible way to add the notebook on your blog" entry:"1563872347" modified:"1563872347" status:"pending" uuid:"0b4a484d-1bd7-4e51-8d13-79cde37b1f2d"]
+---
+time 1563872358
+old [description:"Possible way to add the notebook on your blog" entry:"1563872347" modified:"1563872347" status:"pending" uuid:"0b4a484d-1bd7-4e51-8d13-79cde37b1f2d"]
+new [description:"Possible way to add the notebook on your blog" entry:"1563872347" modified:"1563872358" project:"Iprofessor" status:"pending" tags:"writing" uuid:"0b4a484d-1bd7-4e51-8d13-79cde37b1f2d"]
+---
+time 1563957512
+new [description:"daily chess training" entry:"1563957512" modified:"1563957512" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+---
+time 1563957514
+old [description:"daily chess training" entry:"1563957512" modified:"1563957512" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+new [description:"daily chess training" entry:"1563957512" modified:"1563957514" start:"1563957514" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+---
+time 1563977077
+old [description:"daily chess training" entry:"1563957512" modified:"1563957514" start:"1563957514" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+new [description:"daily chess training" entry:"1563957512" modified:"1563977077" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+---
+time 1563977084
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563831934" project:"Iprofessor" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563977084" project:"Iprofessor" start:"1563977084" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1564048120
+old [description:"daily chess training" entry:"1563957512" modified:"1563977077" status:"pending" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+new [description:"daily chess training" end:"1564048120" entry:"1563957512" modified:"1564048120" status:"completed" uuid:"83567dbf-93cb-44a9-91a7-4c9b88c6d0bc"]
+---
+time 1564132113
+old [description:"Dive in the theory of sift descriptor" entry:"1563814173" modified:"1563977084" project:"Iprofessor" start:"1563977084" status:"pending" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+new [description:"Dive in the theory of sift descriptor" end:"1564132113" entry:"1563814173" modified:"1564132113" project:"Iprofessor" status:"completed" tags:"reading,theory" uuid:"9d1879ba-1c74-4d83-b60d-61cdbeb27fbd"]
+---
+time 1564132138
+new [description:"Install opencv in conda with contrib support" entry:"1564132138" modified:"1564132138" project:"Research" status:"pending" tags:"general" uuid:"64952461-3aed-4416-aad6-7868d198c3fe"]
+---
+time 1564140875
+old [description:"Install opencv in conda with contrib support" entry:"1564132138" modified:"1564132138" project:"Research" status:"pending" tags:"general" uuid:"64952461-3aed-4416-aad6-7868d198c3fe"]
+new [description:"Install opencv in conda with contrib support" end:"1564140875" entry:"1564132138" modified:"1564140875" project:"Research" status:"completed" tags:"general" uuid:"64952461-3aed-4416-aad6-7868d198c3fe"]
+---
+time 1564216263
+new [description:"daily chess training" entry:"1564216263" modified:"1564216263" project:"GM" status:"pending" tags:"general,training" uuid:"6d30ece3-2501-4c4b-a785-8fdb873071be"]
+---
+time 1564216297
+new [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564216297" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---
+time 1564216303
+old [description:"daily chess training" entry:"1564216263" modified:"1564216263" project:"GM" status:"pending" tags:"general,training" uuid:"6d30ece3-2501-4c4b-a785-8fdb873071be"]
+new [description:"daily chess training" entry:"1564216263" modified:"1564216303" project:"GM" start:"1564216303" status:"pending" tags:"general,training" uuid:"6d30ece3-2501-4c4b-a785-8fdb873071be"]
+---
+time 1564220709
+old [description:"daily chess training" entry:"1564216263" modified:"1564216303" project:"GM" start:"1564216303" status:"pending" tags:"general,training" uuid:"6d30ece3-2501-4c4b-a785-8fdb873071be"]
+new [description:"daily chess training" end:"1564220709" entry:"1564216263" modified:"1564220709" project:"GM" status:"completed" tags:"general,training" uuid:"6d30ece3-2501-4c4b-a785-8fdb873071be"]
+---
+time 1564220714
+old [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564216297" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+new [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564220714" project:"Iprofessor" start:"1564220714" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---
+time 1564301178
+new [description:"daily chess training" entry:"1564301178" modified:"1564301178" status:"pending" uuid:"ad9d5e82-adad-4186-b4cb-277aeb4a8039"]
+---
+time 1564301180
+old [description:"daily chess training" entry:"1564301178" modified:"1564301178" status:"pending" uuid:"ad9d5e82-adad-4186-b4cb-277aeb4a8039"]
+new [description:"daily chess training" entry:"1564301178" modified:"1564301180" start:"1564301180" status:"pending" uuid:"ad9d5e82-adad-4186-b4cb-277aeb4a8039"]
+---
+time 1564301185
+old [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564220714" project:"Iprofessor" start:"1564220714" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+new [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564301185" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---
+time 1564565327
+old [description:"daily chess training" entry:"1564301178" modified:"1564301180" start:"1564301180" status:"pending" uuid:"ad9d5e82-adad-4186-b4cb-277aeb4a8039"]
+new [description:"daily chess training" end:"1564565327" entry:"1564301178" modified:"1564565327" status:"completed" uuid:"ad9d5e82-adad-4186-b4cb-277aeb4a8039"]
+---
+time 1564565336
+new [description:"Fix my dps article bibliography" entry:"1564565336" modified:"1564565336" status:"pending" uuid:"d41f1dc2-0e08-4535-87c6-7c906d1bfb12"]
+---
+time 1564857385
+old [description:"Fix my dps article bibliography" entry:"1564565336" modified:"1564565336" status:"pending" uuid:"d41f1dc2-0e08-4535-87c6-7c906d1bfb12"]
+new [description:"Fix my dps article bibliography" end:"1564857385" entry:"1564565336" modified:"1564857385" status:"completed" uuid:"d41f1dc2-0e08-4535-87c6-7c906d1bfb12"]
+---
+time 1564857442
+new [description:"Paragraph on online method" entry:"1564857442" modified:"1564857442" project:"dpsfilter" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1564857448
+old [description:"Paragraph on online method" entry:"1564857442" modified:"1564857442" project:"dpsfilter" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+new [description:"Paragraph on online method" entry:"1564857442" modified:"1564857448" project:"dpsfilter" start:"1564857448" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1564875036
+old [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564301185" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+new [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564875036" project:"Iprofessor" start:"1564875036" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---
+time 1564875038
+old [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564875036" project:"Iprofessor" start:"1564875036" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+new [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564875038" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---
+time 1564875040
+old [description:"Paragraph on online method" entry:"1564857442" modified:"1564857448" project:"dpsfilter" start:"1564857448" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+new [description:"Paragraph on online method" entry:"1564857442" modified:"1564875040" project:"dpsfilter" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1564909999
+new [description:"daily chess training" entry:"1564909999" modified:"1564909999" project:"GM" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+---
+time 1564910001
+old [description:"daily chess training" entry:"1564909999" modified:"1564909999" project:"GM" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+new [description:"daily chess training" entry:"1564909999" modified:"1564910001" project:"GM" start:"1564910001" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+---
+time 1565000513
+new [description:"Finish your tactics" due:"1564959600" entry:"1565000513" modified:"1565000513" project:"GM" status:"pending" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
+---
+time 1565003649
+old [description:"daily chess training" entry:"1564909999" modified:"1564910001" project:"GM" start:"1564910001" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+new [description:"daily chess training" entry:"1564909999" modified:"1565003649" project:"GM" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+---
+time 1565003650
+old [description:"Finish your tactics" due:"1564959600" entry:"1565000513" modified:"1565000513" project:"GM" status:"pending" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
+new [description:"Finish your tactics" due:"1564959600" entry:"1565000513" modified:"1565003650" project:"GM" start:"1565003650" status:"pending" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
+---
+time 1565017456
+old [description:"Finish your tactics" due:"1564959600" entry:"1565000513" modified:"1565003650" project:"GM" start:"1565003650" status:"pending" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
+new [description:"Finish your tactics" due:"1564959600" end:"1565017456" entry:"1565000513" modified:"1565017456" project:"GM" status:"completed" tags:"+traning" uuid:"19806327-48bd-4bf3-ae98-90169ede8358"]
+---
+time 1565017463
+old [description:"daily chess training" entry:"1564909999" modified:"1565003649" project:"GM" status:"pending" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+new [description:"daily chess training" end:"1565017463" entry:"1564909999" modified:"1565017463" project:"GM" status:"completed" tags:"learning" uuid:"544b37af-b6eb-449c-b724-56fe88b270e9"]
+---
+time 1565017543
+old [description:"Paragraph on online method" entry:"1564857442" modified:"1564875040" project:"dpsfilter" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+new [description:"Paragraph on online method" entry:"1564857442" modified:"1565017543" project:"dpsfilter" start:"1565017543" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1565083599
+new [description:"daily training for chess" due:"1565046000" entry:"1565083599" modified:"1565083599" project:"GM" status:"pending" tags:"chess learning" uuid:"ca3c2204-49ff-4107-a304-409755b040d9"]
+---
+time 1565166161
+new [description:"Ransac method for matching theory" due:"1565132400" entry:"1565166161" modified:"1565166161" priority:"H" project:"Research" status:"pending" tags:"+learning +programming" uuid:"0b41dd85-366c-459b-b432-93aa8a303240"]
+---
+time 1565166202
+old [description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1564875038" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+new [depends:"0b41dd85-366c-459b-b432-93aa8a303240" description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1565166202" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+---

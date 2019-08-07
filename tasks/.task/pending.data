@@ -1,3 +1,5 @@
-[description:"general setup for my home folder" entry:"1563784371" modified:"1563784377" project:"general" start:"1563784377" status:"pending" tags:"general" uuid:"24c09e9d-2b4c-4fd6-bb5a-f5525035d879"]
-[description:"Finish the histogram codes for the sift method" entry:"1563784418" modified:"1563784418" project:"Professor" status:"pending" tags:"coding,learning" uuid:"fe6f0f0b-fe7b-4be1-b017-dfcb58424f8c"]
-[description:"Synchronize your habit and task data" entry:"1563784438" modified:"1563784438" project:"genral" status:"pending" tags:"general" uuid:"5f8cc6ab-3926-48ce-bdd5-6d1c74a66a34"]
+[description:"Possible way to add the notebook on your blog" entry:"1563872347" modified:"1563872358" project:"Iprofessor" status:"pending" tags:"writing" uuid:"0b4a484d-1bd7-4e51-8d13-79cde37b1f2d"]
+[depends:"0b41dd85-366c-459b-b432-93aa8a303240" description:"notebook for finding best match transformation for images" entry:"1564216297" modified:"1565166202" project:"Iprofessor" status:"pending" tags:"learning" uuid:"b7ed3f14-80bf-4171-af8f-b6e629a7a50f"]
+[description:"Paragraph on online method" entry:"1564857442" modified:"1565017543" project:"dpsfilter" start:"1565017543" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+[description:"daily training for chess" due:"1565046000" entry:"1565083599" modified:"1565083599" project:"GM" status:"pending" tags:"chess learning" uuid:"ca3c2204-49ff-4107-a304-409755b040d9"]
+[description:"Ransac method for matching theory" due:"1565132400" entry:"1565166161" modified:"1565166161" priority:"H" project:"Research" status:"pending" tags:"+learning +programming" uuid:"0b41dd85-366c-459b-b432-93aa8a303240"]

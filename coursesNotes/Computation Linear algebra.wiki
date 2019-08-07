@@ -31,9 +31,9 @@ Add a short descritpion with the course link
 
 == Lesson 3 : Backward Removal ==
 
-* [ ] Check the real video *003* dataset
-* [ ] Lead and view a video with *moviepy* and *ipythonDisplay*
-* [ ] Check and try the *helper_methods* in the notebook
+* [X] Check the real video *003* dataset
+* [X] Lead and view a video with *moviepy* and *ipythonDisplay*
+* [X] Check and try the *helper_methods* in the notebook
 * [ ] How to find the people from the *SVD* difference
 * [ ] Robust Tensor PCA with tensorly: http://jeankossaifi.com/blog/rpca.html
 * [ ] Revisit the explanation why the *L_1* norm induce sparsity.
