@@ -324,3 +324,34 @@ new [description:"check the second part and write tasks" entry:"1565183229" modi
 time 1565183319
 new [description:"search adversarial method for segmentation" entry:"1565183319" modified:"1565183319" priority:"L" project:"ResearchAdversarial" status:"pending" tags:"reading,general" uuid:"c6bc00b4-e7ab-4583-a4c5-e8ae93c7e246"]
 ---
+time 1565346658
+old [description:"fix the opencv problem" entry:"1565180524" modified:"1565180524" project:"SIFT" status:"pending" tags:"general,python" uuid:"999b7f63-9e8d-420e-a43c-f87e3d32bdca"]
+new [description:"fix the opencv problem" end:"1565346658" entry:"1565180524" modified:"1565346658" project:"SIFT" status:"completed" tags:"general,python" uuid:"999b7f63-9e8d-420e-a43c-f87e3d32bdca"]
+---
+time 1565514150
+old [description:"Gather all the annnces forjobs" entry:"1565181887" modified:"1565181962" project:"Professor" status:"pending" tags:"general" uuid:"fc764bc3-f294-4473-83d3-315288dfaa09"]
+new [description:"Gather all the annnces forjobs" entry:"1565181887" modified:"1565514150" project:"Professor" start:"1565514150" status:"pending" tags:"general" uuid:"fc764bc3-f294-4473-83d3-315288dfaa09"]
+---
+time 1565517311
+old [description:"Gather all the annnces forjobs" entry:"1565181887" modified:"1565514150" project:"Professor" start:"1565514150" status:"pending" tags:"general" uuid:"fc764bc3-f294-4473-83d3-315288dfaa09"]
+new [description:"Gather all the annnces forjobs" end:"1565517311" entry:"1565181887" modified:"1565517311" project:"Professor" status:"completed" tags:"general" uuid:"fc764bc3-f294-4473-83d3-315288dfaa09"]
+---
+time 1565517380
+new [description:"Planificiation des depos de dossiers par priority" due:"1565478000" entry:"1565517380" modified:"1565517380" project:"Professor" status:"pending" tags:"general" uuid:"b9ff5caf-f0a3-4486-9d35-dad6ae2c7bee"]
+---
+time 1565518188
+old [description:"Planificiation des depos de dossiers par priority" due:"1565478000" entry:"1565517380" modified:"1565517380" project:"Professor" status:"pending" tags:"general" uuid:"b9ff5caf-f0a3-4486-9d35-dad6ae2c7bee"]
+new [description:"Planificiation des depos de dossiers par priority" due:"1565478000" entry:"1565517380" modified:"1565518188" project:"Professor" start:"1565518188" status:"pending" tags:"general" uuid:"b9ff5caf-f0a3-4486-9d35-dad6ae2c7bee"]
+---
+time 1565521706
+old [description:"Planificiation des depos de dossiers par priority" due:"1565478000" entry:"1565517380" modified:"1565518188" project:"Professor" start:"1565518188" status:"pending" tags:"general" uuid:"b9ff5caf-f0a3-4486-9d35-dad6ae2c7bee"]
+new [description:"Planificiation des depos de dossiers par priority" due:"1565478000" end:"1565521706" entry:"1565517380" modified:"1565521706" project:"Professor" status:"completed" tags:"general" uuid:"b9ff5caf-f0a3-4486-9d35-dad6ae2c7bee"]
+---
+time 1565534990
+old [depends:"999b7f63-9e8d-420e-a43c-f87e3d32bdca" description:"matching using all features" due:"1565218800" entry:"1565180803" modified:"1565180817" project:"SIFT" status:"pending" tags:"coding,python" uuid:"f8e29de3-fef1-471b-aaf4-3e43fffe3e24"]
+new [depends:"999b7f63-9e8d-420e-a43c-f87e3d32bdca" description:"matching using all features" due:"1565218800" end:"1565534990" entry:"1565180803" modified:"1565534990" project:"SIFT" status:"completed" tags:"coding,python" uuid:"f8e29de3-fef1-471b-aaf4-3e43fffe3e24"]
+---
+time 1565535472
+old [depends:"999b7f63-9e8d-420e-a43c-f87e3d32bdca" description:"Ransac method for matching theory" due:"1565132400" entry:"1565166161" modified:"1565180589" priority:"H" project:"SIFT" status:"pending" tags:"+learning +programming" uuid:"0b41dd85-366c-459b-b432-93aa8a303240"]
+new [depends:"999b7f63-9e8d-420e-a43c-f87e3d32bdca" description:"Ransac method for matching theory" due:"1565132400" entry:"1565166161" modified:"1565535472" priority:"H" project:"SIFT" start:"1565535472" status:"pending" tags:"+learning +programming" uuid:"0b41dd85-366c-459b-b432-93aa8a303240"]
+---

@@ -1,0 +1,6 @@
+= Learn Open CV =
+
+== Ressources ==
+
+* [install opencv 4 in rasberry](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
+* [intall opencv with contrib ](https://techesoterica.com/?p=1139)

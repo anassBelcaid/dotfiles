@@ -1,6 +1,6 @@
 1. [ ] Monster trucks
 2. [X] First fight
-3. [ ] The berlin syndrome
+3. [X] The berlin syndrome (Terrible)
 4. [X] Hacksaw ridge
 5. [ ] 21 jump street
 7. [ ] Skyscrapter

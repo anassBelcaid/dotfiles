@@ -2,6 +2,7 @@
 = Research Ideas =
 1. [[Machine Learning]]
 2. [[SIFT]]
+3. [[openCV]]
 
 = Learning notes=
 * [[Python]]

@@ -214,9 +214,9 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme base16-gruvbox-dark-pale
-colorscheme badwolf
+" colorscheme badwolf
 " colorscheme candid
 " Switch color background depending on time
 " if strftime('%H') >= 10 && strftime('%H') < 14
