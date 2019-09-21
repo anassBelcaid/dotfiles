@@ -13,6 +13,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
 Plug 'sjl/badwolf'
 Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
 Plug 'chriskempson/base16-vim'
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'zacanger/angr.vim'
@@ -56,8 +57,8 @@ endif
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " Python provider is system not condas
-let g:python_host_prog = '/usr/bin/python2'
-let g:python3_host_prog = '/usr/bin/python'
+" let g:python_host_prog = '/usr/bin/python2'
+" let g:python3_host_prog = '/usr/bin/python'
 "}}}
 
 "}}}
@@ -262,6 +263,18 @@ map <SPACE> <leader>
 
 highlight ColorColumn ctermbg=233
 let &colorcolumn="80"
+
+
+"{{{ Jellybeans customization
+let g:jellybeans_overrides = {
+\    'Todo': { 'guifg': '303030', 'guibg': 'f0f000',
+\              'ctermfg': 'Black', 'ctermbg': 'Yellow',
+\              'attr': 'bold' },
+\    'Comment': { 'guifg': 'cccccc' },
+\}
+"force jelly beans to use italics
+let g:jellybeans_use_term_italics = 1
+"}}}
 "}}}
 "{{{ Easy Motion
 " ==== Easymotion

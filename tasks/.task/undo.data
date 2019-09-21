@@ -402,3 +402,285 @@ time 1566050307
 old [description:"finish the last lesson on the first part" entry:"1565183100" modified:"1565183100" priority:"L" project:"dpCoders" status:"pending" tags:"reading,coding" uuid:"784e32cf-d3b1-4704-86b7-68c38886ce5e"]
 new [description:"finish the last lesson on the first part" entry:"1565183100" modified:"1566050307" priority:"L" project:"dpCoders" start:"1566050307" status:"pending" tags:"reading,coding" uuid:"784e32cf-d3b1-4704-86b7-68c38886ce5e"]
 ---
+time 1566314087
+new [description:"install jekyll with dependencies for blogging" entry:"1566314087" modified:"1566314087" project:"githubCV" status:"pending" tags:"linux,coding" uuid:"e3e3c45a-e0fa-4343-9a52-6c7519f215da"]
+---
+time 1566380530
+new [description:"check the executable for ebs" due:"1566342000" entry:"1566380530" modified:"1566380530" project:"lpArticle" status:"pending" tags:"coding" uuid:"4696052d-aab6-4ee4-84e0-1845b989214e"]
+---
+time 1566380605
+new [depends:"4696052d-aab6-4ee4-84e0-1845b989214e" description:"possibility to apply ruptures metrics to ebs" due:"1566342000" entry:"1566380605" modified:"1566380605" status:"pending" tags:"coding" uuid:"3a12f0d8-7c51-49f8-baad-728171096148"]
+---
+time 1566380629
+old [depends:"4696052d-aab6-4ee4-84e0-1845b989214e" description:"possibility to apply ruptures metrics to ebs" due:"1566342000" entry:"1566380605" modified:"1566380605" status:"pending" tags:"coding" uuid:"3a12f0d8-7c51-49f8-baad-728171096148"]
+new [depends:"4696052d-aab6-4ee4-84e0-1845b989214e" description:"possibility to apply ruptures metrics to ebs" due:"1566342000" entry:"1566380605" modified:"1566380629" project:"lpArticle" status:"pending" tags:"coding" uuid:"3a12f0d8-7c51-49f8-baad-728171096148"]
+---
+time 1566381506
+new [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1566381506" project:"lpArticle" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+---
+time 1566381566
+new [description:"Write the results of the comparaison to enhance the results section" entry:"1566381566" modified:"1566381566" project:"lpArticle" status:"pending" tags:"writing" uuid:"1a8a9883-29c4-4030-bb39-2b45a3d3987d"]
+---
+time 1566484474
+old [description:"check the executable for ebs" due:"1566342000" entry:"1566380530" modified:"1566380530" project:"lpArticle" status:"pending" tags:"coding" uuid:"4696052d-aab6-4ee4-84e0-1845b989214e"]
+new [description:"check the executable for ebs" due:"1566342000" end:"1566484474" entry:"1566380530" modified:"1566484474" project:"lpArticle" status:"completed" tags:"coding" uuid:"4696052d-aab6-4ee4-84e0-1845b989214e"]
+---
+time 1566489157
+old [depends:"4696052d-aab6-4ee4-84e0-1845b989214e" description:"possibility to apply ruptures metrics to ebs" due:"1566342000" entry:"1566380605" modified:"1566380629" project:"lpArticle" status:"pending" tags:"coding" uuid:"3a12f0d8-7c51-49f8-baad-728171096148"]
+new [depends:"4696052d-aab6-4ee4-84e0-1845b989214e" description:"possibility to apply ruptures metrics to ebs" due:"1566342000" end:"1566489157" entry:"1566380605" modified:"1566489157" project:"lpArticle" status:"completed" tags:"coding" uuid:"3a12f0d8-7c51-49f8-baad-728171096148"]
+---
+time 1566981817
+old [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1566381506" project:"lpArticle" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+new [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1566981817" project:"lpArticle" start:"1566981817" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+---
+time 1567003624
+new [description:"Careful choice for a journal" due:"1566946800" entry:"1567003624" modified:"1567003624" priority:"H" project:"lpArticle" status:"pending" uuid:"d9cc3a4e-cf40-4281-a9b6-1dde69422398"]
+---
+time 1567003632
+old [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1566981817" project:"lpArticle" start:"1566981817" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+new [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1567003632" project:"lpArticle" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+---
+time 1567003635
+old [description:"Careful choice for a journal" due:"1566946800" entry:"1567003624" modified:"1567003624" priority:"H" project:"lpArticle" status:"pending" uuid:"d9cc3a4e-cf40-4281-a9b6-1dde69422398"]
+new [description:"Careful choice for a journal" due:"1566946800" entry:"1567003624" modified:"1567003635" priority:"H" project:"lpArticle" start:"1567003635" status:"pending" uuid:"d9cc3a4e-cf40-4281-a9b6-1dde69422398"]
+---
+time 1567005333
+old [description:"Careful choice for a journal" due:"1566946800" entry:"1567003624" modified:"1567003635" priority:"H" project:"lpArticle" start:"1567003635" status:"pending" uuid:"d9cc3a4e-cf40-4281-a9b6-1dde69422398"]
+new [description:"Careful choice for a journal" due:"1566946800" end:"1567005333" entry:"1567003624" modified:"1567005333" priority:"H" project:"lpArticle" status:"completed" uuid:"d9cc3a4e-cf40-4281-a9b6-1dde69422398"]
+---
+time 1567005380
+new [description:"check the metrics on the package pydps for more accuracy" due:"1566946800" entry:"1567005380" modified:"1567005380" project:"lpArticle" status:"pending" tags:"coding" uuid:"8f20233d-ea15-4c4a-9100-bfeacc3dd5c6"]
+---
+time 1567005400
+old [description:"check the metrics on the package pydps for more accuracy" due:"1566946800" entry:"1567005380" modified:"1567005380" project:"lpArticle" status:"pending" tags:"coding" uuid:"8f20233d-ea15-4c4a-9100-bfeacc3dd5c6"]
+new [description:"check the metrics on the package pydps for more accuracy" due:"1566946800" entry:"1567005380" modified:"1567005400" project:"lpArticle" start:"1567005400" status:"pending" tags:"coding" uuid:"8f20233d-ea15-4c4a-9100-bfeacc3dd5c6"]
+---
+time 1567175850
+old [description:"finish the last lesson on the first part" entry:"1565183100" modified:"1566050307" priority:"L" project:"dpCoders" start:"1566050307" status:"pending" tags:"reading,coding" uuid:"784e32cf-d3b1-4704-86b7-68c38886ce5e"]
+new [description:"finish the last lesson on the first part" entry:"1565183100" modified:"1567175850" priority:"L" project:"dpCoders" status:"pending" tags:"reading,coding" uuid:"784e32cf-d3b1-4704-86b7-68c38886ce5e"]
+---
+time 1567176242
+new [description:"Finish the introductory part on goodfelow book" entry:"1567176242" modified:"1567176242" project:"goodFellowBook" status:"pending" tags:"reading" uuid:"5ea38957-cffb-4920-beaa-7dd12cafbe4c"]
+---
+time 1567187596
+old [description:"check the metrics on the package pydps for more accuracy" due:"1566946800" entry:"1567005380" modified:"1567005400" project:"lpArticle" start:"1567005400" status:"pending" tags:"coding" uuid:"8f20233d-ea15-4c4a-9100-bfeacc3dd5c6"]
+new [description:"check the metrics on the package pydps for more accuracy" due:"1566946800" end:"1567187596" entry:"1567005380" modified:"1567187596" project:"lpArticle" status:"completed" tags:"coding" uuid:"8f20233d-ea15-4c4a-9100-bfeacc3dd5c6"]
+---
+time 1567187603
+old [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1567003632" project:"lpArticle" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+new [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1567187603" project:"lpArticle" start:"1567187603" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+---
+time 1567187724
+new [depends:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57" description:"change the size of the molecular motors for more convincing results" due:"1567206000" entry:"1567187724" modified:"1567187724" project:"lpArticle" status:"pending" tags:"coding,writing" uuid:"5a715d87-4ee7-4c2a-a8ea-6e89881b1aa9"]
+---
+time 1567187747
+old [description:"Compare the fscore by sigma evolution" entry:"1566381506" modified:"1567187603" project:"lpArticle" start:"1567187603" status:"pending" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+new [description:"Compare the fscore by sigma evolution" end:"1567187747" entry:"1566381506" modified:"1567187747" project:"lpArticle" status:"completed" tags:"coding" uuid:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57"]
+---
+time 1567187817
+new [description:"paragraph explaining the used metrics as ball metrics" due:"1567206000" entry:"1567187817" modified:"1567187817" project:"lpArticle" status:"pending" tags:"coding,writing" uuid:"96638e0d-b610-4293-99d2-ab10602a060a"]
+---
+time 1567187869
+new [description:"comparaison in sigma with ebs and other algorithms" entry:"1567187869" modified:"1567187869" project:"lpArticle" status:"pending" uuid:"4e12f4ba-1d4a-4b24-b115-f3471eff55fd"]
+---
+time 1567346501
+new [description:"Find the source of the error from the ruptures algorithms" due:"1567292400" entry:"1567346501" modified:"1567346501" project:"lpArticle" status:"pending" tags:"coding" uuid:"d7fdf2fc-eda2-478e-abc4-bec99540eec7"]
+---
+time 1567346517
+old [description:"Find the source of the error from the ruptures algorithms" due:"1567292400" entry:"1567346501" modified:"1567346501" project:"lpArticle" status:"pending" tags:"coding" uuid:"d7fdf2fc-eda2-478e-abc4-bec99540eec7"]
+new [description:"Find the source of the error from the ruptures algorithms" due:"1567292400" entry:"1567346501" modified:"1567346517" project:"lpArticle" start:"1567346517" status:"pending" tags:"coding" uuid:"d7fdf2fc-eda2-478e-abc4-bec99540eec7"]
+---
+time 1567348556
+old [description:"Find the source of the error from the ruptures algorithms" due:"1567292400" entry:"1567346501" modified:"1567346517" project:"lpArticle" start:"1567346517" status:"pending" tags:"coding" uuid:"d7fdf2fc-eda2-478e-abc4-bec99540eec7"]
+new [description:"Find the source of the error from the ruptures algorithms" due:"1567292400" end:"1567348556" entry:"1567346501" modified:"1567348556" project:"lpArticle" status:"completed" tags:"coding" uuid:"d7fdf2fc-eda2-478e-abc4-bec99540eec7"]
+---
+time 1567352166
+old [description:"paragraph explaining the used metrics as ball metrics" due:"1567206000" entry:"1567187817" modified:"1567187817" project:"lpArticle" status:"pending" tags:"coding,writing" uuid:"96638e0d-b610-4293-99d2-ab10602a060a"]
+new [description:"paragraph explaining the used metrics as ball metrics" due:"1567206000" end:"1567352166" entry:"1567187817" modified:"1567352166" project:"lpArticle" status:"completed" tags:"coding,writing" uuid:"96638e0d-b610-4293-99d2-ab10602a060a"]
+---
+time 1567352181
+old [depends:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57" description:"change the size of the molecular motors for more convincing results" due:"1567206000" entry:"1567187724" modified:"1567187724" project:"lpArticle" status:"pending" tags:"coding,writing" uuid:"5a715d87-4ee7-4c2a-a8ea-6e89881b1aa9"]
+new [depends:"20b1ff50-469c-4aaf-aaeb-f5f9868c2f57" description:"change the size of the molecular motors for more convincing results" due:"1567206000" end:"1567352181" entry:"1567187724" modified:"1567352181" project:"lpArticle" status:"completed" tags:"coding,writing" uuid:"5a715d87-4ee7-4c2a-a8ea-6e89881b1aa9"]
+---
+time 1567586804
+old [description:"Write the results of the comparaison to enhance the results section" entry:"1566381566" modified:"1566381566" project:"lpArticle" status:"pending" tags:"writing" uuid:"1a8a9883-29c4-4030-bb39-2b45a3d3987d"]
+new [description:"Write the results of the comparaison to enhance the results section" entry:"1566381566" modified:"1567586804" project:"lpArticle" start:"1567586804" status:"pending" tags:"writing" uuid:"1a8a9883-29c4-4030-bb39-2b45a3d3987d"]
+---
+time 1567595339
+old [description:"Write the results of the comparaison to enhance the results section" entry:"1566381566" modified:"1567586804" project:"lpArticle" start:"1567586804" status:"pending" tags:"writing" uuid:"1a8a9883-29c4-4030-bb39-2b45a3d3987d"]
+new [description:"Write the results of the comparaison to enhance the results section" end:"1567595339" entry:"1566381566" modified:"1567595339" project:"lpArticle" status:"completed" tags:"writing" uuid:"1a8a9883-29c4-4030-bb39-2b45a3d3987d"]
+---
+time 1567595343
+old [description:"comparaison in sigma with ebs and other algorithms" entry:"1567187869" modified:"1567187869" project:"lpArticle" status:"pending" uuid:"4e12f4ba-1d4a-4b24-b115-f3471eff55fd"]
+new [description:"comparaison in sigma with ebs and other algorithms" end:"1567595343" entry:"1567187869" modified:"1567595343" project:"lpArticle" status:"completed" uuid:"4e12f4ba-1d4a-4b24-b115-f3471eff55fd"]
+---
+time 1567605991
+new [description:"visual search idea with sift" due:"1567551600" entry:"1567605991" modified:"1567605991" project:"SIFT" status:"pending" uuid:"88351bb8-677c-4c17-9885-ac2b52246faa"]
+---
+time 1567606003
+old [description:"visual search idea with sift" due:"1567551600" entry:"1567605991" modified:"1567605991" project:"SIFT" status:"pending" uuid:"88351bb8-677c-4c17-9885-ac2b52246faa"]
+new [description:"visual search idea with sift" due:"1567551600" entry:"1567605991" modified:"1567606003" project:"SIFT" start:"1567606003" status:"pending" uuid:"88351bb8-677c-4c17-9885-ac2b52246faa"]
+---
+time 1567673725
+old [description:"visual search idea with sift" due:"1567551600" entry:"1567605991" modified:"1567606003" project:"SIFT" start:"1567606003" status:"pending" uuid:"88351bb8-677c-4c17-9885-ac2b52246faa"]
+new [description:"visual search idea with sift" due:"1567551600" end:"1567673725" entry:"1567605991" modified:"1567673725" project:"SIFT" status:"completed" uuid:"88351bb8-677c-4c17-9885-ac2b52246faa"]
+---
+time 1567673749
+new [description:"create a simple SUN database for visual search" due:"1567638000" entry:"1567673749" modified:"1567673749" project:"SIFT" status:"pending" uuid:"c6f97b76-4f56-4bb6-809d-b559bc055d51"]
+---
+time 1567673756
+old [description:"create a simple SUN database for visual search" due:"1567638000" entry:"1567673749" modified:"1567673749" project:"SIFT" status:"pending" uuid:"c6f97b76-4f56-4bb6-809d-b559bc055d51"]
+new [description:"create a simple SUN database for visual search" due:"1567638000" entry:"1567673749" modified:"1567673756" project:"SIFT" start:"1567673756" status:"pending" uuid:"c6f97b76-4f56-4bb6-809d-b559bc055d51"]
+---
+time 1567950967
+old [description:"create a simple SUN database for visual search" due:"1567638000" entry:"1567673749" modified:"1567673756" project:"SIFT" start:"1567673756" status:"pending" uuid:"c6f97b76-4f56-4bb6-809d-b559bc055d51"]
+new [description:"create a simple SUN database for visual search" due:"1567638000" end:"1567950967" entry:"1567673749" modified:"1567950967" project:"SIFT" status:"completed" uuid:"c6f97b76-4f56-4bb6-809d-b559bc055d51"]
+---
+time 1567951009
+new [description:"Model KNN for the tiny SUN dataset" due:"1567897200" entry:"1567951009" modified:"1567951009" project:"SIFT" status:"pending" uuid:"3a58c40e-eb38-4d78-b144-5c2d76d644c2"]
+---
+time 1568016455
+new [description:"learn about tensor flow datasets for a bigger SUN" due:"1567983600" entry:"1568016455" modified:"1568016455" project:"SIFT" status:"pending" uuid:"4cba1222-6690-4748-afb6-c1fc3ca852a9"]
+---
+time 1568020155
+old [description:"Model KNN for the tiny SUN dataset" due:"1567897200" entry:"1567951009" modified:"1567951009" project:"SIFT" status:"pending" uuid:"3a58c40e-eb38-4d78-b144-5c2d76d644c2"]
+new [description:"Model KNN for the tiny SUN dataset" due:"1567897200" end:"1568020155" entry:"1567951009" modified:"1568020155" project:"SIFT" status:"completed" uuid:"3a58c40e-eb38-4d78-b144-5c2d76d644c2"]
+---
+time 1568020158
+old [description:"learn about tensor flow datasets for a bigger SUN" due:"1567983600" entry:"1568016455" modified:"1568016455" project:"SIFT" status:"pending" uuid:"4cba1222-6690-4748-afb6-c1fc3ca852a9"]
+new [description:"learn about tensor flow datasets for a bigger SUN" due:"1567983600" entry:"1568016455" modified:"1568020158" project:"SIFT" start:"1568020158" status:"pending" uuid:"4cba1222-6690-4748-afb6-c1fc3ca852a9"]
+---
+time 1568102549
+new [description:"full images in the partial sun images" due:"1568070000" entry:"1568102549" modified:"1568102549" project:"SIFT" status:"pending" uuid:"e923d894-56c2-4a0a-9f23-be76cdccd3de"]
+---
+time 1568102595
+new [description:"exercice for floating numbers" due:"1568070000" entry:"1568102595" modified:"1568102595" project:"Professor" status:"pending" tags:"search,writing" uuid:"68867ff8-3fc4-40e9-842c-235828795bda"]
+---
+time 1568102650
+new [description:"first half of your presentation on MPSI cours chapter 1" due:"1568156400" entry:"1568102650" modified:"1568102650" project:"Professor" status:"pending" tags:"writing" uuid:"0e52b366-8e41-4b72-8515-51696233d859"]
+---
+time 1568102668
+old [description:"exercice for floating numbers" due:"1568070000" entry:"1568102595" modified:"1568102595" project:"Professor" status:"pending" tags:"search,writing" uuid:"68867ff8-3fc4-40e9-842c-235828795bda"]
+new [description:"exercice for floating numbers" due:"1568070000" entry:"1568102595" modified:"1568102668" project:"Professor" start:"1568102668" status:"pending" tags:"search,writing" uuid:"68867ff8-3fc4-40e9-842c-235828795bda"]
+---
+time 1568190374
+old [description:"learn about tensor flow datasets for a bigger SUN" due:"1567983600" entry:"1568016455" modified:"1568020158" project:"SIFT" start:"1568020158" status:"pending" uuid:"4cba1222-6690-4748-afb6-c1fc3ca852a9"]
+new [description:"learn about tensor flow datasets for a bigger SUN" due:"1567983600" end:"1568190374" entry:"1568016455" modified:"1568190374" project:"SIFT" status:"completed" uuid:"4cba1222-6690-4748-afb6-c1fc3ca852a9"]
+---
+time 1568190380
+old [description:"full images in the partial sun images" due:"1568070000" entry:"1568102549" modified:"1568102549" project:"SIFT" status:"pending" uuid:"e923d894-56c2-4a0a-9f23-be76cdccd3de"]
+new [description:"full images in the partial sun images" due:"1568070000" end:"1568190380" entry:"1568102549" modified:"1568190380" project:"SIFT" status:"completed" uuid:"e923d894-56c2-4a0a-9f23-be76cdccd3de"]
+---
+time 1568190399
+new [description:"test xboost on the simple dataset" due:"1568156400" entry:"1568190399" modified:"1568190399" project:"SIFT" status:"pending" tags:"coding" uuid:"5e78dce3-d5f2-4ece-84a4-5066f9c21368"]
+---
+time 1568190409
+old [description:"test xboost on the simple dataset" due:"1568156400" entry:"1568190399" modified:"1568190399" project:"SIFT" status:"pending" tags:"coding" uuid:"5e78dce3-d5f2-4ece-84a4-5066f9c21368"]
+new [description:"test xboost on the simple dataset" due:"1568156400" entry:"1568190399" modified:"1568190409" project:"SIFT" start:"1568190409" status:"pending" tags:"coding" uuid:"5e78dce3-d5f2-4ece-84a4-5066f9c21368"]
+---
+time 1568384367
+old [description:"test xboost on the simple dataset" due:"1568156400" entry:"1568190399" modified:"1568190409" project:"SIFT" start:"1568190409" status:"pending" tags:"coding" uuid:"5e78dce3-d5f2-4ece-84a4-5066f9c21368"]
+new [description:"test xboost on the simple dataset" due:"1568156400" end:"1568384367" entry:"1568190399" modified:"1568384367" project:"SIFT" status:"completed" tags:"coding" uuid:"5e78dce3-d5f2-4ece-84a4-5066f9c21368"]
+---
+time 1568384390
+new [description:"send test images to zakaria proejct:SIFT" due:"1568329200" entry:"1568384390" modified:"1568384390" status:"pending" tags:"general" uuid:"fc406224-eb67-46dd-bb98-a6438e65242e"]
+---
+time 1568384408
+new [description:"installation tensorflow with gpu support" due:"1568329200" entry:"1568384408" modified:"1568384408" project:"SIFT" status:"pending" tags:"coding" uuid:"82b34016-dc77-4305-a887-497863aa4317"]
+---
+time 1568384459
+new [description:"start the new course on multivariate calculcu" due:"1568329200" entry:"1568384459" modified:"1568384459" project:"Professor" status:"pending" uuid:"4e2e8794-d1ba-420c-9721-046cfb32201b"]
+---
+time 1568385445
+old [description:"send test images to zakaria proejct:SIFT" due:"1568329200" entry:"1568384390" modified:"1568384390" status:"pending" tags:"general" uuid:"fc406224-eb67-46dd-bb98-a6438e65242e"]
+new [description:"send test images to zakaria proejct:SIFT" due:"1568329200" end:"1568385445" entry:"1568384390" modified:"1568385445" status:"completed" tags:"general" uuid:"fc406224-eb67-46dd-bb98-a6438e65242e"]
+---
+time 1568450282
+old [description:"exercice for floating numbers" due:"1568070000" entry:"1568102595" modified:"1568102668" project:"Professor" start:"1568102668" status:"pending" tags:"search,writing" uuid:"68867ff8-3fc4-40e9-842c-235828795bda"]
+new [description:"exercice for floating numbers" due:"1568070000" end:"1568450282" entry:"1568102595" modified:"1568450282" project:"Professor" status:"completed" tags:"search,writing" uuid:"68867ff8-3fc4-40e9-842c-235828795bda"]
+---
+time 1568450293
+old [description:"first half of your presentation on MPSI cours chapter 1" due:"1568156400" entry:"1568102650" modified:"1568102650" project:"Professor" status:"pending" tags:"writing" uuid:"0e52b366-8e41-4b72-8515-51696233d859"]
+new [description:"first half of your presentation on MPSI cours chapter 1" due:"1568156400" end:"1568450293" entry:"1568102650" modified:"1568450293" project:"Professor" status:"completed" tags:"writing" uuid:"0e52b366-8e41-4b72-8515-51696233d859"]
+---
+time 1568450303
+old [description:"start the new course on multivariate calculcu" due:"1568329200" entry:"1568384459" modified:"1568384459" project:"Professor" status:"pending" uuid:"4e2e8794-d1ba-420c-9721-046cfb32201b"]
+new [description:"start the new course on multivariate calculcu" due:"1568329200" end:"1568450303" entry:"1568384459" modified:"1568450303" project:"Professor" status:"completed" uuid:"4e2e8794-d1ba-420c-9721-046cfb32201b"]
+---
+time 1568450305
+old [description:"Find a good ressource to revise CP Math" entry:"1565181829" modified:"1565181829" project:"Professor" status:"pending" tags:"general,search" uuid:"ca95f8dd-8b47-4c80-a8b6-6f26dad33dc2"]
+new [description:"Find a good ressource to revise CP Math" end:"1568450305" entry:"1565181829" modified:"1568450305" project:"Professor" status:"completed" tags:"general,search" uuid:"ca95f8dd-8b47-4c80-a8b6-6f26dad33dc2"]
+---
+time 1568450376
+old [description:"installation tensorflow with gpu support" due:"1568329200" entry:"1568384408" modified:"1568384408" project:"SIFT" status:"pending" tags:"coding" uuid:"82b34016-dc77-4305-a887-497863aa4317"]
+new [description:"installation tensorflow with gpu support" due:"1568329200" end:"1568450376" entry:"1568384408" modified:"1568450376" project:"SIFT" status:"completed" tags:"coding" uuid:"82b34016-dc77-4305-a887-497863aa4317"]
+---
+time 1568450474
+new [description:"apply the changes sent by colleage" due:"1568415600" entry:"1568450474" modified:"1568450474" project:"growinRegion" status:"pending" uuid:"9d8613d8-6ed4-43e5-acc9-b64337c6ad82"]
+---
+time 1568450504
+new [description:"Notebook on numerical integration" due:"1568502000" entry:"1568450504" modified:"1568450504" project:"Professor" status:"pending" tags:"coding,writing" uuid:"a7e4dd39-d5f7-4fcf-9778-405eb6e8da65"]
+---
+time 1568460020
+old [description:"apply the changes sent by colleage" due:"1568415600" entry:"1568450474" modified:"1568450474" project:"growinRegion" status:"pending" uuid:"9d8613d8-6ed4-43e5-acc9-b64337c6ad82"]
+new [description:"apply the changes sent by colleage" due:"1568415600" end:"1568460020" entry:"1568450474" modified:"1568460020" project:"growinRegion" status:"completed" uuid:"9d8613d8-6ed4-43e5-acc9-b64337c6ad82"]
+---
+time 1568621876
+old [description:"Notebook on numerical integration" due:"1568502000" entry:"1568450504" modified:"1568450504" project:"Professor" status:"pending" tags:"coding,writing" uuid:"a7e4dd39-d5f7-4fcf-9778-405eb6e8da65"]
+new [description:"Notebook on numerical integration" due:"1568588400" entry:"1568450504" modified:"1568621876" project:"Professor" status:"pending" tags:"coding,writing" uuid:"a7e4dd39-d5f7-4fcf-9778-405eb6e8da65"]
+---
+time 1568709043
+new [description:"Exercices sur la méthode de bisection from python book" due:"1568761200" entry:"1568709043" modified:"1568709043" project:"Professor" status:"pending" tags:"writing" uuid:"fcff82c0-1f28-42e3-a663-97b682b91713"]
+---
+time 1568710470
+new [description:"Learn about the lagrange multipliers" due:"1568674800" entry:"1568710470" modified:"1568710470" project:"roadToPA" status:"pending" tags:"learning" uuid:"ae723de4-ec0b-4ee9-be45-7ca1aedaecc2"]
+---
+time 1568710475
+old [description:"Learn about the lagrange multipliers" due:"1568674800" entry:"1568710470" modified:"1568710470" project:"roadToPA" status:"pending" tags:"learning" uuid:"ae723de4-ec0b-4ee9-be45-7ca1aedaecc2"]
+new [description:"Learn about the lagrange multipliers" due:"1568674800" entry:"1568710470" modified:"1568710475" project:"roadToPA" start:"1568710475" status:"pending" tags:"learning" uuid:"ae723de4-ec0b-4ee9-be45-7ca1aedaecc2"]
+---
+time 1568710524
+new [description:"finish the unit on Optimization on brillant" due:"1568674800" entry:"1568710524" modified:"1568710524" project:"roadToPa" status:"pending" tags:"learning" uuid:"26c421c0-940d-4eed-9911-1e4005163a1b"]
+---
+time 1568710531
+old [description:"finish the unit on Optimization on brillant" due:"1568674800" entry:"1568710524" modified:"1568710524" project:"roadToPa" status:"pending" tags:"learning" uuid:"26c421c0-940d-4eed-9911-1e4005163a1b"]
+new [description:"finish the unit on Optimization on brillant" due:"1568674800" entry:"1568710524" modified:"1568710531" project:"roadToPa" start:"1568710531" status:"pending" tags:"learning" uuid:"26c421c0-940d-4eed-9911-1e4005163a1b"]
+---
+time 1568731527
+new [description:"Find a presentation template" due:"1568674800" entry:"1568731527" modified:"1568731527" project:"roadToPA" status:"pending" tags:"genral" uuid:"b59bc3c1-92cd-470b-a439-d5683ac86f3c"]
+---
+time 1568731530
+old [description:"Find a presentation template" due:"1568674800" entry:"1568731527" modified:"1568731527" project:"roadToPA" status:"pending" tags:"genral" uuid:"b59bc3c1-92cd-470b-a439-d5683ac86f3c"]
+new [description:"Find a presentation template" due:"1568674800" entry:"1568731527" modified:"1568731530" project:"roadToPA" start:"1568731530" status:"pending" tags:"genral" uuid:"b59bc3c1-92cd-470b-a439-d5683ac86f3c"]
+---
+time 1568731539
+old [description:"Learn about the lagrange multipliers" due:"1568674800" entry:"1568710470" modified:"1568710475" project:"roadToPA" start:"1568710475" status:"pending" tags:"learning" uuid:"ae723de4-ec0b-4ee9-be45-7ca1aedaecc2"]
+new [description:"Learn about the lagrange multipliers" due:"1568674800" end:"1568731539" entry:"1568710470" modified:"1568731539" project:"roadToPA" status:"completed" tags:"learning" uuid:"ae723de4-ec0b-4ee9-be45-7ca1aedaecc2"]
+---
+time 1569054844
+old [description:"Find a presentation template" due:"1568674800" entry:"1568731527" modified:"1568731530" project:"roadToPA" start:"1568731530" status:"pending" tags:"genral" uuid:"b59bc3c1-92cd-470b-a439-d5683ac86f3c"]
+new [description:"Find a presentation template" due:"1568674800" end:"1569054844" entry:"1568731527" modified:"1569054844" project:"roadToPA" status:"completed" tags:"genral" uuid:"b59bc3c1-92cd-470b-a439-d5683ac86f3c"]
+---
+time 1569054855
+old [description:"finish the unit on Optimization on brillant" due:"1568674800" entry:"1568710524" modified:"1568710531" project:"roadToPa" start:"1568710531" status:"pending" tags:"learning" uuid:"26c421c0-940d-4eed-9911-1e4005163a1b"]
+new [description:"finish the unit on Optimization on brillant" due:"1568674800" end:"1569054855" entry:"1568710524" modified:"1569054855" project:"roadToPa" status:"completed" tags:"learning" uuid:"26c421c0-940d-4eed-9911-1e4005163a1b"]
+---
+time 1569054884
+old [description:"Notebook on numerical integration" due:"1568588400" entry:"1568450504" modified:"1568621876" project:"Professor" status:"pending" tags:"coding,writing" uuid:"a7e4dd39-d5f7-4fcf-9778-405eb6e8da65"]
+new [description:"Notebook on numerical integration" due:"1568588400" end:"1569054884" entry:"1568450504" modified:"1569054884" project:"Professor" status:"completed" tags:"coding,writing" uuid:"a7e4dd39-d5f7-4fcf-9778-405eb6e8da65"]
+---
+time 1569054891
+old [description:"Exercices sur la méthode de bisection from python book" due:"1568761200" entry:"1568709043" modified:"1568709043" project:"Professor" status:"pending" tags:"writing" uuid:"fcff82c0-1f28-42e3-a663-97b682b91713"]
+new [description:"Exercices sur la méthode de bisection from python book" due:"1568761200" end:"1569054891" entry:"1568709043" modified:"1569054891" project:"Professor" status:"completed" tags:"writing" uuid:"fcff82c0-1f28-42e3-a663-97b682b91713"]
+---
+time 1569054928
+old [depends:"ec1847f9-be43-4ee7-8abb-a2ab8de4dde4" description:"send document to zemmouri for final read" due:"1566860400" entry:"1565182959" modified:"1565182959" project:"dpsfilter" status:"pending" tags:"general" uuid:"8db06ae7-e9e6-4686-ad1a-b070042686f0"]
+new [depends:"ec1847f9-be43-4ee7-8abb-a2ab8de4dde4" description:"send document to zemmouri for final read" due:"1566860400" end:"1569054923" entry:"1565182959" modified:"1569054928" project:"dpsfilter" status:"deleted" tags:"general" uuid:"8db06ae7-e9e6-4686-ad1a-b070042686f0"]
+---
+time 1569055039
+new [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055039" project:"DeepLearningENSA" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
+---
+time 1569055043
+old [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055039" project:"DeepLearningENSA" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
+new [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055043" project:"DeepLearningENSA" start:"1569055043" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
+---

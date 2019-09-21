@@ -25,4 +25,13 @@ Notes from the  [Interactive regular expression](https://regexone.com/)
 19. *(..(..) )* : To capture subgroups
 
 
+== Good books ==
+
+1.  Python Crash course by *Erci Matthes*
+2. Automate the boring stuff with python
+3. The Quick python book *intermediate*
+4. Algorithms * An illustrated guide dor programmers*
+5. Cracking codes with python *beginners*
+6. Classic Computer Science Problems in Python
+7. Bayesian Statistics : The fun way
 

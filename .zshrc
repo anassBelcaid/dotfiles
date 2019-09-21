@@ -143,6 +143,7 @@ alias g='git'
 #}}}
 #{{{ Tasks
 alias t='task'
+alias tdoay='t due:today'
 
 #list a project
 tproject()
