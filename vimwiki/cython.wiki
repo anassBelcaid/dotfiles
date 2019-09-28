@@ -1,0 +1,36 @@
+= Cython notes =
+
+
+== Testing installation==
+
+Create a simple file *hello_world.pyx*:
+
+{{{python
+print("Hello world")
+}}}
+
+and Installation file *setup.py*
+
+{{{python
+from distutils.core import setup
+from Cython.Build import cythonize
+
+setup(
+        ext_modules=cythonze("hello_world.pyx"))
+}}}
+
+Install the module with 
+
+{{{bash
+$ python setup.py build_ext --inplace
+}}}
+
+and test it with 
+
+{{{python
+import hello_world
+}}}
+
+== Useful links ==
+
+* Working with numpy : https://cython.readthedocs.io/en/latest/src/tutorial/numpy.html
