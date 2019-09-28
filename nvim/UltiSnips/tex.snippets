@@ -116,11 +116,9 @@ snippet beamEnsam " Simple beamer with ENSAM theme"
 \end{frame}
 \end{document}
 endsnippet
-#}}}
 
 
 #{{{ Tufte 
-
 snippet tufte "Tufte handout template"
 
 \documentclass[a4paper]{tufte-handout}
@@ -173,10 +171,7 @@ snippet tufte "Tufte handout template"
 
 \end{document}
 endsnippet
-#}}}
 
-
-#}}}
 
 #{{{ elsevier class
 snippet elsevier "template for an elsevier article"
@@ -264,7 +259,6 @@ $0
 \bibliography{${8:bibliography_name}}
 \end{document}
 endsnippet	
-#R}}
 
 
 #{{{ ------------- yaaa cv entry ----------------------
@@ -274,9 +268,6 @@ snippet cvarEntry "yaaat anohter cv article entry"
     ${3:year}, 
     DOI=\href{${4:link}}{$4}
 endsnippet
-#}}}
-
-
 
 
 #{{{ pgfplots and tikz
@@ -284,24 +275,12 @@ snippet addplot "adding a pgf plot"
 \addplot[${1:stylethick,color,dotted}] table[x=${2:xlabel},y=${3:ylabel}, col
 sep =comma] {${4:filename}};
 endsnippet	
-
-
-################
-#  Tikz style  #
-################
 snippet tkzset "define a tikz style"
 \tikzstyle{${1:my style}=[${2:some options,...}] $0
 endsnippet
-
-
-###################
-#  Define a node  #
-###################
-
 snippet tkznode "define a new tikz node"
 \node[${1:style}] (${2:name}) at (${3:position}) {${4:name});
 endsnippet
-
 #}}}
 
 
@@ -309,8 +288,6 @@ endsnippet
 snippet albf "alerted bold face text"
 \alert{\textbf{${1:text}}} $0
 endsnippet
-
-
 snippet incfig "simple include figure"
 \includegraphics[width=${1:0.5\textwidth},
 height=${2:0.5\textheight}]{${3:filre}}
@@ -323,4 +300,15 @@ endsnippet
 snippet ac "acronym"
 \ac{${1:acronym}} $0
 endsnippet
+#{{{ Reference to an equation
+snippet equation "reference to an equation"
+(${1:Eq.}~\\ref{eq:${2}} ${0}
+endsnippet
+#}}}
+#{{{ providePackage
+snippet providePack "provides packages header"
+\PorividesPackage{${1:packageName}}[ ${2:Package date} ]
+$0
+endsnippet
+#}}}
 #}}}

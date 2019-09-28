@@ -684,3 +684,67 @@ time 1569055043
 old [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055039" project:"DeepLearningENSA" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
 new [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055043" project:"DeepLearningENSA" start:"1569055043" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
 ---
+time 1569144652
+new [description:"Notebook de correction des exercices recherche racines" due:"1569106800" entry:"1569144652" modified:"1569144652" project:"Professor" status:"pending" tags:"writing,coding" uuid:"492e0e26-7d46-4459-90b7-83b433518518"]
+---
+time 1569144741
+new [description:"Notes personels du cours dintegration" due:"1569106800" entry:"1569144741" modified:"1569144741" project:"Professor" status:"pending" tags:"reading,learning" uuid:"bdd7fb7f-3978-4024-87b0-d06412eccc2f"]
+---
+time 1569144752
+old [description:"Notebook de correction des exercices recherche racines" due:"1569106800" entry:"1569144652" modified:"1569144652" project:"Professor" status:"pending" tags:"writing,coding" uuid:"492e0e26-7d46-4459-90b7-83b433518518"]
+new [description:"Notebook de correction des exercices recherche racines" due:"1569106800" entry:"1569144652" modified:"1569144752" project:"Professor" start:"1569144752" status:"pending" tags:"writing,coding" uuid:"492e0e26-7d46-4459-90b7-83b433518518"]
+---
+time 1569168558
+old [description:"Notebook de correction des exercices recherche racines" due:"1569106800" entry:"1569144652" modified:"1569144752" project:"Professor" start:"1569144752" status:"pending" tags:"writing,coding" uuid:"492e0e26-7d46-4459-90b7-83b433518518"]
+new [description:"Notebook de correction des exercices recherche racines" due:"1569106800" end:"1569168558" entry:"1569144652" modified:"1569168558" project:"Professor" status:"completed" tags:"writing,coding" uuid:"492e0e26-7d46-4459-90b7-83b433518518"]
+---
+time 1569168567
+old [description:"Notes personels du cours dintegration" due:"1569106800" entry:"1569144741" modified:"1569144741" project:"Professor" status:"pending" tags:"reading,learning" uuid:"bdd7fb7f-3978-4024-87b0-d06412eccc2f"]
+new [description:"Notes personels du cours dintegration" due:"1569106800" entry:"1569144741" modified:"1569168567" project:"Professor" start:"1569168567" status:"pending" tags:"reading,learning" uuid:"bdd7fb7f-3978-4024-87b0-d06412eccc2f"]
+---
+time 1569233119
+old [description:"Notes personels du cours dintegration" due:"1569106800" entry:"1569144741" modified:"1569168567" project:"Professor" start:"1569168567" status:"pending" tags:"reading,learning" uuid:"bdd7fb7f-3978-4024-87b0-d06412eccc2f"]
+new [description:"Notes personels du cours dintegration" due:"1569106800" end:"1569233119" entry:"1569144741" modified:"1569233119" project:"Professor" status:"completed" tags:"reading,learning" uuid:"bdd7fb7f-3978-4024-87b0-d06412eccc2f"]
+---
+time 1569251796
+old [description:"gather all sources documents in the folder with the project" entry:"1565182203" modified:"1565182203" project:"dpsfilter" status:"pending" tags:"general,structure" uuid:"6def1e5d-29bb-49df-ab62-91d39ce71dd1"]
+new [description:"gather all sources documents in the folder with the project" entry:"1565182203" modified:"1569251796" project:"dpsfilter" start:"1569251796" status:"pending" tags:"general,structure" uuid:"6def1e5d-29bb-49df-ab62-91d39ce71dd1"]
+---
+time 1569253366
+old [description:"gather all sources documents in the folder with the project" entry:"1565182203" modified:"1569251796" project:"dpsfilter" start:"1569251796" status:"pending" tags:"general,structure" uuid:"6def1e5d-29bb-49df-ab62-91d39ce71dd1"]
+new [description:"gather all sources documents in the folder with the project" end:"1569253366" entry:"1565182203" modified:"1569253366" project:"dpsfilter" status:"completed" tags:"general,structure" uuid:"6def1e5d-29bb-49df-ab62-91d39ce71dd1"]
+---
+time 1569254488
+old [depends:"6def1e5d-29bb-49df-ab62-91d39ce71dd1" description:"Paragraph on online method" entry:"1564857442" modified:"1565182680" project:"dpsfilter" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+new [depends:"6def1e5d-29bb-49df-ab62-91d39ce71dd1" description:"Paragraph on online method" entry:"1564857442" modified:"1569254488" project:"dpsfilter" start:"1569254488" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1569258269
+old [depends:"6def1e5d-29bb-49df-ab62-91d39ce71dd1" description:"Paragraph on online method" entry:"1564857442" modified:"1569254488" project:"dpsfilter" start:"1569254488" status:"pending" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+new [depends:"6def1e5d-29bb-49df-ab62-91d39ce71dd1" description:"Paragraph on online method" end:"1569258269" entry:"1564857442" modified:"1569258269" project:"dpsfilter" status:"completed" tags:"reading,writing" uuid:"b0aaf443-1e30-4d9c-8621-69662f0dec4a"]
+---
+time 1569258291
+old [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"tikz diagram for the window idea" due:"1566342000" entry:"1565182786" modified:"1565182786" project:"dpsfilter" status:"pending" tags:"writing,coding" uuid:"83fe1470-266a-439b-9689-9e4bf6bf0dcc"]
+new [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"tikz diagram for the window idea" due:"1566342000" entry:"1565182786" modified:"1569258291" project:"dpsfilter" start:"1569258291" status:"pending" tags:"writing,coding" uuid:"83fe1470-266a-439b-9689-9e4bf6bf0dcc"]
+---
+time 1569274895
+old [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"tikz diagram for the window idea" due:"1566342000" entry:"1565182786" modified:"1569258291" project:"dpsfilter" start:"1569258291" status:"pending" tags:"writing,coding" uuid:"83fe1470-266a-439b-9689-9e4bf6bf0dcc"]
+new [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"tikz diagram for the window idea" due:"1566342000" entry:"1565182786" modified:"1569274895" project:"dpsfilter" status:"pending" tags:"writing,coding" uuid:"83fe1470-266a-439b-9689-9e4bf6bf0dcc"]
+---
+time 1569312680
+new [description:"Finish all the details about the roots notebook" due:"1569279600" entry:"1569312680" modified:"1569312680" project:"Professor" status:"pending" tags:"coding" uuid:"8113c37e-b184-45f1-b902-fa9cc574896c"]
+---
+time 1569312686
+old [description:"Finish all the details about the roots notebook" due:"1569279600" entry:"1569312680" modified:"1569312680" project:"Professor" status:"pending" tags:"coding" uuid:"8113c37e-b184-45f1-b902-fa9cc574896c"]
+new [description:"Finish all the details about the roots notebook" due:"1569279600" entry:"1569312680" modified:"1569312686" project:"Professor" start:"1569312686" status:"pending" tags:"coding" uuid:"8113c37e-b184-45f1-b902-fa9cc574896c"]
+---
+time 1569340493
+old [description:"Finish all the details about the roots notebook" due:"1569279600" entry:"1569312680" modified:"1569312686" project:"Professor" start:"1569312686" status:"pending" tags:"coding" uuid:"8113c37e-b184-45f1-b902-fa9cc574896c"]
+new [description:"Finish all the details about the roots notebook" due:"1569279600" end:"1569340493" entry:"1569312680" modified:"1569340493" project:"Professor" status:"completed" tags:"coding" uuid:"8113c37e-b184-45f1-b902-fa9cc574896c"]
+---
+time 1569484221
+new [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484221" project:"Professor" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
+---
+time 1569484224
+old [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484221" project:"Professor" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
+new [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484224" project:"Professor" start:"1569484224" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
+---

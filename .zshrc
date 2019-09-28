@@ -8,14 +8,14 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="amuse"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
 #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -60,8 +60,16 @@ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git  colorize git-prompt pyenv tmux battery  lighthouse
+  git  colorize git-prompt pyenv battery zsh-syntax-highlighting zsh-completions
+   zsh-autosuggestions
 )
+
+# autosuggestions style
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+
+#suggestions history
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 source $ZSH/oh-my-zsh.sh
 
