@@ -300,6 +300,15 @@ endsnippet
 snippet ac "acronym"
 \ac{${1:acronym}} $0
 endsnippet
+
+#{{{
+snippet foldhead "folding header for a better structure"
+%{{{${1:foldDescription}
+$0
+%}}}
+endsnippet
+#}}}
+
 #{{{ Reference to an equation
 snippet equation "reference to an equation"
 (${1:Eq.}~\\ref{eq:${2}} ${0}

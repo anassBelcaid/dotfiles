@@ -748,3 +748,98 @@ time 1569484224
 old [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484221" project:"Professor" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
 new [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484224" project:"Professor" start:"1569484224" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
 ---
+time 1569680035
+new [description:"Finish the binary segmentation scheme for your review" due:"1569625200" entry:"1569680035" modified:"1569680035" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"73b4d5ab-86e6-4133-a4bb-7640973106b2"]
+---
+time 1569680043
+old [description:"Finish the binary segmentation scheme for your review" due:"1569625200" entry:"1569680035" modified:"1569680035" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"73b4d5ab-86e6-4133-a4bb-7640973106b2"]
+new [description:"Finish the binary segmentation scheme for your review" due:"1569625200" entry:"1569680035" modified:"1569680043" project:"roadPA" start:"1569680043" status:"pending" tags:"writing,coding" uuid:"73b4d5ab-86e6-4133-a4bb-7640973106b2"]
+---
+time 1569744287
+old [description:"Finish the binary segmentation scheme for your review" due:"1569625200" entry:"1569680035" modified:"1569680043" project:"roadPA" start:"1569680043" status:"pending" tags:"writing,coding" uuid:"73b4d5ab-86e6-4133-a4bb-7640973106b2"]
+new [description:"Finish the binary segmentation scheme for your review" due:"1569625200" end:"1569744287" entry:"1569680035" modified:"1569744287" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"73b4d5ab-86e6-4133-a4bb-7640973106b2"]
+---
+time 1569744316
+new [description:"filter illustration in the you slides" due:"1569711600" entry:"1569744316" modified:"1569744316" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"d101a323-9082-4b04-b29c-6170d3a937f8"]
+---
+time 1569744343
+new [description:"Concretisation articles and communications" due:"1569711600" entry:"1569744343" modified:"1569744343" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"5c09bae5-db6c-48c3-8929-6ce97879cf9c"]
+---
+time 1569744372
+new [description:"Pedagogie first part" due:"1569711600" entry:"1569744372" modified:"1569744372" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"6f94d95e-fcb9-46bf-8c85-34de36d185e9"]
+---
+time 1569744395
+new [description:"Pedagogie second part other" due:"1569711600" entry:"1569744395" modified:"1569744395" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"b4e14117-9a7d-4dd2-a709-7fcb0c966d97"]
+---
+time 1569744424
+new [description:"Research perpectives" due:"1569711600" entry:"1569744424" modified:"1569744424" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"77458117-beb9-410e-a40c-21e6f106f5a3"]
+---
+time 1569744437
+old [description:"filter illustration in the you slides" due:"1569711600" entry:"1569744316" modified:"1569744316" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"d101a323-9082-4b04-b29c-6170d3a937f8"]
+new [description:"filter illustration in the you slides" due:"1569711600" entry:"1569744316" modified:"1569744437" project:"roadPA" start:"1569744437" status:"pending" tags:"writing,coding" uuid:"d101a323-9082-4b04-b29c-6170d3a937f8"]
+---
+time 1569746742
+old [description:"filter illustration in the you slides" due:"1569711600" entry:"1569744316" modified:"1569744437" project:"roadPA" start:"1569744437" status:"pending" tags:"writing,coding" uuid:"d101a323-9082-4b04-b29c-6170d3a937f8"]
+new [description:"filter illustration in the you slides" due:"1569711600" end:"1569746742" entry:"1569744316" modified:"1569746742" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"d101a323-9082-4b04-b29c-6170d3a937f8"]
+---
+time 1569746752
+old [description:"Concretisation articles and communications" due:"1569711600" entry:"1569744343" modified:"1569744343" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"5c09bae5-db6c-48c3-8929-6ce97879cf9c"]
+new [description:"Concretisation articles and communications" due:"1569711600" entry:"1569744343" modified:"1569746752" project:"roadPA" start:"1569746752" status:"pending" tags:"writing,coding" uuid:"5c09bae5-db6c-48c3-8929-6ce97879cf9c"]
+---
+time 1569752041
+old [description:"Concretisation articles and communications" due:"1569711600" entry:"1569744343" modified:"1569746752" project:"roadPA" start:"1569746752" status:"pending" tags:"writing,coding" uuid:"5c09bae5-db6c-48c3-8929-6ce97879cf9c"]
+new [description:"Concretisation articles and communications" due:"1569711600" end:"1569752041" entry:"1569744343" modified:"1569752041" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"5c09bae5-db6c-48c3-8929-6ce97879cf9c"]
+---
+time 1569752049
+old [description:"Pedagogie first part" due:"1569711600" entry:"1569744372" modified:"1569744372" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"6f94d95e-fcb9-46bf-8c85-34de36d185e9"]
+new [description:"Pedagogie first part" due:"1569711600" entry:"1569744372" modified:"1569752049" project:"roadPA" start:"1569752049" status:"pending" tags:"writing,coding" uuid:"6f94d95e-fcb9-46bf-8c85-34de36d185e9"]
+---
+time 1569755412
+old [description:"Pedagogie first part" due:"1569711600" entry:"1569744372" modified:"1569752049" project:"roadPA" start:"1569752049" status:"pending" tags:"writing,coding" uuid:"6f94d95e-fcb9-46bf-8c85-34de36d185e9"]
+new [description:"Pedagogie first part" due:"1569711600" end:"1569755412" entry:"1569744372" modified:"1569755412" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"6f94d95e-fcb9-46bf-8c85-34de36d185e9"]
+---
+time 1569769482
+old [description:"Pedagogie second part other" due:"1569711600" entry:"1569744395" modified:"1569744395" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"b4e14117-9a7d-4dd2-a709-7fcb0c966d97"]
+new [description:"Pedagogie second part other" due:"1569711600" end:"1569769482" entry:"1569744395" modified:"1569769482" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"b4e14117-9a7d-4dd2-a709-7fcb0c966d97"]
+---
+time 1569770435
+old [description:"Research perpectives" due:"1569711600" entry:"1569744424" modified:"1569744424" project:"roadPA" status:"pending" tags:"writing,coding" uuid:"77458117-beb9-410e-a40c-21e6f106f5a3"]
+new [description:"Research perpectives" due:"1569711600" entry:"1569744424" modified:"1569770435" project:"roadPA" start:"1569770435" status:"pending" tags:"writing,coding" uuid:"77458117-beb9-410e-a40c-21e6f106f5a3"]
+---
+time 1569850145
+old [description:"Research perpectives" due:"1569711600" entry:"1569744424" modified:"1569770435" project:"roadPA" start:"1569770435" status:"pending" tags:"writing,coding" uuid:"77458117-beb9-410e-a40c-21e6f106f5a3"]
+new [description:"Research perpectives" due:"1569711600" end:"1569850145" entry:"1569744424" modified:"1569850145" project:"roadPA" status:"completed" tags:"writing,coding" uuid:"77458117-beb9-410e-a40c-21e6f106f5a3"]
+---
+time 1569850165
+new [description:"Add the modification proposed by hicham" due:"1569798000" entry:"1569850165" modified:"1569850165" project:"roadPA" status:"pending" tags:"general,writing" uuid:"587aaf31-1255-4275-9596-b69abb75bedd"]
+---
+time 1569850250
+new [description:"slides algorithmique course" due:"1569798000" entry:"1569850250" modified:"1569850250" project:"Professor" status:"pending" tags:"writing" uuid:"3c4957f9-e4f8-4f11-a9ce-77b3ca606f68"]
+---
+time 1569850310
+new [description:"practical exercices for second year" due:"1569884400" entry:"1569850310" modified:"1569850310" project:"Professor" status:"pending" tags:"writing" uuid:"f8fa7ae8-51a1-4b6b-95ca-4c25193a41bc"]
+---
+time 1569850319
+old [description:"first DS for MP class" due:"1569452400" entry:"1569484221" modified:"1569484224" project:"Professor" start:"1569484224" status:"pending" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
+new [description:"first DS for MP class" due:"1569452400" end:"1569850319" entry:"1569484221" modified:"1569850319" project:"Professor" status:"completed" tags:"writing,prof" uuid:"0f552933-8692-4930-a0e4-835a17d8c9a5"]
+---
+time 1569850327
+old [description:"Add the modification proposed by hicham" due:"1569798000" entry:"1569850165" modified:"1569850165" project:"roadPA" status:"pending" tags:"general,writing" uuid:"587aaf31-1255-4275-9596-b69abb75bedd"]
+new [description:"Add the modification proposed by hicham" due:"1569798000" entry:"1569850165" modified:"1569850327" project:"roadPA" start:"1569850327" status:"pending" tags:"general,writing" uuid:"587aaf31-1255-4275-9596-b69abb75bedd"]
+---
+time 1569856145
+old [description:"Add the modification proposed by hicham" due:"1569798000" entry:"1569850165" modified:"1569850327" project:"roadPA" start:"1569850327" status:"pending" tags:"general,writing" uuid:"587aaf31-1255-4275-9596-b69abb75bedd"]
+new [description:"Add the modification proposed by hicham" due:"1569798000" end:"1569856145" entry:"1569850165" modified:"1569856145" project:"roadPA" status:"completed" tags:"general,writing" uuid:"587aaf31-1255-4275-9596-b69abb75bedd"]
+---
+time 1571041227
+old [depends:"b0aaf443-1e30-4d9c-8621-69662f0dec4a" description:"Paragraph goal and ideas of the paper" due:"1565737200" entry:"1565182404" modified:"1565182570" project:"dpsfilter" status:"pending" tags:"writing" uuid:"61afa7a3-7552-48ea-8c85-e13925e34fd1"]
+new [depends:"b0aaf443-1e30-4d9c-8621-69662f0dec4a" description:"Paragraph goal and ideas of the paper" due:"1565737200" entry:"1565182404" modified:"1571041227" project:"dpsfilter" start:"1571041227" status:"pending" tags:"writing" uuid:"61afa7a3-7552-48ea-8c85-e13925e34fd1"]
+---
+time 1571042846
+old [depends:"b0aaf443-1e30-4d9c-8621-69662f0dec4a" description:"Paragraph goal and ideas of the paper" due:"1565737200" entry:"1565182404" modified:"1571041227" project:"dpsfilter" start:"1571041227" status:"pending" tags:"writing" uuid:"61afa7a3-7552-48ea-8c85-e13925e34fd1"]
+new [depends:"b0aaf443-1e30-4d9c-8621-69662f0dec4a" description:"Paragraph goal and ideas of the paper" due:"1565737200" end:"1571042846" entry:"1565182404" modified:"1571042846" project:"dpsfilter" status:"completed" tags:"writing" uuid:"61afa7a3-7552-48ea-8c85-e13925e34fd1"]
+---
+time 1571045166
+old [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" entry:"1565182539" modified:"1565182597" project:"dpsfilter" status:"pending" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
+new [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" entry:"1565182539" modified:"1571045166" project:"dpsfilter" start:"1571045166" status:"pending" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
+---

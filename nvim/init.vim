@@ -311,6 +311,16 @@ let g:vimtex_view_method = 'zathura'
 let g:vimtex_complete_enabled = 1
 let g:vimtex_compiler_progname = 'nvr'
 inoremap <C-Space> <C-x><C-o>
+let g:Tex_IgnoredWarnings = 
+    \'Underfull'."\n".
+    \'Overfull'."\n".
+    \'specifier changed to'."\n".
+    \'You have requested'."\n".
+    \'Missing number, treated as zero.'."\n".
+    \'There were undefined references'."\n".
+    \'Citation %.%# undefined'."\n".
+    \'Double space found.'."\n"
+let g:Tex_IgnoreLevel = 8
 "}}}
 "{{{ Pluging configration
 "{{{ Internal
