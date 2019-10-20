@@ -843,3 +843,59 @@ time 1571045166
 old [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" entry:"1565182539" modified:"1565182597" project:"dpsfilter" status:"pending" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
 new [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" entry:"1565182539" modified:"1571045166" project:"dpsfilter" start:"1571045166" status:"pending" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
 ---
+time 1571336668
+old [description:"slides algorithmique course" due:"1569798000" entry:"1569850250" modified:"1569850250" project:"Professor" status:"pending" tags:"writing" uuid:"3c4957f9-e4f8-4f11-a9ce-77b3ca606f68"]
+new [description:"slides algorithmique course" due:"1569798000" end:"1571336668" entry:"1569850250" modified:"1571336668" project:"Professor" status:"completed" tags:"writing" uuid:"3c4957f9-e4f8-4f11-a9ce-77b3ca606f68"]
+---
+time 1571336686
+old [description:"practical exercices for second year" due:"1569884400" entry:"1569850310" modified:"1569850310" project:"Professor" status:"pending" tags:"writing" uuid:"f8fa7ae8-51a1-4b6b-95ca-4c25193a41bc"]
+new [description:"practical exercices for second year" due:"1569884400" end:"1571336686" entry:"1569850310" modified:"1571336686" project:"Professor" status:"completed" tags:"writing" uuid:"f8fa7ae8-51a1-4b6b-95ca-4c25193a41bc"]
+---
+time 1571384529
+new [description:"Content for the third part in visual basic" due:"1571349600" entry:"1571384529" modified:"1571384529" project:"Professor" status:"pending" tags:"reading,writing" uuid:"583ca59b-6bbd-4865-ab5c-8f8fc8bcba58"]
+---
+time 1571384630
+new [description:"Implement the ransac method for discontinuity selection" due:"1571349600" entry:"1571384630" modified:"1571384630" project:"SoundRupture" status:"pending" tags:"programming,reading" uuid:"96d3709c-bdaf-4f54-a7f6-96d1efeb6410"]
+---
+time 1571389500
+old [description:"Content for the third part in visual basic" due:"1571349600" entry:"1571384529" modified:"1571384529" project:"Professor" status:"pending" tags:"reading,writing" uuid:"583ca59b-6bbd-4865-ab5c-8f8fc8bcba58"]
+new [description:"Content for the third part in visual basic" due:"1571349600" end:"1571389500" entry:"1571384529" modified:"1571389500" project:"Professor" status:"completed" tags:"reading,writing" uuid:"583ca59b-6bbd-4865-ab5c-8f8fc8bcba58"]
+---
+time 1571389527
+old [description:"Implement the ransac method for discontinuity selection" due:"1571349600" entry:"1571384630" modified:"1571384630" project:"SoundRupture" status:"pending" tags:"programming,reading" uuid:"96d3709c-bdaf-4f54-a7f6-96d1efeb6410"]
+new [description:"Implement the ransac method for discontinuity selection" due:"1571349600" entry:"1571384630" modified:"1571389527" project:"SoundRupture" start:"1571389527" status:"pending" tags:"programming,reading" uuid:"96d3709c-bdaf-4f54-a7f6-96d1efeb6410"]
+---
+time 1571395969
+old [description:"Implement the ransac method for discontinuity selection" due:"1571349600" entry:"1571384630" modified:"1571389527" project:"SoundRupture" start:"1571389527" status:"pending" tags:"programming,reading" uuid:"96d3709c-bdaf-4f54-a7f6-96d1efeb6410"]
+new [description:"Implement the ransac method for discontinuity selection" due:"1571349600" end:"1571395969" entry:"1571384630" modified:"1571395969" project:"SoundRupture" status:"completed" tags:"programming,reading" uuid:"96d3709c-bdaf-4f54-a7f6-96d1efeb6410"]
+---
+time 1571564456
+old [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" entry:"1565182539" modified:"1571045166" project:"dpsfilter" start:"1571045166" status:"pending" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
+new [depends:"61afa7a3-7552-48ea-8c85-e13925e34fd1" description:"mathematical introduction of the problem" due:"1565996400" end:"1571564456" entry:"1565182539" modified:"1571564456" project:"dpsfilter" status:"completed" tags:"writing" uuid:"e1156d72-1c54-474a-962f-8d6858de2bf3"]
+---
+time 1571564541
+new [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"check the missing results figures" entry:"1571564541" modified:"1571564541" project:"dpsfilter" status:"pending" tags:"writing" uuid:"ffd6b532-d37f-4bcc-99fc-73ba7d7cd1fa"]
+---
+time 1571564543
+new [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"check the missing results figures" entry:"1571564543" modified:"1571564543" project:"dpsfilter" status:"pending" tags:"writing" uuid:"60ad4aa6-bb06-4a49-9a87-bfcba959af5e"]
+---
+time 1571564574
+old [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"check the missing results figures" entry:"1571564543" modified:"1571564543" project:"dpsfilter" status:"pending" tags:"writing" uuid:"60ad4aa6-bb06-4a49-9a87-bfcba959af5e"]
+new [depends:"29704006-32f2-4690-902a-b7f6089ca83f" description:"check the missing results figures" end:"1571564570" entry:"1571564543" modified:"1571564574" project:"dpsfilter" status:"deleted" tags:"writing" uuid:"60ad4aa6-bb06-4a49-9a87-bfcba959af5e"]
+---
+time 1571580440
+old [description:"Finish the introductory part on goodfelow book" entry:"1567176242" modified:"1567176242" project:"goodFellowBook" status:"pending" tags:"reading" uuid:"5ea38957-cffb-4920-beaa-7dd12cafbe4c"]
+new [description:"Finish the introductory part on goodfelow book" entry:"1567176242" modified:"1571580440" project:"goodFellowBook" start:"1571580440" status:"pending" tags:"reading" uuid:"5ea38957-cffb-4920-beaa-7dd12cafbe4c"]
+---
+time 1571580448
+old [depends:"e1156d72-1c54-474a-962f-8d6858de2bf3" description:"Clean explanation of the main idea" due:"1568934000" entry:"1565182667" modified:"1565182667" project:"dpsfilter" status:"pending" tags:"writing,originality" uuid:"29704006-32f2-4690-902a-b7f6089ca83f"]
+new [depends:"e1156d72-1c54-474a-962f-8d6858de2bf3" description:"Clean explanation of the main idea" due:"1568934000" entry:"1565182667" modified:"1571580448" project:"dpsfilter" start:"1571580448" status:"pending" tags:"writing,originality" uuid:"29704006-32f2-4690-902a-b7f6089ca83f"]
+---
+time 1571580454
+old [description:"Finish the introductory part on goodfelow book" entry:"1567176242" modified:"1571580440" project:"goodFellowBook" start:"1571580440" status:"pending" tags:"reading" uuid:"5ea38957-cffb-4920-beaa-7dd12cafbe4c"]
+new [description:"Finish the introductory part on goodfelow book" entry:"1567176242" modified:"1571580454" project:"goodFellowBook" status:"pending" tags:"reading" uuid:"5ea38957-cffb-4920-beaa-7dd12cafbe4c"]
+---
+time 1571580461
+old [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1569055043" project:"DeepLearningENSA" start:"1569055043" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
+new [description:"learn basics keras with tensorflow" due:"1569020400" entry:"1569055039" modified:"1571580461" project:"DeepLearningENSA" status:"pending" tags:"coding" uuid:"ee67433c-3fed-4d99-8bce-6d3dd6825c58"]
+---
