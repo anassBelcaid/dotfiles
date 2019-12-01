@@ -4,10 +4,12 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ternjs/tern_for_vim', {'do': 'nmp install'}
 	Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
+Plug 'mzlogin/vim-markdown-toc'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
+Plug 'nanotech/jellybeans.vim'
 Plug 'lervag/vimtex'
 Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
@@ -216,17 +218,14 @@ nnoremap <silent> gB : bprevious<cr>
 set winwidth=70
 
 " ==== Colors and other basic settings
-colorscheme gruvbox
-" colorscheme base16-gruvbox-dark-pale
-" colorscheme badwolf
-" colorscheme candid
-" Switch color background depending on time
-" if strftime('%H') >= 10 && strftime('%H') < 14
-"   set background=light
-" else
-"   set background=dark
-" endif
-
+colorschem afterglow
+" let g:jellybeans_overrides = {
+" \    'Todo': { 'guifg': '303030', 'guibg': 'f0f000',
+" \              'ctermfg': 'Black', 'ctermbg': 'Yellow',
+" \              'attr': 'bold' },
+" \    'Comment': { 'guifg': 'cccccc' },
+" \}
+" " let g:jellybeans_use_term_italics = 1
 let g:afterglow_italic_comments=1 
 let g:afterglow_blackout = 1
 "}}}
@@ -311,17 +310,28 @@ let g:vimtex_complete_enabled=1
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_complete_enabled = 1
 let g:vimtex_compiler_progname = 'nvr'
+let g:vimtex_quickfix_mode = 0 " never open the quickfix window
 inoremap <C-Space> <C-x><C-o>
-let g:Tex_IgnoredWarnings = 
-    \'Underfull'."\n".
-    \'Overfull'."\n".
-    \'specifier changed to'."\n".
-    \'You have requested'."\n".
-    \'Missing number, treated as zero.'."\n".
-    \'There were undefined references'."\n".
-    \'Citation %.%# undefined'."\n".
-    \'Double space found.'."\n"
-let g:Tex_IgnoreLevel = 8
+let g:vimtex_quickfix_warnings = {
+  \ 'default' : 1,
+  \ 'undefined_reference' : 1,
+  \ 'multiply_defined_references' : 1,
+  \}
+" nvim compilation 
+let g:vimtex_compiler_latexmk = {
+        \ 'backend' : 'nvim',
+        \ 'background' : 1,
+        \ 'build_dir' : '',
+        \ 'callback' : 1,
+        \ 'continuous' : 1,
+        \ 'executable' : 'latexmk',
+        \ 'options' : [
+        \   '-verbose',
+        \   '-file-line-error',
+        \   '-synctex=1',
+        \   '-interaction=nonstopmode',
+        \ ],
+        \}
 "}}}
 "{{{ Pluging configration
 "{{{ Internal

@@ -8,9 +8,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="random"
-ZSH_THEME="fino"
-
+ZSH_THEME="random"
+# ZSH_THEME="fino"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -113,7 +112,7 @@ export EDITOR=nvim
 #}}}
 #{{{ Personal variables
 # Exporting the new path
-export PATH=~/.gem/ruby/2.5.0/bin:$PATH
+export PATH=~/.gem/ruby/2.6.0/bin:$PATH
 
 #path for matlatb
 export PATH=~/scripts/:$PATH
@@ -222,6 +221,8 @@ export academicmail=a.belcaid@edu.umi.ac.ma
 
 # variable for task d server
 export TASKDDATA=/var/taskd
+
+export article='~/github/anass/articles/dpsfilterarticle'
 #}}}
 #{{{ Conda setup 
 # >>> conda initialize >>>

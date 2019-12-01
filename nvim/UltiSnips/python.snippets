@@ -63,4 +63,8 @@ import warnings
 warnings.filterwarnings('ignore')
 endsnippet
 	
+snippet silentTF "supress tensorflow log"
+os.environ['TF_CPP_MIN_LOG_LEVEL']  = ${1:'2'}
+$0
+endsnippet
 #}}}
