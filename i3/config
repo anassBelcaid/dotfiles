@@ -41,7 +41,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -199,6 +199,9 @@ exec --no-startup-id xfce4-power-manager
 
 # variety
 exec --no-startup-id variety
+
+# brightness
+exec --no-startup-id echo '40' | sudo tee /sys/class/backlight/nvidia_0/brightness
 #}}}
 
 #{{{ Multimedia buttons

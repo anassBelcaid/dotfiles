@@ -125,8 +125,8 @@ snippet tufte "Tufte handout template"
 %%%%%%%%%%%%%%
 %  Packages  %
 %%%%%%%%%%%%%%
-\usepackage{lab_notes} 
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
 \usepackage{tikz}
 \usepackage{hyperref}
 \usepackage{minted}
@@ -150,17 +150,17 @@ snippet tufte "Tufte handout template"
     pdfsubject={},                 % document topic(s)
     pdfnewwindow=true,             % links in new window
     colorlinks=true,               % coloured links, not boxed
-    linkcolor=DarkScarletRed,      % colour of internal links
-    citecolor=DarkChameleon,       % colour of links to bibliography
-    filecolor=DarkPlum,            % colour of file links
-    urlcolor=DarkSkyBlue           % colour of external links
+    linkcolor=SexyRed,      % colour of internal links
+    citecolor=LightBlue,       % colour of links to bibliography
+    filecolor=sexyBlack,            % colour of file links
+    urlcolor=sexyBlue           % colour of external links
 }
 
 
 %%%%%%%%%%%%%%%
 %  meta data  %
 %%%%%%%%%%%%%%%
-\title{${${1:Lab notes template}}
+\title{${1:Lab notes template}}
 \newcommand{\institution}{${2:Ecole Nationale Supérieure d'Arts et Métiers}}
 \date{${3:date}}
 

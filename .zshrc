@@ -9,7 +9,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="random"
-ZSH_THEME="fino"
+ZSH_THEME="random"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -62,7 +62,7 @@ ZSH_THEME="fino"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git  colorize git-prompt pyenv battery zsh-syntax-highlighting zsh-completions
-   zsh-autosuggestions
+   zsh-autosuggestions  vi-mode
 )
 
 # autosuggestions style
@@ -106,15 +106,30 @@ export edgeProject='~/projects/edgeDetection/'
 export repo=~/github/anass
 export attijari=Yt000193342
 export cwork='~/github/anass/articles/filter1d/'
-export sift='~/project/SIFT/'
 export understandImages="~/github/anass/computerVision/UnderstandingImages/"
 export EDITOR=nvim
+
+# top ten used commands
+alias tstop='tsm-stop'
+alias tstart='tsm-start'
+alias tstat='tsm-cli'
+alias up='cd ..'
+alias workon='conda activate'
+sys_update()
+{
+  conda deactivate
+  pamac update
+}
+alias sysUpd="sys_update"
+alias m='make'
+alias r='ranger'
 
 #}}}
 #{{{ Personal variables
 # Exporting the new path
-export PATH=~/.gem/ruby/2.5.0/bin:$PATH
-
+export PATH=/usr/local/matlatb/bin:$PATH
+export PATH=~/.gem/ruby/2.7.0/bin:$PATH
+export PATH=~/.local/bin/:$PATH
 #path for matlatb
 export PATH=~/scripts/:$PATH
 #python path
@@ -239,4 +254,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 #}}}
-
+#{{{ Custom functions
+change_brightness()
+{
+  echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
+}
+#}}}
+source /home/anass/.config/broot/launcher/bash/br

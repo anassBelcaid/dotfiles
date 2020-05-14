@@ -8,6 +8,7 @@
 * [[Python]]
 * C++
 * [[Linux]]
+* [[tensorflow2]]
 
 =General=
 * [[Movies watch List]]

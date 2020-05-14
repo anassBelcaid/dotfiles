@@ -1,91 +1,80 @@
-"{{{ Plug Installation
-call plug#begin('~/.config/nvim/bundle')
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'ternjs/tern_for_vim', {'do': 'nmp install'}
-	Plug 'scrooloose/nerdtree'
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-Plug 'vimwiki/vimwiki'
-Plug 'ryanoasis/vim-devicons'
+"{{{ Plugings
+" Plugins will be downloaded under the specified directory.
+ call plug#begin('~/.vim/plugged')
+"{{{Languages
 Plug 'lervag/vimtex'
-Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
-Plug 'sjl/badwolf'
+Plug 'honza/vim-snippets'
+Plug 'sbdchd/vim-run'
+Plug 'jceb/vim-orgmode'
+Plug 'itchyny/calendar.vim'
+Plug 'vimwiki/vimwiki'
+" tabular plugin is used to format tables
+Plug 'godlygeek/tabular'
+" " JSON front matter highlight plugin
+Plug 'elzr/vim-json'
+Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-surround'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+Plug 'tpope/vim-fugitive'
+"}}}
+"{{{ Navigation
+"{{{ NerdTree
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'easymotion/vim-easymotion'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-commentary'
+"}}}
+"}}}
+ "{{{ Conqueror of completion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+ "}}}
+ "{{{Looks
 Plug 'morhetz/gruvbox'
-Plug 'nanotech/jellybeans.vim'
-Plug 'chriskempson/base16-vim'
-Plug 'danilo-augusto/vim-afterglow'
-Plug 'zacanger/angr.vim'
-Plug 'bling/vim-airline'
+Plug 'arcticicestudio/nord-vim'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/goyo.vim'
-Plug 'honza/vim-snippets'
-Plug 'kien/ctrlp.vim'
-Plug 'majutsushi/tagbar'
-Plug 'w0rp/ale'
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
-Plug 'konfekt/fastfold'
-Plug 'tmhedberg/simpylfold'
-Plug 'kien/rainbow_parentheses.vim'
-Plug 'flrnprz/candid.vim'
-Plug 'blindFS/vim-taskwarrior'
-Plug 'sbdchd/vim-run'
-Plug 'junegunn/vim-slash'
-Plug 'roxma/vim-hug-neovim-rpc', has('nvim') ? { 'on' : [] } : {}
-Plug 'roxma/nvim-yarp', has('nvim') ? { 'on' : [] } : {}
-Plug 'Shougo/neco-vim'
-Plug 'Shougo/neco-syntax'
-Plug 'wellle/targets.vim'
-Plug 'chrisbra/Colorizer'
-Plug 'tpope/vim-commentary'
-Plug 'itspriddle/vim-marked'
-Plug 'FelikZ/ctrlp-py-matcher'
-Plug 'tpope/vim-speeddating'
-Plug 'vimwiki/vimwiki'
-Plug 'davidhalter/jedi-vim'
-Plug 'zchee/deoplete-jedi', {'do': ':UpdateRemotePlugins'}
-call plug#end()
+" Plug 'junegunn/limelight.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'airblade/vim-gitgutter'
+Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+Plug 'tpope/vim-surround'
+" Plug 'tmhedberg/SimpylFold'
+ "}}}
+ call plug#end()
 "}}}
-"{{{ Pluging configurations
-"{{{ Deoplete
-let g:deoplete#enable_at_startup = 1
-if !exists('g:deoplete#omni#input_patterns')
-  let g:deoplete#omni#input_patterns = {}
-endif
-" let g:deoplete#disable_auto_complete = 1
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+"{{{ General setup
+syntax on
+filetype plugin indent on
 
-" Python provider is system not condas
-" let g:python_host_prog = '/usr/bin/python2'
-" let g:python3_host_prog = '/usr/bin/python'
-"}}}
-
-"}}}
-""{{{ General Options
-
-set autoread                     " autoread external buffer
-
-" backspace
-set  backspace=indent,eol,start
-
-" wildmenu
-set wildmenu  
-
-" status line
-set laststatus=2
-
-"Indentation
-set autoindent
-
-"incremental search
+"transparent
+" no autoclose
+let g:AutoPairs = {}
+" Backup, swap
+set noswapfile
+set nobackup
+set undofile
 set incsearch
 
-"setting tags
+set textwidth=80
+set wrap
+set linebreak
 
-"setting the path
-" set path=.,**
+set undolevels=1000
+set undoreload=10000
+
+" Indentation
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set tabstop=2        " number of visual spaces per TAB
+set copyindent
+set preserveindent
+silent! set breakindent
 
 "ignoring files
 set wildignore=*.o
@@ -104,94 +93,13 @@ set nobackup
 set undofile
 set undolevels=1000
 set undoreload=10000
+"{{{folding
+" let g:SimplyFold_docstring_preview=0
+" " folding method
+" set foldmethod=marker
+" set foldlevelstart=0           " starting level
+" set foldcolumn=0
 
-"automatically change the working directory
-set autochdir
-
-" lazy redraw
-set lazyredraw
-
-set confirm
-set hidden
-set textwidth=80
-set wrap
-set linebreak
-
-" make g the default in line substutition
-set gdefault
-
-" Completion
-set wildmode=longest:full,full
-set wildcharm=<c-z>
-set complete+=U,s,k,kspell,d,]
-set completeopt=longest,menu,preview
-
-" Presentation
-set list
-set listchars=tab:▸\ ,nbsp:%,trail:\ ,extends:…,precedes:…
-set fillchars=vert:│,fold:\ ,diff:⣿
-set matchtime=2
-set matchpairs+=<:>
-set cursorline
-set scrolloff=10
-set splitbelow
-set splitright
-set previewheight=20
-set noshowmode
-
-" folding method
-set foldmethod=marker
-set foldlevelstart=0           " starting level
-set foldcolumn=0
-
-" Indentation
-set softtabstop=2
-set shiftwidth=2
-set expandtab
-set tabstop=2        " number of visual spaces per TAB
-set copyindent
-set preserveindent
-silent! set breakindent
-
-" Movement
-set nostartofline
-set ignorecase 
-set smartcase
-set infercase
-set showmatch
-set clipboard+=unnamedplus
-set display=lastline
-set virtualedit=block
-
-if executable('ag')
-  set grepprg=ag\ --nogroup\ --nocolor
-elseif executable('ack-grep')
-  set grepprg=ack-grep\ --nocolor
-endif
-"}}}
-"{{{ Genral settings
-filetype plugin indent on
-
-" ==== disable swap file warning
-set shortmess+=A
-
-" security
-set secure
-
-" showcmd
-set showcmd
-
-" cursor line
-"set cursorline
-
-" show match 
-set showmatch
-
-" synatx on
-syntax enable   
-
-" save session
-nnoremap <leader>s : mksession<CR>
 
 " moving between splits
 "split navigation
@@ -199,40 +107,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-"}}}
-"{{{ Mapping
-
-" radical change
-inoremap jk <esc>
-
-"yank full line
-nnoremap Y y$
 
 " Buffer navigation
 nnoremap <silent> gb :bnext<cr>
-nnoremap <silent> gB : bprevious<cr>
-"}}}
-"{{{ Apparance and UI
-set winwidth=70
+nnoremap <silent> gB :bprevious<cr>
 
-" ==== Colors and other basic settings
-colorscheme gruvbox
-" colorscheme base16-gruvbox-dark-pale
-" colorscheme badwolf
-" colorscheme candid
-" Switch color background depending on time
-" if strftime('%H') >= 10 && strftime('%H') < 14
-"   set background=light
-" else
-"   set background=dark
-" endif
 
-let g:afterglow_italic_comments=1 
-let g:afterglow_blackout = 1
-"}}}
-"{{{ Mouvement
-nnoremap  j gj
-nnoremap k gk
 
 " Move to beginning/end of line
 nnoremap B ^
@@ -241,41 +121,96 @@ nnoremap E $
 " releaving ^and $
 nnoremap $ <nop>
 nnoremap $ <nop>
-"}}}
-"{{{ Theming
 
-"set fillchars+=vert:\$
-syntax enable
-
-"automatic reload fo vim rc
-" set background= light
-set ruler
-set hidden
-"clipboard
-set clipboard=unnamed
-set mouse=c
-set number
-set laststatus=2
-set tabstop=2
-set softtabstop=2      " number of spaces in tabs
-set expandtab          " tabs now are only spaces
-
+"map leader
 map <SPACE> <leader>
 
-highlight ColorColumn ctermbg=233
-let &colorcolumn="80"
-
-
-"{{{ Jellybeans customization
-let g:jellybeans_overrides = {
-\    'Todo': { 'guifg': '303030', 'guibg': 'f0f000',
-\              'ctermfg': 'Black', 'ctermbg': 'Yellow',
-\              'attr': 'bold' },
-\    'Comment': { 'guifg': 'cccccc' },
-\}
-"force jelly beans to use italics
-let g:jellybeans_use_term_italics = 1
 "}}}
+"{{{ Conquer  of Completion
+"Suggestion on insert mode
+"let suggest.triggerAfterInsertEnter": true
+" coc config
+let g:coc_global_extensions = [
+   \ 'coc-snippets',
+       \ 'coc-tsserver',
+         \ 'coc-eslint', 
+           \ 'coc-prettier', 
+             \ 'coc-python', 
+               \ ]
+inoremap <silent><expr> <c-space> coc#refresh()
+
+" Use K to show documentation in preview window
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+"
+ function! s:show_documentation()
+   if (index(['vim','help'], &filetype) >= 0)
+       execute 'h '.expand('<cword>')
+         else
+             call CocAction('doHover')
+               endif
+               endfunction
+"}}}
+"{{{ Looks
+"{{{ Colors Schemes
+"Should be in its own file
+"I want itatlic
+let g:gruvbox_italic=1
+colorscheme gruvbox 
+" hi Normal guibg=NONE ctermbg=NONE
+"}}}
+"{{{ vim air line
+"show all the files
+let g:airline#extensions#tabline#enabled = 1
+"separator
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+"}}}
+"{{{ Goyo and Limelight
+"color name (:help cterm-colors) or ANSI code
+" let g:limelight_conceal_ctermfg = 'gray'
+" let g:limelight_conceal_ctermfg = 240
+"
+" " Default: 0.5
+" let g:limelight_default_coefficient = 0.7
+
+" autocmd! User GoyoEnter Limelight
+" autocmd! User GoyoLeave Limelight!
+"}}}
+"
+"{{{ Markdown
+" disable header folding
+let g:vim_markdown_folding_disabled = 1
+"
+" " do not use conceal feature, the implementation is not so good
+ let g:vim_markdown_conceal = 1
+"
+" " disable math tex conceal feature
+let g:tex_conceal = ""
+let g:vim_markdown_math = 1
+"
+" " support front matter of various format
+let g:vim_markdown_frontmatter = 1  " for YAML format
+let g:vim_markdown_toml_frontmatter = 1  " for TOML format
+let g:vim_markdown_json_frontmatter = 1  " for JSON format
+
+" open with markdown pandoc
+augroup pandoc_syntax
+	    au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
+augroup END
+
+
+" do not close the preview tab when switching to other buffers
+let g:mkdp_auto_close = 0
+nnoremap <M-m> :MarkdownPreview<CR>
+
+"}}}
+"{{{ Nerd Tree
+inoremap jk <ESC>
+nmap <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeGitStatusWithFlags = 1
+
+"ignore some predifined files
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 "}}}
 "{{{ Easy Motion
 " ==== Easymotion
@@ -322,97 +257,10 @@ let g:Tex_IgnoredWarnings =
     \'Citation %.%# undefined'."\n".
     \'Double space found.'."\n"
 let g:Tex_IgnoreLevel = 8
-"}}}
-"{{{ Pluging configration
-"{{{ Internal
-" Disable a lot of unnecessary internal plugins
-let g:loaded_2html_plugin = 1
-let g:loaded_getscriptPlugin = 1
-let g:loaded_gzip = 1
-let g:loaded_logipat = 1
-let g:loaded_rrhelper = 1
-let g:loaded_spellfile_plugin = 1
-let g:loaded_tarPlugin = 1
-let g:loaded_vimballPlugin = 1
-let g:loaded_zipPlugin = 1
-"}}}
-"{{{ Deoplete
-let g:deoplete#enable_at_startup = 1
-if !exists('g:deoplete#omni#input_patterns')
-  let g:deoplete#omni#input_patterns = {}
-endif
-" let g:deoplete#disable_auto_complete = 1
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
+let g:vimtex_quickfix_mode =  0
+"}}}
 
-augroup omnifuncs
-  autocmd!
-  autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-  autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-  autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-  autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-  autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-augroup end
-
-" deoplete tab-complete
-"inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
-
-"}}}
-"{{{ Nerd tree
-map <C-n> :NERDTreeToggle<CR>
-let NERDTreeQuitOnOpen = 1 " automatically close when open a file
-let NERDTreeAutoDeleteBuffer = 1 "automatically delete the buffer
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-let NERDTreeIgnore = ['\.pyc$','\.log$', '\.aux$','\.fls$','\.out$','\.bbl$','\.blg$','\.fdb_latexmk$']
-let g:NERDTreeWinSize = 30  " Controle the  size of the window
-"}}}
-"{{{ ale 
-"
-let g:ale_fix_on_save = 1
-"}}}
-"{{{ markdown
-"
-let g:vim_markdown_folding_disabled = 1
-let g:vim_markdown_folding_style_pythonic= 1
-let g:vim_markdown_toc_autofit=1
-let g:vim_markdown_emphasis_multiline = 0 
-set conceallevel=2
-let g:vim_markdown_math = 1
-"}}}
-"{{{ fast folding
-let g:markdown_folding = 1
-nmap zuz <Plug>(FastFoldUpdate)
-let g:fastfold_savehook = 1
-let g:fastfold_fold_command_suffixes =  ['x','X','a','A','o','O','c','C']
-let g:fastfold_fold_movement_commands = [']z', '[z', 'zj', 'zk']
-let g:tex_fold_enabled = 1
-let g:vimsyn_folding = 'af'
-"}}}
-"{{{ rainbow parentheses
-let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgray',    'DarkOrchid3'],
-    \ ['darkgreen',   'firebrick3'],
-    \ ['darkcyan',    'RoyalBlue3'],
-    \ ['darkred',     'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['black',       'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkred',     'DarkOrchid3'],
-    \ ['red',         'firebrick3'],
-    \ ]
-let g:rbpt_max = 16
-let g:rbpt_loadcmd_toggle = 0
-"}}}
-"{{{ match up
-"}}}
 "{{{ UltiSnippet
 " Default directory for snippet 
 " default new edit mode (prefer vertical)
@@ -423,33 +271,14 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 "}}}
-"{{{ VimWiki
-let g:vimwiki_list=[{'path':'~/vimwiki/','syntax':'markdown', 'ext':'.wiki'}]
-"------ First wiki -----------
-let wiki_1 = {}
-let wiki_1.path = '~/vimwiki/'
-let wiki_1.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
-
-"------ Second wiki -----
-let wiki_2 = {}
-let wiki_2.path = '~/github/anass/dotfiles/coursesNotes'
-let wiki_2.index = 'main'
-
-"------ Combining both wiki's-------
-let g:vimwiki_list = [wiki_1, wiki_2]
+"{{{  org-mode
+let g:org_agneda_files=['/home/anass/Dropbox/org/00_tasks.org']
 "}}}
-"{{{ airline theme:
-" let g:airline_theme= "tomorrow"
-let g:airline_theme='afterglow'
+"{{{ vimwiki  
+let science_wiki = {}
+let science_wiki.path =  '~/github/anass/vimwiki'
+let science_wiki.syntax = 'markdown'
+let g:vimwiki_list = [science_wiki]
+let g:vimwiki_listsyms = '✗○◐●✓'
 "}}}
-"{{{ TagBar
-nmap <F8> :TagbarToggle<CR>
-let g:Tlist_WinWidth=40
-"}}}
-"{{{ Vim_Run:
-let g:run_auto_close = 0
-let g:run_split = 'right'
-"}}}
-"}}}
-
-
+"

@@ -1,12 +1,12 @@
-1. [ ] Monster trucks
+1. [x] Monster trucks
 2. [X] First fight
 3. [X] The berlin syndrome (Terrible)
 4. [X] Hacksaw ridge
-5. [ ] 21 jump street
-7. [ ] Skyscrapter
+5. [x] 21 jump street
+7. [x] Skyscrapter
 8. [X] Breaking in
 9. [X] An ordinary man (terrible)
 10. [X] Always be my maybe
-11. [ ] Upgrade (Excellent)
+11. [x] Upgrade (Excellent)
 
 
