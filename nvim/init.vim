@@ -278,7 +278,10 @@ let g:org_agneda_files=['/home/anass/Dropbox/org/00_tasks.org']
 let science_wiki = {}
 let science_wiki.path =  '~/github/anass/vimwiki'
 let science_wiki.syntax = 'markdown'
-let g:vimwiki_list = [science_wiki]
+let linux_wiki = {}
+let linux_wiki.path =  '~/github/anass/dotfiles/vimwiki'
+let linux_wiki.syntax = 'markdown'
+let g:vimwiki_list = [science_wiki, linux_wiki]
 let g:vimwiki_listsyms = '✗○◐●✓'
 "}}}
 "

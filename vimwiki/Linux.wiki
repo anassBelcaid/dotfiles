@@ -1,4 +1,0 @@
-== Aorus experience ==
-
-* Fix the non detected trackpad
-  `i8042.kbdreset=1`
