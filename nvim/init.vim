@@ -18,6 +18,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 "}}}
 "{{{ Navigation
 "{{{ NerdTree
@@ -276,12 +277,15 @@ let g:org_agneda_files=['/home/anass/Dropbox/org/00_tasks.org']
 "}}}
 "{{{ vimwiki  
 let science_wiki = {}
-let science_wiki.path =  '~/github/anass/vimwiki'
+let science_wiki.path =  '~/github/anass/vimwiki/science'
 let science_wiki.syntax = 'markdown'
 let linux_wiki = {}
-let linux_wiki.path =  '~/github/anass/dotfiles/vimwiki'
+let linux_wiki.path =  '~/github/anass/vimwiki/linux'
 let linux_wiki.syntax = 'markdown'
-let g:vimwiki_list = [science_wiki, linux_wiki]
+let lang_wiki = {}
+let lang_wiki.path =  '~/github/anass/vimwiki/programming_languages'
+let lang_wiki.syntax = 'markdown'
+let g:vimwiki_list = [science_wiki, linux_wiki, lang_wiki]
 let g:vimwiki_listsyms = '✗○◐●✓'
 "}}}
 "
