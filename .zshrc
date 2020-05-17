@@ -8,7 +8,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="fino"
 # ZSH_THEME="fino"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -61,7 +61,7 @@ ZSH_THEME="random"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git  colorize git-prompt pyenv battery zsh-syntax-highlighting zsh-completions
-   zsh-autosuggestions  vi-mode
+   zsh-autosuggestions  vi-mode fzf autojump
 )
 
 # autosuggestions style
@@ -123,6 +123,7 @@ alias sysUpd="sys_update"
 alias m='make'
 alias r='ranger'
 
+##}}}
 #}}}
 #{{{ Personal variables
 # Exporting the new path
@@ -261,4 +262,3 @@ change_brightness()
   echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
 }
 #}}}
-source /home/anass/.config/broot/launcher/bash/br
