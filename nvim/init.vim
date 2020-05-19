@@ -2,7 +2,6 @@
 " Plugins will be downloaded under the specified directory.
  call plug#begin('~/.vim/plugged')
 "{{{Languages
-Plug 'fennerm/my-nord-vim'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -36,7 +35,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
  "}}}
  "{{{Looks
 Plug 'morhetz/gruvbox'
-Plug 'arcticicestudio/nord-vim'
+Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/goyo.vim'
@@ -157,10 +156,8 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "Should be in its own file
 "I want itatlic
 let g:gruvbox_italic=1
-" colorscheme gruvbox 
-colorscheme nord
-let g:nord_italic=1
-let g:nord_uniform_status_lines = 1
+ " colorscheme gruvbox 
+ colorscheme jellybeans
 " hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line
