@@ -1,8 +1,7 @@
-"{{{ Plugings
-" Plugins will be downloaded under the specified directory.
+"{{{ Plugings Plugins will be downloaded under the specified directory.
  call plug#begin('~/.vim/plugged')
 "{{{Languages
-Plug 'fennerm/my-nord-vim'
+Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -157,11 +156,9 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "Should be in its own file
 "I want itatlic
 let g:gruvbox_italic=1
-" colorscheme gruvbox 
-colorscheme nord
-let g:nord_italic=1
-let g:nord_uniform_status_lines = 1
-" hi Normal guibg=NONE ctermbg=NONE
+colorscheme gruvbox 
+" colorscheme jellybeans
+hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line
 "show all the files

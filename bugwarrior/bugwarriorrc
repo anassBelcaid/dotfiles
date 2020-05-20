@@ -1,0 +1,44 @@
+# Example bugwarriorrc
+
+# General stuff.
+[general]
+# Here you define a comma separated list of targets.  Each of them must have a
+# section below determining their properties, how to query them, etc.  The name
+# is just a symbol, and doesn't have any functional importance.
+targets = trello
+
+# If unspecified, the default taskwarrior config will be used.
+taskrc = ~/.taskrc
+
+# Setting this to true will shorten links with http://da.gd/
+#shorten = False
+
+# Setting this to True will include a link to the ticket in the description
+inline_links = True
+
+# Setting this to True will include a link to the ticket as an annotation
+annotation_links = True
+
+# Setting this to True will include issue comments and author name in task
+# annotations
+annotation_comments = True
+
+# Defines whether or not issues should be matched based upon their description.
+# In legacy mode, we will attempt to match issues to bugs based upon the
+# presence of the '(bw)' marker in the task description.
+# If this is false, we will only select issues having the appropriate UDA
+# fields defined (which is smarter, better, newer, etc..)
+legacy_matching = False
+
+# log.level specifies the verbosity.  The default is DEBUG.
+# log.level can be one of DEBUG, INFO, WARNING, ERROR, CRITICAL, DISABLED
+#log.level = DEBUG
+#
+
+[trello]
+service = trello
+trello.api_key = 305322b5e8f69613d5150b86bf3869fe
+trello.token = b7967cb3228dd4edc598b29e34595efc433892a49b0294626d4f0ef38274a72c
+trello.import_labels_as_tags = true
+
+
