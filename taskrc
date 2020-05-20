@@ -1,0 +1,11 @@
+#default data location on my github repo
+data.location =/home/anass/github/anass/tasks/
+
+#use regular expression
+regex=on
+
+#use colorful output
+color=1
+context.research=+reading or +deepLearning or +torch
+context.vacation=project:vacation
+context.fun=+linux or +competitivepg or +gaming

@@ -1,7 +1,7 @@
-"{{{ Plugings
-" Plugins will be downloaded under the specified directory.
+"{{{ Plugings Plugins will be downloaded under the specified directory.
  call plug#begin('~/.vim/plugged')
 "{{{Languages
+Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
