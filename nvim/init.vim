@@ -68,6 +68,10 @@ set linebreak
 set undolevels=1000
 set undoreload=10000
 
+
+" Clipboard
+set clipboard=unnamedplus
+
 " Indentation
 set softtabstop=2
 set shiftwidth=2
