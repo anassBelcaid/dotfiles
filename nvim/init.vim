@@ -5,6 +5,7 @@ Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'w0rp/ale'
 Plug 'sbdchd/vim-run'
 Plug 'jceb/vim-orgmode'
 Plug 'itchyny/calendar.vim'
@@ -68,6 +69,11 @@ set linebreak
 set undolevels=1000
 set undoreload=10000
 
+" numbering 
+set number
+
+"folding method
+set foldmethod=marker
 
 " Clipboard
 set clipboard=unnamedplus
@@ -162,7 +168,7 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 let g:gruvbox_italic=1
  " colorscheme gruvbox 
  colorscheme jellybeans
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line
 "show all the files
