@@ -11,18 +11,23 @@
 %- Basic class and package {{{ -
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{homework}[2020-06-13 CS homework]
-\LoadClass[twocolumn]{article}
+\LoadClass[onecolumn]{article}
+
 % colors
 \RequirePackage[dvipsnames]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{bookman}
+\usepackage{booktabs}
 \RequirePackage{tikz}
+\usepackage{amsmath,amssymb}
 \usetikzlibrary{decorations,positioning}
 \RequirePackage{pgfplots}
 \RequirePackage{minted}
 \RequirePackage{geometry}
  \geometry{
  a4paper,
- left=10mm,
- right=10mm,
+ left=20mm,
+ right=20mm,
  top=10mm,
  }
 
@@ -48,10 +53,12 @@
 % Environnement {{{ %
 \newcommand{\exercice}[1]
 {
+  \vspace*{0.2cm}
 \begin{center}
   \begin{tikzpicture} 
     \node[thick, rounded corners, draw, fill=MidnightBlue!40,
-    minimum width=2cm] (exo) at (0.25
+    minimum width=2cm,
+    minimum height=0.8cm] (exo) at (0.25
     \textwidth, 0) {\theexo: #1 } ;
 
     % \path[thin,draw,double] (2,0)--(exo)--(0.5\textwidth, 0);
@@ -85,10 +92,13 @@
 % }}} Fold description %
 
 % Environment  {{{ %
-\setminted[python]{frame=lines, fontsize=\scriptsize,
+\setminted[python]{frame=lines, fontsize=\small,
+bgcolor=Black,
 framesep=2mm}
-\usemintedstyle{tango}
+\usemintedstyle{monokai}
 
 \newcommand{\code}[1]
-{\mintinline{python}{#1}}
+{
+  \structure{\texttt{#1}}
+}
 % }}}  %
