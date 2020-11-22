@@ -1,4 +1,4 @@
-"{{{ Plugings Plugins will be downloaded under the specified directory.
+"{{{ Plugins.
  call plug#begin('~/.vim/plugged')
 "{{{Languages
 Plug 'nanotech/jellybeans'
@@ -7,9 +7,9 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'w0rp/ale'
 Plug 'sbdchd/vim-run'
+Plug 'JuliaEditorSupport/julia-vim'
 Plug 'jceb/vim-orgmode'
 Plug 'itchyny/calendar.vim'
-Plug 'vimwiki/vimwiki'
 " tabular plugin is used to format tables
 Plug 'godlygeek/tabular'
 " " JSON front matter highlight plugin
@@ -168,7 +168,7 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 let g:gruvbox_italic=1
  " colorscheme gruvbox 
  colorscheme jellybeans
-" hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line
 "show all the files

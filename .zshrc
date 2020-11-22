@@ -8,8 +8,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="fino"
 # ZSH_THEME="fino"
+ZSH_THEME="half-life"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -98,9 +98,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # latex compilation command
-alias latexLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias vim='nvim'
 alias pgoogle='ping www.google.com'
+alias g++='g++ -std=c++11 -Wall'
+# latexmk {{{ #
+alias ltxclean='latexmk -C'
+alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
+alias ltxpdf='latexmk -pdf'
+# }}} latexmk #
 export edgeProject='~/projects/edgeDetection/'
 export repo=~/github/anass
 export attijari=Yt000193342
@@ -127,8 +132,8 @@ alias r='ranger'
 #}}}
 #{{{ Personal variables
 # Exporting the new path
-export PATH=/usr/local/matlatb/bin:$PATH
 export PATH=~/.gem/ruby/2.7.0/bin:$PATH
+export PATH=/usr/bin/vendor_perl:$PATH
 export PATH=~/.local/bin/:$PATH
 #path for matlatb
 export PATH=~/scripts/:$PATH
