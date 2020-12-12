@@ -5,7 +5,6 @@ Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'w0rp/ale'
 Plug 'sbdchd/vim-run'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'jceb/vim-orgmode'
@@ -168,7 +167,7 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 let g:gruvbox_italic=1
  " colorscheme gruvbox 
  colorscheme jellybeans
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line
 "show all the files
