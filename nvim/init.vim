@@ -3,12 +3,13 @@
 "{{{Languages
 Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
+Plug 'jceb/vim-orgmode'
+Plug 'itchyny/calendar.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'sbdchd/vim-run'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'jceb/vim-orgmode'
-Plug 'itchyny/calendar.vim'
 " tabular plugin is used to format tables
 Plug 'godlygeek/tabular'
 " " JSON front matter highlight plugin
@@ -35,6 +36,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
  "}}}
  "{{{Looks
 Plug 'morhetz/gruvbox'
+Plug 'ayu-theme/ayu-vim' " or other package manager
 Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -166,7 +168,12 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "I want itatlic
 let g:gruvbox_italic=1
  " colorscheme gruvbox 
- colorscheme jellybeans
+ " colorscheme jellybeans
+set termguicolors     " enable true colors support
+" let ayucolor="light"  " for light version of theme
+" let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
 " hi Normal guibg=NONE ctermbg=NONE
 "}}}
 "{{{ vim air line

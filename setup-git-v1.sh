@@ -14,7 +14,6 @@ set -e
 ##################################################################################################################
 # change into your name and email.
 
-git init
 git config --global user.name "Anass Belcaid"
 git config --global user.email "anass.belcaid@gmail.com"
 sudo git config --system core.editor vim
@@ -26,3 +25,4 @@ git config --global push.default simple
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
+git config --global init.defaultBranch main

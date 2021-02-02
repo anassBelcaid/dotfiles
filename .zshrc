@@ -8,8 +8,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="fino"
-ZSH_THEME="half-life"
+ZSH_THEME="theunraveler"
+# ZSH_THEME="random"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -60,8 +60,8 @@ ZSH_THEME="half-life"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git  colorize git-prompt pyenv battery zsh-syntax-highlighting zsh-completions
-   zsh-autosuggestions  vi-mode fzf autojump
+  git  colorize git-prompt pyenv battery zsh-syntax-highlighting  
+     vi-mode fzf 
 )
 
 # autosuggestions style
@@ -235,7 +235,7 @@ export ensamLocal=172.20.0.6
 
 #}}}
 #{{{ Jekyll: 
-blog-serve(){ bundle exec jekyll serve}
+blog-serve(){ bundle exec jekyll serve --livereload}
 #}}}
 #{{{ Custom variables
 export academicmail=a.belcaid@edu.umi.ac.ma 
@@ -248,14 +248,14 @@ export article='~/github/anass/articles/dpsfilterarticle'
 #{{{ Conda setup 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/anass/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/anass/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/anass/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/anass/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/anass/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/anass/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/anass/anaconda3/bin:$PATH"
+        export PATH="/home/anass/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -266,4 +266,10 @@ change_brightness()
 {
   echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
 }
+#}}}
+#{{{ fasd
+eval "$(fasd --init auto zsh-hook zsh-ccomp)"
+alias v='f -e vim'
+alias m='f -e mplayer'
+alias =o='a -e xdg-open'
 #}}}
