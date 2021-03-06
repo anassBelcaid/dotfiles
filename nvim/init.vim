@@ -3,6 +3,8 @@
 "{{{Languages
 Plug 'nanotech/jellybeans'
 Plug 'lervag/vimtex'
+Plug 'vimwiki/vimwiki'
+Plug 'tools-life/taskwiki'
 Plug 'jceb/vim-orgmode'
 Plug 'itchyny/calendar.vim'
 Plug 'SirVer/ultisnips'
@@ -23,6 +25,7 @@ Plug 'tpope/vim-surround'
 "}}}
 "{{{ Navigation
 "{{{ NerdTree
+Plug 'mhinz/vim-startify'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -37,9 +40,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
  "{{{Looks
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim' " or other package manager
-Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ap/vim-css-color'
 Plug 'junegunn/goyo.vim'
 " Plug 'junegunn/limelight.vim'
 Plug 'ryanoasis/vim-devicons'
@@ -63,27 +66,46 @@ set nobackup
 set undofile
 set incsearch
 
+
+
+" Scrolling
+set scrolloff=8
+set signcolumn=yes  "Column for signs
+set colorcolumn=80  " no more than 80 char 
+
+
+
 set textwidth=80
-set wrap
+set nowrap
 set linebreak
 
 set undolevels=1000
 set undoreload=10000
 
 " numbering 
-set number
+set relativenumber
 
 "folding method
 set foldmethod=marker
+
+" Highlight
+set nohlsearch
+
+
+"Hidden
+set hidden
 
 " Clipboard
 set clipboard=unnamedplus
 
 " Indentation
-set softtabstop=2
-set shiftwidth=2
+set softtabstop=4
+set shiftwidth=4
 set expandtab
-set tabstop=2        " number of visual spaces per TAB
+set tabstop=4        " number of visual spaces per TAB
+set smartindent
+
+
 set copyindent
 set preserveindent
 silent! set breakindent
@@ -105,6 +127,7 @@ set nobackup
 set undofile
 set undolevels=1000
 set undoreload=10000
+"}}}
 "{{{folding
 " let g:SimplyFold_docstring_preview=0
 " " folding method
@@ -293,16 +316,30 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:org_agneda_files=['/home/anass/Dropbox/org/00_tasks.org']
 "}}}
 "{{{ vimwiki  
-let science_wiki = {}
-let science_wiki.path =  '~/github/anass/vimwiki/science'
-let science_wiki.syntax = 'markdown'
-let linux_wiki = {}
-let linux_wiki.path =  '~/github/anass/vimwiki/linux'
-let linux_wiki.syntax = 'markdown'
-let lang_wiki = {}
-let lang_wiki.path =  '~/github/anass/vimwiki/programming_languages'
-let lang_wiki.syntax = 'markdown'
-let g:vimwiki_list = [science_wiki, linux_wiki, lang_wiki]
-let g:vimwiki_listsyms = '✗○◐●✓'
-"}}}
+"Default wiki with markdown syntax
+let g:vimwiki_list = [{'path':'/home/anass/github/anass/wiki', 'syntax':'markdown', 'ext':'.md'}]
+let g:vimwiki_ext2syntax= {'.md':'markdown', ".markdown":'markdown',".mdown":'markdown'}
+
+
+" folding
+let g:vimwiki_folding = 'expr'
+
+
+"Turn vimwiki link extension
+let g:vimwiki_markdown_link_ext = 1
+
+"Turn off vimwiki for global markdown files
+let g:vimwiki_global_ext = 0
+
+
+" Mapping for create entry
+let g:vimwiki_use_calendar=1
 "
+" Symbols for tasks
+" let g:vimwiki_listsyms = '✗○◐●✓'
+"}}}
+" task wiki {{{ "
+let g:taskwiki_markup_syntax = 'markdown'
+let g:markdown_folding = 1
+" }}} task wiki "
+"}}}

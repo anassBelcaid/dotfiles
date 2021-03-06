@@ -32,7 +32,6 @@ parser.add_argument("-${1:short}","--${2:long}",type=${3:type},choices={${4:[]},
 help=${5:help message})
 $0
 endsnippet
-	
 #}}}
 
 
@@ -68,3 +67,16 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']  = ${1:'2'}
 $0
 endsnippet
 #}}}
+
+
+# Regular expression {{{ #
+snippet re "import regular expression module"
+import re
+endsnippet
+
+
+snippet recmp "compile a regular expression"
+${1: pattern} = re.compile(r'${2:}')
+$0
+endsnippet
+# }}} Regular expression #

@@ -132,7 +132,8 @@ alias r='ranger'
 #}}}
 #{{{ Personal variables
 # Exporting the new path
-export PATH=~/.gem/ruby/2.7.0/bin:$PATH
+# export PATH=~/.gem/ruby/2.7.0/bin:$PATH
+export PATH=~/.local/share/gem/ruby/2.7.0/bin:$PATH
 export PATH=/usr/bin/vendor_perl:$PATH
 export PATH=~/.local/bin/:$PATH
 #path for matlatb
@@ -271,5 +272,18 @@ change_brightness()
 eval "$(fasd --init auto zsh-hook zsh-ccomp)"
 alias v='f -e vim'
 alias m='f -e mplayer'
-alias =o='a -e xdg-open'
+#}}}
+#{{{ Automatic ssh agent
+if [ -f ~/.ssh/agent.env ] ; then
+    . ~/.ssh/agent.env > /dev/null
+    if ! kill -0 $SSH_AGENT_PID > /dev/null 2>&1; then
+        echo "Stale agent file found. Spawning a new agent. "
+        eval `ssh-agent | tee ~/.ssh/agent.env`
+        ssh-add
+    fi
+else
+    echo "Starting ssh-agent"
+    eval `ssh-agent | tee ~/.ssh/agent.env`
+    ssh-add
+fi
 #}}}
