@@ -18,19 +18,13 @@ endsnippet
 
 #{{{ Starting files
 #{{{ new file speed up
-snippet simeFile " create a new simple file whit header file included"
+snippet simFile " create a new simple file whit header file included"
 #include <iostream>
-using std::cout;
-using std::endl;
-using std::cerr;
-
 #include <string>
-using std::string;
+#include <vector>
 
-#include <algorithm>
-using std::for_each;
+using namespace std;
 
-#include <utility>
 
 int main(int argc, char *argv[])
 {
@@ -80,3 +74,11 @@ int main()
 	$0
 }
 endsnippet
+
+#{{{ Google test
+
+snippet gtestMain "execute all the tests"
+  ::testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+endsnippet
+#}}}

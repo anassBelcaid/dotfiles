@@ -132,14 +132,12 @@ alias r='ranger'
 #}}}
 #{{{ Personal variables
 # Exporting the new path
-# export PATH=~/.gem/ruby/2.7.0/bin:$PATH
-export PATH=~/.local/share/gem/ruby/2.7.0/bin:$PATH
-export PATH=/usr/bin/vendor_perl:$PATH
-export PATH=~/.local/bin/:$PATH
+# export PATH=/usr/bin/vendor_perl:$PATH
+# export PATH=~/.local/bin/:$PATH
 #path for matlatb
 export PATH=~/scripts/:$PATH
 #python path
-export PYTHONPATH=~/python/
+# export PYTHONPATH=
 
 #conda path
 # export PATH=~/anaconda3/bin/:$PATH
@@ -287,3 +285,6 @@ else
     ssh-add
 fi
 #}}}
+# ruby env {{{ #
+eval "$(rbenv init -)"
+# }}} ruby env #

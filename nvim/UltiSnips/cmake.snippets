@@ -1,0 +1,10 @@
+#{{{ Google test
+snippet addGtest "add the library Google Test"
+find_package(GTest REQUIRED)
+endsnippet
+
+
+snippet targetGtest "target the google test library"
+target_link_libraries(${1:foo} GTest::gtest GTest::gtest_main)
+endsnippet
+#}}}

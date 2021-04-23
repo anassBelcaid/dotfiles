@@ -345,3 +345,34 @@ snippet titleformat "custome a title format"
 \titleformat{${1:\section}}[${2:shape}]{${3:format}}{${4:label}}{${5:sep}}{${6:before}}
 endsnippet 
 #}}}
+
+#{{{ add code with minted
+snippet mintCode "Block code with minted"
+\begin{minted}[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+fontsize=\footnotesize,
+]
+{${1:python}}
+$0
+\end{minted}
+endsnippet
+#}}}
+
+
+#{{{ Minipage
+snippet minip "Create a minipage"
+\begin{minipage}{${1:0.5}\textwidth}
+\centering
+$0
+\end{minipage}
+endsnippet
+#}}}
+
+
+#{{{ titled question exam
+
+snippet titleQ "Titled question with grades"
+\titledquestion{${1:questionname}}[${2:grades}] {\bf \thequestiontitle}:\\[0.2cm]
+endsnippet
