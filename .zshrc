@@ -107,6 +107,7 @@ alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias ltxpdf='latexmk -pdf'
 # }}} latexmk #
 export edgeProject='~/projects/edgeDetection/'
+export TZ="Africa/Casablanca"
 export repo=~/github/anass
 export attijari=Yt000193342
 export cwork='~/github/anass/articles/filter1d/'
