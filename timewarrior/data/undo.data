@@ -1,0 +1,47 @@
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T101850Z","tags":["Timewarrior - Tutorial - Timewarrior","trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T101850Z","tags":["Timewarrior - Tutorial - Timewarrior","trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T101850Z","end":"20210902T141825Z","tags":["Timewarrior - Tutorial - Timewarrior","trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T141825Z","tags":["solve the problem of jekyll website"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T141825Z","tags":["solve the problem of jekyll website"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T141825Z","end":"20210902T142824Z","tags":["solve the problem of jekyll website"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T143053Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T143053Z","tags":["Sientific math and biblio in al-folio","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T143053Z","end":"20210902T143055Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T143109Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T143109Z","tags":["Sientific math and biblio in al-folio","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T143109Z","end":"20210902T143111Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T143113Z","tags":["Sientific math and biblio in al-folio","prof"]}
