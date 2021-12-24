@@ -1,7 +1,16 @@
 {
+  "08:30-":{"count":7},
+  "13:30-":{"count":2},
+  "7:25-7:55":{"count":1},
   "Sientific math and biblio in al-folio":{"count":3},
   "Timewarrior - Tutorial - Timewarrior":{"count":1},
-  "prof":{"count":3},
+  "life":{"count":98},
+  "notes on logistics and Qt string and containers":{"count":1},
+  "prof":{"count":122},
+  "project":{"count":3},
+  "research":{"count":24},
+  "researtch":{"count":1},
+  "scientist":{"count":2},
   "solve the problem of jekyll website":{"count":1},
-  "trello":{"count":1}
+  "trello":{"count":23}
 }

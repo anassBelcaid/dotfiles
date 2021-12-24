@@ -45,3 +45,2799 @@ txn:
   type: interval
   before: 
   after: {"id":0,"start":"20210902T143113Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T143113Z","tags":["Sientific math and biblio in al-folio","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T143113Z","end":"20210902T151715Z","tags":["Sientific math and biblio in al-folio","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T182740Z","tags":["notes on logistics and Qt string and containers","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T182740Z","tags":["notes on logistics and Qt string and containers","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210902T193818Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210902T193818Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210902T193818Z","end":"20210902T193851Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20210902T182740Z","end":"20210902T190432Z","tags":["notes on logistics and Qt string and containers"]}
+txn:
+  type: config
+  before: 
+  after: tags.prof.description = Task as a full Professor
+txn:
+  type: config
+  before: 
+  after: tags.trello.description = Daily sync with trello
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210903T103136Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210903T103136Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210903T103136Z","end":"20210903T103138Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210903T135756Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210903T135756Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210903T135756Z","end":"20210903T141214Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210903T141809Z","tags":["scientist"]}
+txn:
+  type: config
+  before: 
+  after: tags.life.description = Better person tasks
+txn:
+  type: config
+  before: 
+  after: tag.scientist.description = Research work
+txn:
+  type: config
+  before: 
+  after: tags.scientist.description = Research work
+txn:
+  type: interval
+  before: {"id":1,"start":"20210903T141809Z","tags":["scientist"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210903T141809Z","end":"20210903T151422Z","tags":["scientist"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210903T165805Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210903T165805Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210903T165805Z","end":"20210903T173505Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210903T210553Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210903T210553Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210903T210553Z","end":"20210903T212410Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210904T072621Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210904T072621Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210904T072621Z","end":"20210904T081730Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210904T081817Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210904T081817Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210904T081817Z","end":"20210904T101416Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210904T134839Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210904T134839Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210904T134839Z","end":"20210904T142241Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210904T194939Z","tags":["scientist"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210904T194939Z","tags":["scientist"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210904T194939Z","end":"20210904T203004Z","tags":["scientist"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210904T203021Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210904T203021Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210904T203021Z","end":"20210904T213002Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210905T070203Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210905T070203Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210905T070203Z","end":"20210905T080109Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210905T080515Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210905T080515Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210905T080515Z","end":"20210905T101851Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210905T104124Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210905T104124Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210905T104124Z","end":"20210905T112252Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210905T140700Z","end":"20210905T153700Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210905T153949Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210905T153949Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210905T153949Z","end":"20210905T163833Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210906T085528Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210906T085528Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210906T085528Z","end":"20210906T123239Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210906T143233Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210906T143233Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210906T143233Z","end":"20210906T151819Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210906T172517Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210906T172517Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210906T172517Z","end":"20210906T180654Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210907T093839Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210907T093839Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210907T093839Z","end":"20210907T105714Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210907T113858Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210907T113858Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210907T113858Z","end":"20210907T114657Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210907T140000Z","end":"20210907T153000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210908T083653Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210908T083653Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210908T083653Z","end":"20210908T093420Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210908T093935Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210908T093935Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210908T093935Z","end":"20210909T062453Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210909T062453Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210909T062453Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210909T062453Z","end":"20210909T070602Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210909T081012Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210909T081012Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210909T081012Z","end":"20210909T110210Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210909T132852Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210909T132852Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210909T132852Z","end":"20210909T151604Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":4,"start":"20210908T093935Z","end":"20210909T062453Z","tags":["trello"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210909T181205Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210909T181205Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210909T181205Z","end":"20210909T203701Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210910T075129Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210910T075129Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210910T075129Z","end":"20210910T084602Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210910T090112Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210910T090112Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210910T090112Z","end":"20210910T101317Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210910T101558Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210910T101558Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210910T101558Z","end":"20210910T110653Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210910T155606Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210910T155606Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210910T155606Z","end":"20210910T171132Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210911T071139Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210911T071139Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210911T071139Z","end":"20210911T080841Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210911T081531Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210911T081531Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210911T081531Z","end":"20210911T092445Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210911T140000Z","end":"20210911T150000Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210911T201458Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210911T201458Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210911T201458Z","end":"20210911T211441Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210912T064442Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210912T064442Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210912T064442Z","end":"20210912T073802Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210912T075023Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210912T075023Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210912T075023Z","end":"20210912T081155Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210912T083744Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210912T083744Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210912T083744Z","end":"20210912T094055Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210912T115907Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210912T115907Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210912T115907Z","end":"20210912T130126Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210912T133000Z","end":"20210912T140000Z","tags":["researtch"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210913T081120Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210913T081120Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210913T081120Z","end":"20210913T095812Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210913T095859Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210913T095859Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210913T095859Z","end":"20210913T104912Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210913T104920Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210913T104920Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210913T104920Z","end":"20210913T111943Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210913T133556Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210913T133556Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210913T133556Z","end":"20210913T151618Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210913T200722Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210913T200722Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210913T200722Z","end":"20210913T210402Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210914T064307Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210914T064307Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210914T064307Z","end":"20210914T070555Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210914T075502Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210914T075502Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210914T075502Z","end":"20210914T082429Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210914T082614Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210914T082614Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210914T082614Z","end":"20210914T110413Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210914T134339Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210914T134339Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210914T134339Z","end":"20210914T202605Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210915T081202Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210915T081202Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210915T081202Z","end":"20210915T090658Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210915T090928Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210915T090928Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210915T090928Z","end":"20210915T194131Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210916T080920Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210916T080920Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210916T080920Z","end":"20210916T094251Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210916T094256Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210916T094256Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210916T094256Z","end":"20210916T101905Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210916T135253Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210916T135253Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210916T135253Z","end":"20210916T163106Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210917T152204Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210917T152204Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210917T152204Z","end":"20210918T062636Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210918T062658Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210918T062658Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210918T062658Z","end":"20210918T072620Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210918T074333Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210918T074333Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210918T074333Z","end":"20210919T072445Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210919T072445Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210919T072445Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210919T072445Z","end":"20210919T081830Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210920T064919Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210920T064919Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210920T064919Z","end":"20210920T071021Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210920T081555Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210920T081555Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210920T081555Z","end":"20210920T085118Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210920T085126Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210920T085126Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210920T085126Z","end":"20210920T095148Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210920T100010Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210920T100010Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210920T100010Z","end":"20210920T110502Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210920T110708Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210920T110708Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210920T110708Z","end":"20210920T150949Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210921T082534Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210921T082534Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210921T082534Z","end":"20210921T092739Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210921T092852Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210921T092852Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210921T092852Z","end":"20210921T133704Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210922T081610Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210922T081610Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210922T081610Z","end":"20210922T094532Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210922T112559Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210922T112559Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210922T112559Z","end":"20210923T081510Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210923T081510Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210923T081510Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210923T081510Z","end":"20210923T090743Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210924T144929Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210924T144929Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210924T144929Z","end":"20210924T194200Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210924T194208Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210924T194208Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210924T194208Z","end":"20210924T205318Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210925T074737Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210925T074737Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210925T074737Z","end":"20210925T084521Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210925T084537Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210925T084537Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210925T084537Z","end":"20210925T101643Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210925T151751Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210925T151751Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210925T151751Z","end":"20210925T165342Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210926T065721Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210926T065721Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210926T065721Z","end":"20210926T075728Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210926T075829Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210926T075829Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210926T075829Z","end":"20210926T121557Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210926T131158Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210926T131158Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210926T131158Z","end":"20210926T131240Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210926T131510Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210926T131510Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210926T131510Z","end":"20210926T202232Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210927T075804Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210927T075804Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210927T075804Z","end":"20210927T085455Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210927T085600Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210927T085600Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210927T085600Z","end":"20210927T094024Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210927T094031Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210927T094031Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210927T094031Z","end":"20210927T151728Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210927T194430Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210927T194430Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210927T194430Z","end":"20210927T203523Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210928T133000Z","end":"20210928T160000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210928T200947Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210928T200947Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210928T200947Z","end":"20210928T210849Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210929T090000Z","end":"20210929T120000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210929T140000Z","end":"20210929T150000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210930T080449Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210930T080449Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210930T080449Z","end":"20210930T090218Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210930T091638Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210930T091638Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210930T091638Z","end":"20210930T112030Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210930T133000Z","end":"20210930T163000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210930T191527Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210930T191527Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210930T191527Z","end":"20210930T204549Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211001T065554Z","tags":["7:25-7:55","life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211001T062500Z","end":"20211001T065500Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211001T065554Z","tags":["7:25-7:55","life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211001T065554Z","end":"20211001T065700Z","tags":["7:25-7:55","life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211001T065713Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211001T065713Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211001T065713Z","end":"20211001T083046Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211001T083603Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211001T083603Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211001T083603Z","end":"20211001T133416Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211002T073658Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211002T073658Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211002T073658Z","end":"20211002T083222Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211002T085337Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211002T085337Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211002T085337Z","end":"20211002T143506Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211002T211322Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211002T211322Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211002T211322Z","end":"20211002T214153Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211002T214159Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211002T214159Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211002T214159Z","end":"20211002T215844Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211003T070636Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211003T070636Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211003T070636Z","end":"20211003T080601Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211003T080618Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211003T080618Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211003T080618Z","end":"20211003T080639Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211003T080832Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211003T080832Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211003T080832Z","end":"20211003T141130Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211004T075513Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211004T075513Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211004T075513Z","end":"20211004T090139Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211004T090146Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211004T090146Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211004T090146Z","end":"20211004T135237Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211004T135346Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211004T135346Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211004T135346Z","end":"20211004T175746Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211004T175749Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211004T175749Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211004T175749Z","end":"20211004T182211Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211004T182231Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211004T182231Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211004T182231Z","end":"20211004T191006Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211005T073000Z","end":"20211005T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211005T133511Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211005T133511Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211005T133511Z","end":"20211005T143846Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211005T182621Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211005T182621Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211005T182621Z","end":"20211005T194027Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211005T194258Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211005T194258Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211005T194258Z","end":"20211005T200254Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211006T145638Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211006T073000Z","end":"20211006T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211006T145638Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211006T145638Z","end":"20211006T155015Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211007T073853Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211007T073853Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211007T073853Z","end":"20211007T112811Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211007T143826Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211007T143826Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211007T143826Z","end":"20211007T152313Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211008T073000Z","end":"20211008T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211008T130706Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211008T130706Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211008T130706Z","end":"20211008T145206Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211009T071653Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211009T071653Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211009T071653Z","end":"20211009T080827Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211009T100000Z","end":"20211009T120000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211009T141652Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211009T141652Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211009T141652Z","end":"20211009T145402Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211009T153144Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211009T153144Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211009T153144Z","end":"20211010T072439Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211010T072439Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211010T072439Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211010T072439Z","end":"20211010T094623Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211010T191416Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211010T191416Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211010T191416Z","end":"20211011T134219Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211011T134219Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211011T134219Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211011T134219Z","end":"20211011T182135Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211012T073000Z","end":"20211012T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211012T125722Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211012T125722Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211012T125722Z","end":"20211012T135648Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211012T140853Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211012T140853Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211012T140853Z","end":"20211012T201436Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211012T201436Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211012T201436Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211012T201436Z","end":"20211013T142700Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211013T142719Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211013T142719Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211013T142719Z","end":"20211013T145804Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211013T145818Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211013T145818Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211013T145818Z","end":"20211014T151717Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211015T084159Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211015T084159Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211015T084159Z","end":"20211016T065119Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211016T065119Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211016T065119Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211016T065119Z","end":"20211016T074344Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211016T075456Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211016T075456Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211016T075456Z","end":"20211016T203948Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211017T073549Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211017T073549Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211017T073549Z","end":"20211017T115050Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211017T145356Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211017T145356Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211017T145356Z","end":"20211017T154204Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211017T154532Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211017T154532Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211017T154532Z","end":"20211017T163150Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211018T073000Z","end":"20211018T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211018T131253Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211018T131253Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211018T131253Z","end":"20211018T141415Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211019T065506Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211019T065506Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211019T065506Z","end":"20211019T074507Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211019T074515Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211021T073000Z","end":"20211021T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20211019T074515Z","tags":["prof"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211023T142832Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211023T142832Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211023T142832Z","end":"20211023T202159Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211024T075848Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211024T075848Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211024T075848Z","end":"20211024T081016Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211024T085615Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211024T085615Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211024T085615Z","end":"20211024T102556Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211024T102629Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211024T102629Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211024T102629Z","end":"20211025T070054Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211025T073000Z","end":"20211025T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211025T132258Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211025T132258Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211025T132258Z","end":"20211025T142903Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211026T073000Z","end":"20211026T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211026T133805Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211026T133805Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211026T133805Z","end":"20211026T134543Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211026T134630Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211026T134630Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211026T134630Z","end":"20211027T141323Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211027T175431Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211027T175431Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211027T175431Z","end":"20211027T185228Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211028T062425Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211028T062425Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211028T062425Z","end":"20211028T073717Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211028T073800Z","end":"20211028T113700Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211028T164558Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211028T164558Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211028T164558Z","end":"20211028T185420Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211029T061456Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211029T061456Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211029T061456Z","end":"20211029T090129Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211029T090143Z","tags":["project"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211029T090143Z","tags":["project"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211029T090143Z","end":"20211029T140933Z","tags":["project"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211029T152912Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211029T152912Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211029T152912Z","end":"20211029T155108Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211029T155115Z","tags":["project"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211029T155115Z","tags":["project"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211029T155115Z","end":"20211029T162118Z","tags":["project"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211030T074903Z","tags":["project"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211030T074903Z","tags":["project"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211030T074903Z","end":"20211030T132339Z","tags":["project"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211030T132339Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211030T132339Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211030T132339Z","end":"20211030T143104Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211030T160000Z","end":"20211030T164000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211031T080000Z","end":"20211031T114700Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211031T141917Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211031T141917Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211031T141917Z","end":"20211031T152151Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211031T154513Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211031T154513Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211031T154513Z","end":"20211031T203117Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211101T060900Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211101T060900Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211101T060900Z","end":"20211101T140038Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211101T140058Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211101T140058Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211101T140058Z","end":"20211101T151455Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211102T061452Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211102T061452Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211102T061452Z","end":"20211102T065543Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211102T073000Z","end":"20211102T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211102T134317Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211102T134317Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211102T134317Z","end":"20211102T143840Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211102T144514Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211102T144514Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211102T144514Z","end":"20211103T062642Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211103T062759Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211103T062759Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211103T062759Z","end":"20211103T065457Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211103T073000Z","end":"20211103T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211103T164356Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211103T164356Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211103T164356Z","end":"20211103T173108Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211104T061905Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211104T061905Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211104T061905Z","end":"20211104T140405Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211104T140405Z"}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211104T140405Z"}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211104T140405Z","end":"20211104T140414Z"}
+txn:
+  type: interval
+  before: {"id":2,"start":"20211104T061905Z","end":"20211104T140405Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20211104T061905Z","end":"20211104T073000Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":2,"start":"20211104T113000Z","end":"20211104T140405Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211104T073000Z","end":"20211104T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211104T140440Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211104T140440Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211104T140440Z","end":"20211104T145431Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211105T061648Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211105T061648Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211105T061648Z","end":"20211105T070338Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211105T080757Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211105T080757Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211105T080757Z","end":"20211105T164438Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211106T074808Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211106T074808Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211106T074808Z","end":"20211106T084255Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211106T084418Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211106T084418Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211106T084418Z","end":"20211106T091738Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211106T091828Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211106T091828Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211106T091828Z","end":"20211106T201821Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211107T083712Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211107T083712Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211107T083712Z","end":"20211107T092852Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211107T150900Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211107T150900Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211107T150900Z","end":"20211108T064708Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211108T073000Z","end":"20211108T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211109T073000Z","end":"20211109T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211110T061844Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211110T061844Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211110T061844Z","end":"20211110T140623Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211111T062044Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211111T062044Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211111T062044Z","end":"20211111T063003Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211111T173443Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211111T173443Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211111T173443Z","end":"20211111T180541Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211111T073000Z","end":"20211111T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211112T081823Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211112T081823Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211112T081823Z","end":"20211112T103840Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211112T140056Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211112T140056Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211112T140056Z","end":"20211113T071345Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211113T071345Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211113T071345Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211113T071345Z","end":"20211113T084557Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211113T084606Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211113T084606Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211113T084606Z","end":"20211113T093754Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211113T142022Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211113T142022Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211113T142022Z","end":"20211113T211525Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211114T071236Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211114T071236Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211114T071236Z","end":"20211114T071239Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211114T071315Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211114T071315Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211114T071315Z","end":"20211114T083603Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211114T140835Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211114T140835Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211114T140835Z","end":"20211114T141826Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211114T141850Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211114T141850Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211114T141850Z","end":"20211115T073000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211115T113000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211115T073000Z","end":"20211115T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211115T113000Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211115T113000Z","end":"20211115T152906Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211115T183153Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211115T183153Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211115T183153Z","end":"20211116T073000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211116T113000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211116T073000Z","end":"20211116T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211116T113000Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211116T113000Z","end":"20211116T132955Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211116T132955Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211116T132955Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211116T132955Z","end":"20211116T193254Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211118T073000Z","end":"20211118T083000Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211118T084551Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211118T084551Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211118T084551Z","end":"20211119T080231Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211119T080231Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211119T080231Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211119T080231Z","end":"20211119T083408Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211119T083433Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211119T083433Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211119T083433Z","end":"20211119T093351Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211119T133504Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211119T133504Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211119T133504Z","end":"20211119T144409Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211120T072011Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211120T072011Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211120T072011Z","end":"20211120T081502Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211120T084147Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211120T084147Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211120T084147Z","end":"20211120T104129Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211120T140515Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211120T140515Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211120T140515Z","end":"20211120T211103Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211121T070000Z","end":"20211121T080000Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211121T080000Z","end":"20211121T090000Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211122T073000Z","end":"20211122T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211122T142449Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211122T142449Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211122T142449Z","end":"20211122T152241Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211123T073000Z","end":"20211123T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211123T190829Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211123T190829Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211123T190829Z","end":"20211124T073000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211124T113000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211124T073000Z","end":"20211124T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211124T113000Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211124T153000Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211124T113000Z","end":"20211124T153000Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211124T153000Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211124T153000Z","end":"20211124T193655Z","tags":["prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211124T193655Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211124T193655Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211124T193655Z","end":"20211124T203014Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211125T064821Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211125T064821Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211125T064821Z","end":"20211125T073000Z","tags":["research"]}
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211125T113000Z","tags":["research"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211125T073000Z","end":"20211125T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211125T113000Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211125T113000Z","end":"20211125T130536Z","tags":["research"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211125T130536Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211125T130536Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211125T130536Z","end":"20211125T140126Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211126T074650Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211126T074650Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211126T074650Z","end":"20211126T084555Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211126T090255Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211126T090255Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211126T090255Z","end":"20211126T151038Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211127T075004Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211127T075004Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211127T075004Z","end":"20211127T174819Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211128T073000Z","end":"20211128T123000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211130T080332Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211130T080332Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211130T080332Z","end":"20211130T090443Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211130T100253Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211130T100253Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211130T100253Z","end":"20211130T175447Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211201T073000Z","end":"20211201T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211202T073000Z","end":"20211202T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211205T143000Z","end":"20211205T163000Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211206T075113Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211206T075113Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211206T075113Z","end":"20211206T092040Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211206T093000Z","end":"20211206T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211206T133809Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211206T133809Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211206T133809Z","end":"20211206T151850Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211207T084644Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211207T084644Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211207T084644Z","end":"20211207T094012Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211207T150737Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211207T150737Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211207T150737Z","end":"20211207T181358Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211208T103928Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211208T103928Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211208T103928Z","end":"20211208T181214Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211209T134041Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211209T134041Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211209T134041Z","end":"20211209T134440Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211209T073000Z","end":"20211209T090000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211209T093000Z","end":"20211209T120000Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211209T134551Z","tags":["research"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211209T134551Z","tags":["research"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211209T134551Z","end":"20211209T134734Z","tags":["research"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211209T134741Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211209T134741Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211209T134741Z","end":"20211209T143358Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211210T073954Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211210T073954Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211210T073954Z","end":"20211210T083311Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211211T073430Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211211T073430Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211211T073430Z","end":"20211211T083728Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211211T083741Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211211T083741Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211211T083741Z","end":"20211211T103557Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211211T133042Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211211T133042Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211211T133042Z","end":"20211211T153854Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211212T083249Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211212T083249Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211212T083249Z","end":"20211212T093558Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211212T094958Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211212T094958Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211212T094958Z","end":"20211212T194719Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211213T073000Z","end":"20211213T113000Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211213T073000Z","end":"20211213T113000Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211213T073000Z","end":"20211213T113000Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211213T130000Z","end":"20211213T140000Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211213T141048Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211213T141048Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211213T141048Z","end":"20211213T151832Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211214T113000Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211214T113000Z","tags":["08:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211214T113000Z","end":"20211214T174451Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211215T165409Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211215T165409Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211215T143000Z","tags":["08:30-","life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211215T143000Z","tags":["08:30-","life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211215T143000Z","end":"20211215T230000Z","tags":["08:30-","life"]}
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211216T220000Z","end":"20211217T130802Z","tags":["08:30-","life"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211217T130802Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211217T130802Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211217T130802Z","end":"20211217T181243Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211218T092656Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211218T092656Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211218T092656Z","end":"20211218T110256Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211218T110317Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211218T110317Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211218T110317Z","end":"20211218T154308Z","tags":["trello"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211219T191001Z","tags":["trello"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211219T191001Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211219T191001Z","end":"20211220T133204Z","tags":["trello"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211220T133204Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211220T133204Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211220T133204Z","end":"20211220T133230Z","tags":["life"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211220T133230Z"}
+txn:
+  type: interval
+  before: {"id":3,"start":"20211219T191001Z","end":"20211220T133204Z","tags":["trello"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":3,"start":"20211219T191001Z","end":"20211220T113000Z","tags":["trello"]}
+  type: interval
+  before: {"id":2,"start":"20211220T133204Z","end":"20211220T133230Z","tags":["life"]}
+  after: 
+  type: interval
+  before: {"id":1,"start":"20211220T133230Z"}
+  after: 
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211220T113000Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211220T113000Z","tags":["08:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211220T113000Z","end":"20211220T140810Z","tags":["08:30-","prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211220T140810Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211220T140810Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211220T140810Z","end":"20211220T192346Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T152202Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211221T152202Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211221T152202Z","end":"20211221T155321Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T160012Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20211221T152202Z","end":"20211221T155321Z","tags":["life"]}
+  after: 
+  type: interval
+  before: {"id":1,"start":"20211221T160012Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T113000Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211221T113000Z","tags":["08:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211221T113000Z","end":"20211221T143000Z","tags":["08:30-","prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T143000Z","tags":["13:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211221T143000Z","tags":["13:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211221T143000Z","end":"20211221T161157Z","tags":["13:30-","prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T161157Z","tags":["13:30-"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211221T161157Z","tags":["13:30-"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211221T161157Z","end":"20211221T161204Z","tags":["13:30-"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211221T161204Z","tags":["prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211221T161204Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211221T161204Z","end":"20211222T134325Z","tags":["prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211222T140945Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":2,"start":"20211221T161204Z","end":"20211222T134325Z","tags":["prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":2,"start":"20211221T161204Z","end":"20211222T113000Z","tags":["prof"]}
+  type: interval
+  before: {"id":1,"start":"20211222T140945Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211222T113000Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211222T113000Z","tags":["08:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211222T113000Z","end":"20211222T205947Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211223T113000Z","tags":["08:30-","prof"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211223T113000Z","tags":["08:30-","prof"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211223T113000Z","end":"20211223T163648Z","tags":["08:30-","prof"]}
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211223T163648Z","tags":["life"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20211223T163648Z","tags":["life"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20211223T163648Z","end":"20211224T081000Z","tags":["life"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20211224T081251Z","tags":["life"]}
