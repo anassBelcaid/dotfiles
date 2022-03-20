@@ -106,13 +106,12 @@ alias ltxclean='latexmk -C'
 alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
 alias ltxpdf='latexmk -pdf'
 # }}} latexmk #
-export edgeProject='~/projects/edgeDetection/'
 export TZ="Africa/Casablanca"
 export repo=~/github/anass
 export attijari=Yt000193342
-export cwork='~/github/anass/articles/filter1d/'
-export understandImages="~/github/anass/computerVision/UnderstandingImages/"
 export EDITOR=nvim
+alias unlockPac='sudo rm -rf /var/lib/pacman/db.lck'
+
 
 # top ten used commands
 alias tstop='tsm-stop'
@@ -128,6 +127,7 @@ sys_update()
 alias sysUpd="sys_update"
 alias m='make'
 alias r='ranger'
+alias tw='timew'
 
 ##}}}
 #}}}
@@ -173,6 +173,7 @@ alias g='git'
 #{{{ Tasks
 alias t='task'
 alias today='t due:today'
+alias RO='cd ~/teaching/ENSAS/operational_research'
 
 #list a project
 tproject()
@@ -190,7 +191,7 @@ alias setBrightness "xrandr --output DP-0 --brightness"
 #}}}
 #}}}
 #{{{ shortcut for editing key filees
-cfg_vim(){ vim ~/.config/nvim/init.vim}
+cfg_vim(){ vim /home/anass/.config/nvim/init.lua}
 cfg_shell(){vim ~/.zshrc}
 #}}}
 #{{{ python
@@ -289,3 +290,6 @@ fi
 # ruby env {{{ #
 eval "$(rbenv init -)"
 # }}} ruby env #
+
+### Adding path for cargo
+export PATH=~/.cargo/bin/:$PATH

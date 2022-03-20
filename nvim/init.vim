@@ -3,6 +3,8 @@
 "{{{Languages
 Plug 'lervag/vimtex'
 Plug 'vimwiki/vimwiki'
+Plug 'neovim/nvim-lspconfig'
+Plug 'savq/melange'
 Plug 'tools-life/taskwiki'
 Plug 'blindFS/vim-taskwarrior'
 Plug 'jceb/vim-orgmode'
@@ -341,24 +343,19 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "Should be in its own file
 "I want itatlic
 let g:gruvbox_italic=1
- colorscheme gruvbox 
- " colorscheme jellybeans
+" colorscheme jellybeans
+" colorscheme gruvbox
 set termguicolors     " enable true colors support
 " let ayucolor="light"  " for light version of theme
 " let ayucolor="mirage" " for mirage version of theme
 " let ayucolor="dark"   " for dark version of theme
 " colorscheme ayu
 " colorscheme gruvbox
-" colorscheme molokai
-" hi Normal guibg=NONE ctermbg=NONE
+colorscheme molokai
+hi Normal guibg=NONE ctermbg=NONE
+set termguicolors
 "}}}
-"{{{ vim air line
-"show all the files
-let g:airline#extensions#tabline#enabled = 1
-"separator
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-"}}}
+ 
 "{{{ Goyo and Limelight
 "color name (:help cterm-colors) or ANSI code
 " let g:limelight_conceal_ctermfg = 'gray'
@@ -443,7 +440,7 @@ let g:org_agenda_files=['/home/anass/Dropbox/org/00_tasks.org']
 "}}}
 "{{{ vimwiki  
 "Default wiki with markdown syntax
-let g:vimwiki_list = [{'path':'/home/anass/github/anass/wiki', 'syntax':'markdown', 'ext':'.md'}]
+let g:vimwiki_list = [{'path':'/home/anass/git/anass/wiki', 'syntax':'markdown', 'ext':'.md'}]
 let g:vimwiki_ext2syntax= {'.md':'markdown', ".markdown":'markdown',".mdown":'markdown'}
 
 

@@ -61,6 +61,7 @@ endsnippet
 
 #{{{ Beamer theme ensam
 snippet beamEnsam " Simple beamer with ENSAM theme"
+%{{{
 \documentclass{beamer}
 \usetheme{ensam}
 \usepackage{pgfplots}
@@ -108,6 +109,7 @@ snippet beamEnsam " Simple beamer with ENSAM theme"
 \usepackage[style=authoryear]{biblatex}
 \renewcommand*{\nameyeardelim}{\addcomma\addspace}
 \addbibresource{${4:bibliography}}
+%}}}
 
 \begin{document}
 \maketitle
@@ -376,3 +378,45 @@ endsnippet
 snippet titleQ "Titled question with grades"
 \titledquestion{${1:questionname}}[${2:grades}] {\bf \thequestiontitle}:\\[0.2cm]
 endsnippet
+
+
+# Homework {{{ #
+# Homeword class according the side 
+#https://github.com/AntoineGagne/latex-homework-class
+snippet homework "Homework class"
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,largemargins]{homework}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+
+\newcommand{\hwname}{ENSA-Safi}
+\newcommand{\hwemail}{}
+\newcommand{\hwtype}{${1:Travaux Dirigés}}
+\newcommand{\hwnum}{${2:1}}
+\newcommand{\hwclass}{${3: module code}}
+\newcommand{\hwlecture}{${4: lecture number}}
+\newcommand{\hwsection}{Z}
+
+
+
+\begin{document}
+\maketitle
+
+\question%
+\end{document}
+endsnippet
+
+snippet question "question for the homework class"
+\question*{${1:name}}
+$0
+endsnippet	
+
+
+snippet arabicparts "arabic parts"
+\begin{arabicparts}
+    \item $0
+\end{arabicparts}
+endsnippet
+# }}} Homework #
