@@ -291,5 +291,28 @@ fi
 eval "$(rbenv init -)"
 # }}} ruby env #
 
-### Adding path for cargo
+# cargo
 export PATH=~/.cargo/bin/:$PATH
+
+
+# nvm for npm
+# https://wiki.archlinux.org/title/Node.js
+###-begin-leetcode-completions-###
+#
+# yargs command completion script
+#
+# Installation: leetcode completion >> ~/.zshrc
+#    or leetcode completion >> ~/.zsh_profile on OSX.
+#
+_leetcode_yargs_completions()
+{
+  local reply
+  local si=$IFS
+  IFS=$'
+' reply=($(COMP_CWORD="$((CURRENT-1))" COMP_LINE="$BUFFER" COMP_POINT="$CURSOR" leetcode --get-yargs-completions "${words[@]}"))
+  IFS=$si
+  _describe 'values' reply
+}
+compdef _leetcode_yargs_completions leetcode
+###-end-leetcode-completions-###
+
