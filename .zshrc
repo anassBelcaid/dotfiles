@@ -61,7 +61,7 @@ ZSH_THEME="theunraveler"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git  colorize git-prompt pyenv battery zsh-syntax-highlighting  
-     vi-mode fzf 
+  vi-mode fzf zsh-z
 )
 
 # autosuggestions style
@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # latex compilation command
 alias vim='nvim'
 alias pgoogle='ping www.google.com'
-alias g++='g++ -std=c++11 -Wall'
+alias g++='g++ -std=c++17 -Wall'
 # latexmk {{{ #
 alias ltxclean='latexmk -C'
 alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
@@ -111,6 +111,7 @@ export repo=~/github/anass
 export attijari=Yt000193342
 export EDITOR=nvim
 alias unlockPac='sudo rm -rf /var/lib/pacman/db.lck'
+alias cleanLeet='rm -Rf ~/.local/share/nvim/site/pack/packer/start/leetcode/data/*'
 
 
 # top ten used commands
@@ -209,7 +210,7 @@ tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
 tsm-add(){transmission-remote -a "$1"}
 tsm-cli(){transmission-remote-cli}
 tsm-list(){transmission-remote -l }
-tsm-stop(){ echo "Stoping the daemon"; killall transmission-da}
+tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon}
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
 alias tsm='transmission-remote'
 #}}}
@@ -316,3 +317,5 @@ _leetcode_yargs_completions()
 compdef _leetcode_yargs_completions leetcode
 ###-end-leetcode-completions-###
 
+## zsh-z
+zstyle ':completion:*' menu select
