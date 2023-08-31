@@ -61,7 +61,7 @@ ZSH_THEME="theunraveler"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git  colorize git-prompt pyenv battery zsh-syntax-highlighting  
-  vi-mode fzf zsh-z
+  vi-mode fzf
 )
 
 # autosuggestions style
@@ -142,24 +142,19 @@ export PATH=~/scripts/:$PATH
 # export PYTHONPATH=
 
 #conda path
-# export PATH=~/anaconda3/bin/:$PATH
+export PATH=~/miniconda3/bin/:$PATH
 
 #disseration
-export disseration=~/github/anass/dissertation
 export blog=~/github/anass/anassBelcaid.github.io
 
 # dev folder
-export software=~/github/anass/software
 # export orcid id
 export orcid=0000-0002-9796-5102
 
-#cs31n folder 
-export cs231n=~/FinishedCourses/CS231ConvolutionNeuralNetworks/
 
 #for aur edition
 #export VISUAL="vim"
 alias vim='nvim'
-export snippets=~/.config/nvim/UltiSnips/
 
 ##{{{ Keyring with gnome
 #if [ -n "$DESKTOP_SESSION" ];then
@@ -182,10 +177,6 @@ tproject()
   t project:$1 next
 }
 #}}}
-#{{{ Jupyter: Jupyter Customization
-alias jtDay="jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T"
-# alias jtNight="jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 80% -T"
-alias jtNight="jt -t onedork -f roboto -fs 12 -cellw 90%"
 
 #{{{ Brightness
 alias setBrightness "xrandr --output DP-0 --brightness"
@@ -194,16 +185,7 @@ alias setBrightness "xrandr --output DP-0 --brightness"
 #{{{ shortcut for editing key filees
 cfg_vim(){ vim /home/anass/.config/nvim/init.lua}
 cfg_shell(){vim ~/.zshrc}
-#}}}
-#{{{ python
-alias vision='conda activate vision'
-alias fastai='conda activate fastai'
-#}}}
-#{{{ pip:
-#upgrading all the packages by pip
-pip_upgrade(){pip list --outdated --format=freeze| grep -v '^\-e'|cut -d = -f 1| xargs -n1 sudo pip install -U --upgrade}
-#}}}
-# export vim as vim server
+
 #}}}
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
@@ -231,9 +213,6 @@ doi2bib ()
 # }}}
 #{{{ Cloud Computing
 
-#ensam server
-export ensamClient=modec.ensam-umi.ac.ma
-export ensamLocal=172.20.0.6
 
 #}}}
 #{{{ Jekyll: 
@@ -245,17 +224,16 @@ export academicmail=a.belcaid@edu.umi.ac.ma
 # variable for task d server
 export TASKDDATA=/var/taskd
 
-export article='~/github/anass/articles/dpsfilterarticle'
 #}}}
 #{{{ Conda setup 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/anass/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('~/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/anass/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/anass/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "~/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "~/miniconda3/etc/profile.d/conda.sh"
     else
         export PATH="/home/anass/miniconda3/bin:$PATH"
     fi
@@ -270,7 +248,6 @@ change_brightness()
 }
 #}}}
 #{{{ fasd
-eval "$(fasd --init auto zsh-hook zsh-ccomp)"
 alias v='f -e vim'
 alias m='f -e mplayer'
 #}}}
@@ -319,3 +296,8 @@ compdef _leetcode_yargs_completions leetcode
 
 ## zsh-z
 zstyle ':completion:*' menu select
+source /Users/anassbelcaid/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+## auto jump
+
+  [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
