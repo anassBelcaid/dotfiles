@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
 Name=Torrent
-Exec=/home/anass/scripts/transadd
+Exec=/home/anass/scripts/transadd %U

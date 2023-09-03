@@ -8,5 +8,5 @@
 
 
 
-notify-send "Transmission finished downloading $TR_TORRENT_NAME" --icon
-"/home/anass/github/anass/dotfiles/scripts/done_icon.png"
+notify-send "Transmission finished downloading $TR_TORRENT_NAME" --icon "/home/anass/github/dotfiles/scripts/done_icon.png"
+
