@@ -130,16 +130,13 @@ alias m='make'
 alias r='ranger'
 alias tw='timew'
 
+
+# alias for tremc to avoid version checking
+alias tremc='tremc -X'
+
 ##}}}
 #}}}
-#{{{ Personal variables
-# Exporting the new path
-# export PATH=/usr/bin/vendor_perl:$PATH
-# export PATH=~/.local/bin/:$PATH
-#path for matlatb
 export PATH=~/scripts/:$PATH
-#python path
-# export PYTHONPATH=
 
 #conda path
 export PATH=~/miniconda3/bin/:$PATH
@@ -154,7 +151,7 @@ export orcid=0000-0002-9796-5102
 
 #for aur edition
 #export VISUAL="vim"
-alias vim='nvim'
+alias e='nvim'
 
 ##{{{ Keyring with gnome
 #if [ -n "$DESKTOP_SESSION" ];then
@@ -165,17 +162,6 @@ alias vim='nvim'
 
 #{{{ Git
 alias g='git'
-#}}}
-#{{{ Tasks
-alias t='task'
-alias today='t due:today'
-alias RO='cd ~/teaching/ENSAS/operational_research'
-
-#list a project
-tproject()
-{
-  t project:$1 next
-}
 #}}}
 
 #{{{ Brightness
@@ -246,10 +232,6 @@ change_brightness()
 {
   echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
 }
-#}}}
-#{{{ fasd
-alias v='f -e vim'
-alias m='f -e mplayer'
 #}}}
 #{{{ Automatic ssh agent
 if [ -f ~/.ssh/agent.env ] ; then
