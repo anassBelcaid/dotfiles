@@ -111,7 +111,9 @@ export repo=~/github/anass
 export attijari=Yt000193342
 export EDITOR=nvim
 alias unlockPac='sudo rm -rf /var/lib/pacman/db.lck'
-alias cleanLeet='rm -Rf ~/.local/share/nvim/site/pack/packer/start/leetcode/data/*'
+
+# nvim with leetcode https://github.com/kawre/leetcode.nvim
+alias leet='nvim leetcode.nvim'
 
 
 # top ten used commands
@@ -129,14 +131,19 @@ alias sysUpd="sys_update"
 alias m='make'
 alias r='ranger'
 alias tw='timew'
-
-
-# alias for tremc to avoid version checking
-alias tremc='tremc -X'
+alias ls='exa'
+alias cat='bat'
 
 ##}}}
 #}}}
+#{{{ Personal variables
+# Exporting the new path
+# export PATH=/usr/bin/vendor_perl:$PATH
+# export PATH=~/.local/bin/:$PATH
+#path for matlatb
 export PATH=~/scripts/:$PATH
+#python path
+# export PYTHONPATH=
 
 #conda path
 export PATH=~/miniconda3/bin/:$PATH
@@ -151,7 +158,7 @@ export orcid=0000-0002-9796-5102
 
 #for aur edition
 #export VISUAL="vim"
-alias e='nvim'
+alias vim='nvim'
 
 ##{{{ Keyring with gnome
 #if [ -n "$DESKTOP_SESSION" ];then
@@ -162,6 +169,17 @@ alias e='nvim'
 
 #{{{ Git
 alias g='git'
+#}}}
+#{{{ Tasks
+alias t='task'
+alias today='t due:today'
+alias RO='cd ~/teaching/ENSAS/operational_research'
+
+#list a project
+tproject()
+{
+  t project:$1 next
+}
 #}}}
 
 #{{{ Brightness
@@ -233,6 +251,11 @@ change_brightness()
   echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
 }
 #}}}
+#{{{ fasd
+alias v='f -e vim'
+alias m='f -e mplayer'
+alias tremc='tremc -X'
+#}}}
 #{{{ Automatic ssh agent
 if [ -f ~/.ssh/agent.env ] ; then
     . ~/.ssh/agent.env > /dev/null
@@ -278,8 +301,5 @@ compdef _leetcode_yargs_completions leetcode
 
 ## zsh-z
 zstyle ':completion:*' menu select
-source /Users/anassbelcaid/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-## auto jump
 
-  [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
