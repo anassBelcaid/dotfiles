@@ -2,9 +2,6 @@
 
 # https://github.com/Gbox4/forx 
 from subprocess import check_output
-
-
-
 import argparse
 
 # Create the parser
@@ -30,4 +27,4 @@ RATE = float(check_output(["forx", "usd", "mad", "-q 1", "-f"]).decode().strip()
 current = hours * HOUR * RATE
 expected = EXPECTED_HOURS * HOUR * RATE
 
-print(f"{current}\t {expected}\t")
+print("{0:.2f}\t {1:.2f}".format(current, expected))
