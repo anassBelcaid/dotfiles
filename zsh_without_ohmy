@@ -76,8 +76,6 @@ eval "$(fzf --zsh)"
 #zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
-# homebrew paths
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 #aliases
 
@@ -85,6 +83,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias ls='ls --color'
 alias vim='nvim'
 alias e='nvim'
+alias r='ranger'
 alias pgoggle='ping google.com'
 export EDITOR=nvim
 
@@ -150,3 +149,26 @@ doi2bib ()
 #{{{ Jekyll: 
 blog-serve(){ bundle exec jekyll serve --livereload}
 #}}}
+#
+#{{{ Custom functions
+change_brightness()
+{
+  echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
+}
+#}}}
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/anass/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/anass/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/anass/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/anass/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
