@@ -1,196 +1,104 @@
-#{{{  ZSH Variables
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-# Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
-
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="theunraveler"
-# ZSH_THEME="random"
-# Set list of themes to load
-# Setting this variable when ZSH_THEME=random
-# cause zsh load theme from this variable instead of
-# looking in ~/.oh-my-zsh/themes/
-# An empty array have no effect
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell"  "candy-kingdom" "kennethreitz")
+# configure Z initi
 #
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
+[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+source "${ZINIT_HOME}/zinit.zsh"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+# add in Powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+# add zsh syntax highlight
+zinit light zsh-users/zsh-syntax-highlighting
 
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+#add zsh completions
+zinit light zsh-users/zsh-completions
 
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+autoload -U compinit && compinit
+zinit cdreplay -q
 
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+#auto suggestions
+zinit light zsh-users/zsh-autosuggestions
 
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+#fzf tab
+zinit light Aloxaf/fzf-tab
 
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+#git pluging from oh-my-zshr
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::archlinux
+zinit snippet OMZP::aws
+zinit snippet OMZP::vi-mode
+# zinit snippet OMZP::kubectl
+# zinit snippet OMZP::kubectx
+zinit snippet OMZP::command-not-found
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+#binding
+bindkey '^y' autosuggest-accept
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git  colorize git-prompt pyenv battery zsh-syntax-highlighting  
-  vi-mode fzf
-)
+#History
+HISTSIZE=5000
+HISTFILE=~/.zsh_hisotory
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
 
-# autosuggestions style
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+#completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-#suggestions history
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
-source $ZSH/oh-my-zsh.sh
+#shell integrations
+eval "$(fzf --zsh)"
 
-# User configuration
+#zoxide
+eval "$(zoxide init --cmd cd zsh)"
 
-# export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+#aliases
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-#}}}
-#{{{ Personal Alias 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-# latex compilation command
+# General alias
+alias ls='ls --color'
 alias vim='nvim'
-alias pgoogle='ping www.google.com'
-alias g++='g++ -std=c++17 -Wall'
-# latexmk {{{ #
-alias ltxclean='latexmk -C'
-alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
-alias ltxpdf='latexmk -pdf'
-# }}} latexmk #
-export TZ="Africa/Casablanca"
-export repo=~/github/anass
-export attijari=Yt000193342
+alias e='nvim'
+alias r='ranger'
+alias pgoggle='ping google.com'
 export EDITOR=nvim
+
+# alias for latexmk
+alias ltxLive='latexmk -pvc -pdf -interaction=batchmode -quiet'
+
+
+# unlocking pacman 
 alias unlockPac='sudo rm -rf /var/lib/pacman/db.lck'
 
-# nvim with leetcode https://github.com/kawre/leetcode.nvim
+# alias for leetcode pluging
 alias leet='nvim leetcode.nvim'
 
 
-# top ten used commands
-alias tstop='tsm-stop'
-alias tstart='tsm-start'
-alias tstat='tsm-cli'
-alias up='cd ..'
-alias workon='conda activate'
-sys_update()
-{
-  conda deactivate
-  pamac update
-}
-alias sysUpd="sys_update"
-alias m='make'
-alias r='ranger'
-alias tw='timew'
-alias ls='exa'
-alias cat='bat'
-
-##}}}
-#}}}
-#{{{ Personal variables
-# Exporting the new path
-# export PATH=/usr/bin/vendor_perl:$PATH
-# export PATH=~/.local/bin/:$PATH
-#path for matlatb
-export PATH=~/scripts/:$PATH
-#python path
-# export PYTHONPATH=
-
-#conda path
-export PATH=~/miniconda3/bin/:$PATH
-
-#disseration
-export blog=~/github/anass/anassBelcaid.github.io
-
-# dev folder
-# export orcid id
-export orcid=0000-0002-9796-5102
-
-
-#for aur edition
-#export VISUAL="vim"
-alias vim='nvim'
-
-##{{{ Keyring with gnome
-#if [ -n "$DESKTOP_SESSION" ];then
-#    eval $(gnome-keyring-daemon --start)
-#    export SSH_AUTH_SOCK
-#fi
-#}}}
-
-#{{{ Git
-alias g='git'
-#}}}
-#{{{ Tasks
-alias t='task'
-alias today='t due:today'
-alias RO='cd ~/teaching/ENSAS/operational_research'
-
-#list a project
-tproject()
-{
-  t project:$1 next
-}
-#}}}
-
-#{{{ Brightness
-alias setBrightness "xrandr --output DP-0 --brightness"
-#}}}
-#}}}
-#{{{ shortcut for editing key filees
-cfg_vim(){ vim /home/anass/.config/nvim/init.lua}
-cfg_shell(){vim ~/.zshrc}
-
-#}}}
+# transmission alias
 #{{{ transmission function
 tsm-start(){ echo "Staring transmission daemon"; transmission-daemon}
 tsm-add(){transmission-remote -a "$1"}
@@ -199,14 +107,37 @@ tsm-list(){transmission-remote -l }
 tsm-stop(){ echo "Stoping the daemon"; killall transmission-daemon}
 tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $1 --remove-and-delete}
 alias tsm='transmission-remote'
+alias tstop='tsm-stop'
+alias tstart='tsm-start'
+alias tstat='tsm-cli'
+
+# new cli replacement
+alias ls='exa'
+alias cat='bat'
+
+#Path 
+#my personal scripts
+export PATH=~/scripts/:$PATH
+
+#Anaconda
+export PATH=~/miniconda3/bin/:$PATH
+
+# Cargo 
+export PATH=~/.cargo/bin/:$PATH
+
+#blog variable
+export blog=~/github/anass/anassBelcaid.github.io
+
+
+# function for fast file
+#{{{ shortcut for editing key filees
+cfg_vim(){ vim /home/anass/.config/nvim/init.lua}
+cfg_shell(){vim ~/.zshrc}
+
 #}}}
-#{{{ pandoc functions
-# convert from markdow to html
-pdc-mark-html(){ pandoc $1 -f markdown -t html -s -o $2}
-pdc-mark-tex(){ pandoc $1 -f markdown -t latex -s -o $2}
-pdc-mark-pdf(){ pandoc $1 -s -o $2}
-pdc-mark-docx(){pandoc $1 -s -o $2}
-#}}}
+#
+
+# useful doi to bib
 # {{{ Latex tools
 doi2bib ()
 {
@@ -214,92 +145,31 @@ doi2bib ()
   curl -s "http://api.crossref.org/works/$1/transform/application/x-bibtex" >> "bibliography.bib"
   echo >> "bibliography.bib"
 }
-# }}}
-#{{{ Cloud Computing
 
-
-#}}}
 #{{{ Jekyll: 
 blog-serve(){ bundle exec jekyll serve --livereload}
 #}}}
-#{{{ Custom variables
-export academicmail=a.belcaid@edu.umi.ac.ma 
-
-# variable for task d server
-export TASKDDATA=/var/taskd
-
-#}}}
-#{{{ Conda setup 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('~/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "~/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "~/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/anass/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-#}}}
+#
 #{{{ Custom functions
 change_brightness()
 {
   echo $1 | sudo tee /sys/class/backlight/nvidia_0/brightness
 }
 #}}}
-#{{{ fasd
-alias v='f -e vim'
-alias m='f -e mplayer'
-alias tremc='tremc -X'
-#}}}
-#{{{ Automatic ssh agent
-if [ -f ~/.ssh/agent.env ] ; then
-    . ~/.ssh/agent.env > /dev/null
-    if ! kill -0 $SSH_AGENT_PID > /dev/null 2>&1; then
-        echo "Stale agent file found. Spawning a new agent. "
-        eval `ssh-agent | tee ~/.ssh/agent.env`
-        ssh-add
-    fi
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/anass/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
 else
-    echo "Starting ssh-agent"
-    eval `ssh-agent | tee ~/.ssh/agent.env`
-    ssh-add
+    if [ -f "/home/anass/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/anass/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/anass/miniconda3/bin:$PATH"
+    fi
 fi
-#}}}
-# ruby env {{{ #
-eval "$(rbenv init -)"
-# }}} ruby env #
+unset __conda_setup
+# <<< conda initialize <<<
 
-# cargo
-export PATH=~/.cargo/bin/:$PATH
-
-
-# nvm for npm
-# https://wiki.archlinux.org/title/Node.js
-###-begin-leetcode-completions-###
-#
-# yargs command completion script
-#
-# Installation: leetcode completion >> ~/.zshrc
-#    or leetcode completion >> ~/.zsh_profile on OSX.
-#
-_leetcode_yargs_completions()
-{
-  local reply
-  local si=$IFS
-  IFS=$'
-' reply=($(COMP_CWORD="$((CURRENT-1))" COMP_LINE="$BUFFER" COMP_POINT="$CURSOR" leetcode --get-yargs-completions "${words[@]}"))
-  IFS=$si
-  _describe 'values' reply
-}
-compdef _leetcode_yargs_completions leetcode
-###-end-leetcode-completions-###
-
-## zsh-z
-zstyle ':completion:*' menu select
-
-
+export PYTHONPATH=.:
