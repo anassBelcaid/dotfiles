@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 # global command
 HOUR = 28
-EXPECTED_HOURS= 176
+EXPECTED_HOURS= 173
 hours = args.hours
 
 # Getting the rate
