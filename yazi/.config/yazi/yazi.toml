@@ -1,0 +1,7 @@
+# yazi.toml
+[manager]
+show_hidden = false
+
+# sorting
+sorted_by = "natural"
+sort_dir_first = false
