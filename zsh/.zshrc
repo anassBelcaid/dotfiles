@@ -83,7 +83,7 @@ eval "$(zoxide init --cmd cd zsh)"
 alias ls='ls --color'
 alias vim='nvim'
 alias e='nvim'
-alias r='ranger'
+alias r='yazi'
 alias pgoogle='ping google.com'
 export EDITOR=nvim
 
@@ -109,7 +109,7 @@ tsm-rad(){ echo "delleting and removing torrent id "$1; transmission-remote -t $
 alias tsm='transmission-remote'
 alias tstop='tsm-stop'
 alias tstart='tsm-start'
-alias tstat='tsm-cli'
+alias tremc='tremc -X'
 
 # new cli replacement
 alias ls='exa'
@@ -181,3 +181,7 @@ eval "$(rbenv init -)"
 
 # starship 
 eval "$(starship init zsh)"
+
+# Gpg agent
+export GPG_TTY=$(tty)
+gpg-connect-agent updatestartuptty /bye >/dev/null
