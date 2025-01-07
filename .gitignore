@@ -1,1 +1,6 @@
 nvim/bundle/*
+tramsission/.config/transmission-daemon/torrents
+tramsission/.config/transmission-daemon/bandwidth-groups.json
+tramsission/.config/transmission-daemon/dht.dat
+tramsission/.config/transmission-daemon/resume
+tramsission/.config/transmission-daemon/stats.json

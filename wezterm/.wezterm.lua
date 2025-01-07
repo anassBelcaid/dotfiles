@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
-config.font_size = 16
+config.font_size = 12
 config.font = wezterm.font("JetBrainsMonoNL Nerd Font")
 config.automatically_reload_config = true
 config.enable_tab_bar = false
@@ -41,9 +41,9 @@ config.keys = {
 config.color_scheme = "rose-pine"
 config.colors = {
 	-- background = "#12151B", -- lighter gray
-    -- background = "#0D0D0D", -- darker gray
-    background = "#000", -- pure black
-    cursor_bg = "#9B96B5",
+	-- background = "#0D0D0D", -- darker gray
+	background = "#000", -- pure black
+	cursor_bg = "#9B96B5",
 	cursor_fg = "#1a1a1e",
 	cursor_border = "#9B96B5",
 }
